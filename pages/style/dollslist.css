@@ -16,7 +16,7 @@
     transition: opacity 100ms ease-in, transform 100ms ease-in; /* Apply transitions for opacity and transform */
     transform: scale(1); /* Initial scale */
 
-    margin: 10px;
+    margin: 20px 10px;
 
     border: none;
 
