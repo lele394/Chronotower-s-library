@@ -7,6 +7,9 @@
 
     <link rel="stylesheet" href="/pages/style/top-banner.css">
     <link rel="stylesheet" href="/pages/style/common.css">
+
+    <!-- Include the Marked.js library for changelog display-->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 
@@ -26,6 +29,7 @@
 
 
 
+
     
 </body>
 
@@ -36,6 +40,28 @@ function loadPage(page) {
 }
 
 
+</script>
+
+<!--GPT the thing there to print the changelog on screen-->
+<script>
+    
+    // URL of the Markdown file
+    const markdownUrl = 'https://raw.githubusercontent.com/lele394/Chronotower-s-library/main/CHANGELOG.md';
+
+    // Fetch the Markdown file
+    fetch(markdownUrl)
+        .then(response => response.text())  // Convert response to text
+        .then(markdown => {
+            // Convert Markdown to HTML using marked.js
+            const htmlContent = marked(markdown);
+            
+            // Insert the HTML content into the div
+            document.getElementById('content').innerHTML = htmlContent;
+        })
+        .catch(error => {
+            console.error('Error fetching the Markdown file:', error);
+            document.getElementById('content').textContent = 'Error loading content.';
+        });
 </script>
 
 </html>
