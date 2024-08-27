@@ -43,6 +43,155 @@
     "special_equip": {
       "name": "Sweet Dreams",
       "description": "Afallen's favorite pillow. The fluffiness is beyond your wildest dreams. Sleep on this heavenly creation to send your fatigue flying."
-    }
+    },
+
+    "profile_img" : "/assets/profile_img/hp_001.png"
+  },
+
+  "9": {
+    "name": "Afallen",
+    "title": "Defender of Holiness",
+    "vocation": {
+      "name": "Destroyer",
+      "description": "Dolls that are not afraid of head-on confrontation."
+    },
+    "gender": "Female",
+    "age": "？",
+    "birthday": "Sep. 12",
+    "height": "135cm",
+    "weight": "？",
+    "original_artist": "Kurot",
+    "overseas_artist": "Kurot",
+    "CN_voice": "诺亚",
+    "JP_voice": "Misato Fukuen",
+    "backstory": [
+      "As the Defender of Holiness, she has inherited the purest bloodline of the Sanctuary, succeeding her older brother Garditis as the gatekeeper. \n\nYoung as she is, she has been given the important task of expelling those outsiders who try to invade the Sanctuary. \n\nHowever, she has no sense of responsibility at all. She prefers playing with flowers and small animals to doing the tedious work. \n\nTherefore, she often leaves her post and sometimes even goes to the Lower Domain.",
+      "Carrying a pillow around, she often lies down on the grass and quickly falls to sleep when she is too tired to play.\n\nEven so, no one dares to approach her because anyone disturbing her slumber will be identified as an intruder and be hit straight at with the pillow. \n\nOnly her brother Garditis and sister Parfait dare to wake her up.",
+      "She looks harmless, but in the eyes of the invaders, she is the unbreakable wall of the Sanctuary. \n\nAny magic attacks will be instantly absorbed by her pillow, leaving her completely unharmed. \n\nAnd to others' surprise, after the combat, this lovely girl will just pat her beloved pillow and continue to enjoy an afternoon of peaceful sleep.",
+      "She likes eating lemon pie, which is sour but unexpectedly gaining popularity among the nobles. However, her sister Parfait, a fan of sweet taste, hates this pie so much. \n\nDue to the division of opinion, they fight a lot. \n\nAfallen decides to offer the lemon pie to the Protector, which could be an opportunity to determine the orthodox status of the lemon pie in the Sanctuary."
+    ],
+    "skills": {
+      "skill1": {
+        "name": "Barrier",
+        "type": "Support",
+        "range": "All Allies",
+        "description": "Generates a Shield that absorbs damage equal to 40% of max Health and redirects all damage dealt to allies to herself within the next 10 seconds instead, during which Physical DEF and Magic DEF are increased by 90%, and for the first 2 seconds, immune to all damages."
+      },
+      "skill2": {
+        "name": "Holy Radiance",
+        "type": "Magic ATK",
+        "range": "All Enemies",
+        "description": "Deals Magic DMG equal to 500% of ATK to all enemies, dispels their buffs, and reduces their Magic DEF by 40% of Afallen's Magic DEF for 10s."
+      },
+      "skill3": {
+        "name": "Light of the Sanctuary",
+        "type": "Passive",
+        "description": "Auto casts Holy Radiance once after taking damage 8 times."
+      }
+    },
+    "special_equip": {
+      "name": "Sweet Dreams",
+      "description": "Afallen's favorite pillow. The fluffiness is beyond your wildest dreams. Sleep on this heavenly creation to send your fatigue flying."
+    },
+
+    "profile_img" : "/assets/profile_img/hp_002.png"
+  },
+
+  "10": {
+    "name": "Afallen",
+    "title": "Defender of Holiness",
+    "vocation": {
+      "name": "Destroyer",
+      "description": "Dolls that are not afraid of head-on confrontation."
+    },
+    "gender": "Female",
+    "age": "？",
+    "birthday": "Sep. 12",
+    "height": "135cm",
+    "weight": "？",
+    "original_artist": "Kurot",
+    "overseas_artist": "Kurot",
+    "CN_voice": "诺亚",
+    "JP_voice": "Misato Fukuen",
+    "backstory": [
+      "As the Defender of Holiness, she has inherited the purest bloodline of the Sanctuary, succeeding her older brother Garditis as the gatekeeper. \n\nYoung as she is, she has been given the important task of expelling those outsiders who try to invade the Sanctuary. \n\nHowever, she has no sense of responsibility at all. She prefers playing with flowers and small animals to doing the tedious work. \n\nTherefore, she often leaves her post and sometimes even goes to the Lower Domain.",
+      "Carrying a pillow around, she often lies down on the grass and quickly falls to sleep when she is too tired to play.\n\nEven so, no one dares to approach her because anyone disturbing her slumber will be identified as an intruder and be hit straight at with the pillow. \n\nOnly her brother Garditis and sister Parfait dare to wake her up.",
+      "She looks harmless, but in the eyes of the invaders, she is the unbreakable wall of the Sanctuary. \n\nAny magic attacks will be instantly absorbed by her pillow, leaving her completely unharmed. \n\nAnd to others' surprise, after the combat, this lovely girl will just pat her beloved pillow and continue to enjoy an afternoon of peaceful sleep.",
+      "She likes eating lemon pie, which is sour but unexpectedly gaining popularity among the nobles. However, her sister Parfait, a fan of sweet taste, hates this pie so much. \n\nDue to the division of opinion, they fight a lot. \n\nAfallen decides to offer the lemon pie to the Protector, which could be an opportunity to determine the orthodox status of the lemon pie in the Sanctuary."
+    ],
+    "skills": {
+      "skill1": {
+        "name": "Barrier",
+        "type": "Support",
+        "range": "All Allies",
+        "description": "Generates a Shield that absorbs damage equal to 40% of max Health and redirects all damage dealt to allies to herself within the next 10 seconds instead, during which Physical DEF and Magic DEF are increased by 90%, and for the first 2 seconds, immune to all damages."
+      },
+      "skill2": {
+        "name": "Holy Radiance",
+        "type": "Magic ATK",
+        "range": "All Enemies",
+        "description": "Deals Magic DMG equal to 500% of ATK to all enemies, dispels their buffs, and reduces their Magic DEF by 40% of Afallen's Magic DEF for 10s."
+      },
+      "skill3": {
+        "name": "Light of the Sanctuary",
+        "type": "Passive",
+        "description": "Auto casts Holy Radiance once after taking damage 8 times."
+      }
+    },
+    "special_equip": {
+      "name": "Sweet Dreams",
+      "description": "Afallen's favorite pillow. The fluffiness is beyond your wildest dreams. Sleep on this heavenly creation to send your fatigue flying."
+    },
+
+    "profile_img" : "/assets/profile_img/hp_003.png"
+  },
+
+  "11": {
+    "name": "Afallen",
+    "title": "Defender of Holiness",
+    "vocation": {
+      "name": "Destroyer",
+      "description": "Dolls that are not afraid of head-on confrontation."
+    },
+    "gender": "Female",
+    "age": "？",
+    "birthday": "Sep. 12",
+    "height": "135cm",
+    "weight": "？",
+    "original_artist": "Kurot",
+    "overseas_artist": "Kurot",
+    "CN_voice": "诺亚",
+    "JP_voice": "Misato Fukuen",
+    "backstory": [
+      "As the Defender of Holiness, she has inherited the purest bloodline of the Sanctuary, succeeding her older brother Garditis as the gatekeeper. \n\nYoung as she is, she has been given the important task of expelling those outsiders who try to invade the Sanctuary. \n\nHowever, she has no sense of responsibility at all. She prefers playing with flowers and small animals to doing the tedious work. \n\nTherefore, she often leaves her post and sometimes even goes to the Lower Domain.",
+      "Carrying a pillow around, she often lies down on the grass and quickly falls to sleep when she is too tired to play.\n\nEven so, no one dares to approach her because anyone disturbing her slumber will be identified as an intruder and be hit straight at with the pillow. \n\nOnly her brother Garditis and sister Parfait dare to wake her up.",
+      "She looks harmless, but in the eyes of the invaders, she is the unbreakable wall of the Sanctuary. \n\nAny magic attacks will be instantly absorbed by her pillow, leaving her completely unharmed. \n\nAnd to others' surprise, after the combat, this lovely girl will just pat her beloved pillow and continue to enjoy an afternoon of peaceful sleep.",
+      "She likes eating lemon pie, which is sour but unexpectedly gaining popularity among the nobles. However, her sister Parfait, a fan of sweet taste, hates this pie so much. \n\nDue to the division of opinion, they fight a lot. \n\nAfallen decides to offer the lemon pie to the Protector, which could be an opportunity to determine the orthodox status of the lemon pie in the Sanctuary."
+    ],
+    "skills": {
+      "skill1": {
+        "name": "Barrier",
+        "type": "Support",
+        "range": "All Allies",
+        "description": "Generates a Shield that absorbs damage equal to 40% of max Health and redirects all damage dealt to allies to herself within the next 10 seconds instead, during which Physical DEF and Magic DEF are increased by 90%, and for the first 2 seconds, immune to all damages."
+      },
+      "skill2": {
+        "name": "Holy Radiance",
+        "type": "Magic ATK",
+        "range": "All Enemies",
+        "description": "Deals Magic DMG equal to 500% of ATK to all enemies, dispels their buffs, and reduces their Magic DEF by 40% of Afallen's Magic DEF for 10s."
+      },
+      "skill3": {
+        "name": "Light of the Sanctuary",
+        "type": "Passive",
+        "description": "Auto casts Holy Radiance once after taking damage 8 times."
+      }
+    },
+    "special_equip": {
+      "name": "Sweet Dreams",
+      "description": "Afallen's favorite pillow. The fluffiness is beyond your wildest dreams. Sleep on this heavenly creation to send your fatigue flying."
+    },
+
+    "profile_img" : "/assets/profile_img/hp_004.png"
   }
 }

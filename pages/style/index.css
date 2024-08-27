@@ -1,0 +1,73 @@
+#changelog_center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#changelog-display {
+    margin-left: 2rem;
+}
+
+/* Add padding to nested unordered lists (ul) */
+ul {
+    padding-left: 2rem; /* Increase padding for indentation */
+}
+
+/* Add padding to nested ordered lists (ol) */
+ol {
+    padding-left: 2rem; /* Increase padding for indentation */
+}
+
+/* Ensure that list items (li) within lists have proper padding */
+li {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#changelog-display > ul > li {
+    padding-top: 1rem;
+}
+
+
+
+#text-stuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text-stuff > * {
+    margin: auto
+}
+
+
+
+#text-stuff > h1 {
+    font-size: 4rem; /* Adjust font size as needed */
+    font-weight: bold;
+    background: linear-gradient(90deg, #ffadad, #ffb3b3, #ffebaa, #d0f4de, #a2c2e0, #b9a0c1, #f5a6c0, #ffadad);
+    background-size: 40% 40%; /* Size the gradient background larger for smoother scrolling */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Non-prefixed version */
+    animation: gradientScroll 10s linear infinite;
+    margin: 2rem auto;
+
+}
+
+#text-stuff > p {
+    margin: 0 auto 2rem auto;
+}
+
+@keyframes gradientScroll {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+
+
+

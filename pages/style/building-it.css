@@ -1,0 +1,39 @@
+#text-stuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text-stuff > * {
+    margin: auto
+}
+
+
+
+#text-stuff > h1 {
+    font-size: 4rem; /* Adjust font size as needed */
+    font-weight: bold;
+    background: linear-gradient(90deg, #ffadad, #ffb3b3, #ffebaa, #d0f4de, #a2c2e0, #b9a0c1, #f5a6c0, #ffadad);
+    background-size: 40% 40%; /* Size the gradient background larger for smoother scrolling */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Non-prefixed version */
+    animation: gradientScroll 10s linear infinite;
+    margin: 2rem auto;
+
+}
+
+#text-stuff > h2 {
+    margin: 0 auto 2rem auto;
+    text-align: center;
+    margin: 2vw
+}
+
+@keyframes gradientScroll {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}

@@ -10,41 +10,30 @@ const PORT = 3000; // You can change the port if needed
 // Serve the current directory as static content
 app.use(express.static(__dirname));
 
+
+
+function AddFilePathToServer(remote, local) {
+    app.get(remote, (req, res) => {
+        res.sendFile(path.join(__dirname, local)); // Ensure index.html is in the current directory
+    });
+}
+
+
+AddFilePathToServer('/', '../pages/index.html');
+AddFilePathToServer('/dolls', '../pages/dolls.html');
+AddFilePathToServer('/equipment', '../pages/equipment.html');
+AddFilePathToServer('/story', '../pages/story.html');
+AddFilePathToServer('/about', '../pages/about.html');
+
+AddFilePathToServer('/building-it', '../pages/building-it.html');
+
+
+
+/*
 // Optionally, serve other static content from a subfolder (e.g., 'public')
 app.use('/other-content', express.static(path.join(__dirname, 'other-content')));
-
-// Route for the root of the website
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../pages/index.html')); // Ensure index.html is in the current directory
-});
-
-// Dolls
-app.get('/dolls', (req, res) => {
-    res.sendFile(path.join(__dirname, '../pages/dolls.html')); // Ensure index.html is in the current directory
-});
-
-// Equipment
-app.get('/equimpent', (req, res) => {
-    res.sendFile(path.join(__dirname, '../pages/equipment.html')); // Ensure index.html is in the current directory
-});
-
-// Story
-app.get('/story', (req, res) => {
-    res.sendFile(path.join(__dirname, '../pages/story.html')); // Ensure index.html is in the current directory
-});
-
-// About
-app.get('/about', (req, res) => {
-    res.sendFile(path.join(__dirname, '../pages/about.html')); // Ensure index.html is in the current directory
-});
-
-
-
-// About
-app.get('/building-it', (req, res) => {
-    res.sendFile(path.join(__dirname, '../pages/building-it.html')); // Ensure index.html is in the current directory
-});
-
+// ^Modify to serve CSS files and JS later
+*/
 
 // Start the server
 app.listen(PORT, () => {
