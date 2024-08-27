@@ -1,0 +1,22 @@
+{
+  "name": "chronotowers-library",
+  "version": "0.0.1",
+  "description": "A magical chrono-relic containing the knowledge of all worlds and those inside. <<Revived Witch Archive. Kimaris is dead, long live the wiki>>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js"
+  },
+  "keywords": [
+    "wiki",
+    "revived",
+    "witch",
+    "revived-witch",
+    "website"
+  ],
+  "author": "Léo BECHET",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

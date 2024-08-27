@@ -1,0 +1,30 @@
+
+
+.top-banner {
+    display: flex;
+    flex-direction: row;
+
+    background: var(--color1);
+
+    border: solid 0px var(--color2);
+    border-width: 0;
+    border-bottom-width: 3px;
+
+}   
+
+.top-banner > * {
+    border: none;
+    background: none;
+    margin: 1rem 3rem;
+    /* margin-top: 1rem; */
+    font-size: 2rem;
+    color: var(--color3);
+}
+
+.top-banner > button {
+    cursor: pointer;
+}
+
+.top-banner > button:hover {
+    text-decoration: underline;
+}

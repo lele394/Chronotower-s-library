@@ -1,0 +1,1 @@
+Do whatever you want, link the original GitHub and credit me and contributors to this project in your about page. Don't break laws and no warcrimes.

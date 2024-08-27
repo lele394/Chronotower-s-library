@@ -1,0 +1,18 @@
+* {
+
+    --color1 : rgb(34, 40, 49);
+    --color2 : rgb(49, 54, 63);
+    --color3 : rgb(118, 171, 174);
+    --color4 : rgb(238, 238, 238);
+
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--color1);
+
+    margin: 0;
+    padding: 0;
+
+    color: var(--color3);
+
+}
