@@ -39,6 +39,11 @@
 
 # Changelog 
 
+## Alpha 3 - Doll dynamic page groundwork
+- Did the groundwork for the doll's dynamic page
+- Temporary PFP in doll's page, need to change later
+- Setup data storage structure
+
 ## Alpha 2 - Doll list working
 - Made a working doll list
 - Dolls have pfps (most of them, from kimaris thumbnails CDN)
