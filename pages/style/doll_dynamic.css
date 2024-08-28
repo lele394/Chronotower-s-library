@@ -1,0 +1,104 @@
+.overall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 1rem
+}
+
+
+.other_info_container{
+    max-width: 50rem;
+    margin: auto;
+}
+
+.subsection { 
+    margin-top: 1rem;
+}
+
+
+.section_title {
+    text-decoration: underline;
+    margin-bottom: .4rem;
+}
+
+.basic_infos_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+#doll_pfp {
+    --pfp-size : 15rem;
+
+    /* background-image: var(--doll-icon-link); */
+    background-image: url('/assets/dolls/103/default/square.png');
+    background-size: cover;
+    
+    width: var(--pfp-size);
+    height: var(--pfp-size);
+}
+
+#doll_name {
+    font-size: 2rem;
+}
+
+#title {
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--color3);
+    opacity: 50%;
+    transform: translateX(1.5rem);
+}
+
+#vocation {
+    font-size: 1rem;
+    transform: translateX(1.5rem);
+}
+
+#gender {
+    font-size: 1rem;
+    transform: translateX(1.5rem);
+}
+
+#birthday {
+    font-size: 1rem;
+    transform: translateX(1.5rem);
+}
+
+
+
+
+/* .backstories {}
+#backstory1 {}
+#backstory2 {}
+#backstory3 {} */
+
+.backstory {
+    margin: 1rem;
+}
+
+.special_equip_item {
+    margin: .75rem;
+}
+#special_name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+
+
+.skill {
+    margin: .75rem;
+}
+
+.skill_name {
+    font-weight: bold;
+    font-size: 1.5rem;
+}

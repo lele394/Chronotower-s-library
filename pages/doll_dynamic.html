@@ -3,9 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Doll_name - Chronotower's Library</title>
+    <link rel="stylesheet" href="/pages/style/top-banner.css">
+    <link rel="stylesheet" href="/pages/style/common.css">
+    
+    <link rel="stylesheet" href="/pages/style/doll_dynamic.css">
 </head>
 <body>
     
+    <div class="top-banner">
+        <h1>Chronotower's Library</h1>
+        <button onCLick="loadPage('/pages/index.html')">Home</button>
+        <button onCLick="loadPage('/pages/dollslist.html')">Dolls</button>
+        <button onCLick="loadPage('/building-it')">Equipment</button> 
+        <button onCLick="loadPage('/building-it')">Story</button>
+        <button onCLick="loadPage('/building-it')">About</button>
+    </div>
+
+
+    <div class="overall">
+
+        <div class="basic_infos_container">
+            <div id="doll_pfp"></div>
+            
+            <div class="basic_infos">
+                <h1 id="doll_name">EXAMPLE name</h1>
+                <p id="title">EXAMPLE TITLE</p>
+                <p id="vocation">VOCATION</p>
+                <p id="gender">GENDER</p>
+                <p id="birthday">BIRTHDAY</p>
+            </div>
+        </div>
+            
+            
+
+
+        <div class="other_info_container">
+
+                
+            <div class="artists subsection">
+                <h1 class="section_title">Artists</h1>
+                <p class="artist">
+                    Original artist: <a id="original_artist">original_artist</a>
+                </p>
+                <p class="artist">
+                    Overseas artist: <a id="overseas_artist">overseas_artist</a>
+                </p>
+                <p class="artist">
+                    CN voice: <a id="CN_voice">CN_voice</a>
+                </p>
+                <p class="artist">
+                    JP voice: <a id="JP_voice">JP_voice</a>
+                </p>
+            </div>
+
+
+            <div class="backstories subsection">
+                <h1 class="section_title">Backstories</h1>
+                <div class="backstory">
+                    <p id="backstory1">BACKSTORY</p>
+                </div>
+                <div class="backstory">
+                    <p id="backstory2">BACKSTORY</p>
+                </div>
+                <div class="backstory">
+                    <p id="backstory3">BACKSTORY</p>
+                </div>
+            </div>
+
+
+            <div class="special_equip subsection">
+                <!-- ADD SPECIAL EQUIPMENT IMAGE -->
+                <h1 class="section_title">Special Equipment</h1>
+                <div class="special_equip_item">
+                    <p id="special_name">SPECIAL NAME</p>
+                    <p id="special_description">SPECIAL NAME</p>
+                </div>
+            </div>
+
+
+            <div class="skills subsection">
+                <!-- ADD SKILLS IMGS-->
+                <h1 class="section_title">Skills</h1>
+
+                <div class="skill">
+                    <p class="skill_name" id="skill1_name">SKILL1 NAME</p>
+                    <p class="skill_description" id="skill1_description">SKILL1 DESCRIPTION</p>
+                </div>
+
+                <div class="skill">
+                    <p class="skill_name" id="skill2_name">SKILL2 NAME</p>
+                    <p class="skill_description" id="skill2_description">SKILL2 DESCRIPTION</p>
+                </div>
+
+                <div class="skill">
+                    <p class="skill_name" id="skill3_name">SKILL3 NAME</p>
+                    <p class="skill_description" id="skill3_description">SKILL3 DESCRIPTION</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <div style="margin-bottom: 20vh;"></div>
+
+
+
+
+
+
+
+    <script type="module" src="/pages/js/doll_script.js"></script>
+    <script>
+        // page loader
+        function loadPage(page) {
+            window.location.href = page;
+        }
+        </script>
 </body>
 </html>

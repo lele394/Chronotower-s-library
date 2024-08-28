@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Construction - Chronotower's Library</title>
+    <title>Dolls list - Chronotower's Library</title>
 
     <link rel="stylesheet" href="/pages/style/top-banner.css">
     <link rel="stylesheet" href="/pages/style/common.css">
     
-    <link rel="stylesheet" href="/pages/style/building-it.css">
-
+    <link rel="stylesheet" href="/pages/style/dollslist.css">
 </head>
 <body>
-
     <div class="top-banner">
         <h1>Chronotower's Library</h1>
         <button onCLick="loadPage('/pages/index.html')">Home</button>
@@ -21,28 +19,15 @@
         <button onCLick="loadPage('/pages/building-it.html')">Story</button>
         <button onCLick="loadPage('/pages/building-it.html')">About</button>
     </div>
-    
 
-    <div id="text-stuff">
+    <div id="doll_list_container"></div>
 
-        <h1>Oh no...</h1>
-        
-        <h2>Well... It seems this part of the library is still heavily damaged. 
-            <br>
-            Erina says you can hear a human gremlin rumaging through the rubbles at night, trying to rebuild it. 
-            <br>
-            Who knows what he's doing.</h2>
-        
-    </div>
-
-
-    <script>
-        // page loader
-        function loadPage(page) {
-            window.location.href = page;
-        }
-        </script>
-
-    
+<script type="module" src="/pages/js/dolls.js"></script>
+<script>
+    // page loader
+    function loadPage(page) {
+        window.location.href = page;
+    }
+    </script>
 </body>
 </html>

@@ -42,6 +42,8 @@ createButtons();
 
 
 function load_page(id) {
-    console.log(`Loading page for ID: ${id}`);
+    // console.log(`Loading page for ID: ${id}`);
     // Implement your page loading logic here
+
+    loadPage(`/pages/doll_dynamic.html?doll=${id}`)
 }
