@@ -3,6 +3,7 @@
 - [ ] Miscs
     - [ ] Top banner and buttons
     - [ ] Cool themes
+    - [ ] Make a cool theme for the roadmap
 - [ ] Index
     - [x] Changelog overview (still needs style)
 - [ ] About
@@ -44,6 +45,7 @@
 - Links are dead, will fix later
 
 <br>
+
 ## Alpha 1 - I mean I try
 - First commit
 - Trying stuff
