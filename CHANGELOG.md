@@ -7,7 +7,7 @@
     - [x] Changelog overview (still needs style)
 - [ ] About
     - [ ] Credits, licensing, etc
-- [ ] Dolls list page [ALMOST]
+- [x] Dolls list page [ALMOST]
 - [ ] Doll template working
     - [ ] Building data JSON file
         - [x] Getting data from dump
@@ -38,7 +38,12 @@
 
 # Changelog 
 
-## Alpha  - I mean I try
+## Alpha 2 - Doll list working
+- Made a working doll list
+- Dolls have pfps (most of them, from kimaris thumbnails CDN)
+- Links are dead, will fix later
+
+## Alpha 1 - I mean I try
 - First commit
 - Trying stuff
 - Hopefully that'll work
