@@ -1,5 +1,6 @@
 # Roadmap
 
+```
 - [ ] Miscs
     - [ ] Top banner and buttons
     - [ ] Cool themes
@@ -40,14 +41,23 @@
     - [ ] Search function for dolls and equipments
     - [ ] Add voicelines to doll's page
     - [ ] Add music archive/record player
+```
 
+<br>
+<br>
+<br>
+
+# Some dev notes
+Add some indent and drop line to skill desc and special desc.
 
 <br>
-<br>
-<br>
+
+---
 
 # Changelog 
+
 ---
+
 <br>
  
 ## Alpha 4 - Got em moves
