@@ -4,17 +4,26 @@
     - [ ] Top banner and buttons
     - [ ] Cool themes
     - [ ] Make a cool theme for the roadmap
-- [ ] Index
+- [-] Index
     - [x] Changelog overview (still needs style)
+
+- [ ] Data collection
+    - [x] Dolls basic infos
+    - [-] Dolls more advanced infos
+    - [-] Dolls art from the dump
+    - [ ] Equipment names and descriptions
+    - [ ] Dialogues and lines and how to they are linked
+    - [ ] Audio : Voice-lines, music, effects 
+    - [ ] Other general infos I can gather
 - [ ] About
     - [ ] Credits, licensing, etc
-- [x] Dolls list page [ALMOST]
+- [x] Dolls list page 
 - [ ] Doll template working
-    - [ ] Building data JSON file
+    - [-] Building data JSON file
         - [x] Getting data from dump
-        - [ ] Adding art
-            - [ ] GIFs integration
-            - [ ] Skins display
+        - [-] Adding art
+            - [x] GIFs integration
+            - [x] Skins display
             - [ ] L2Ds
 - [ ] Equipments list page
 - [ ] Equipment template working
@@ -41,6 +50,13 @@
 ---
 <br>
  
+## Alpha 4 - Got em moves
+- Created a JS script to auto generate info.json files
+- Integrated GIFs to doll's pages dynamically
+- Integrated variants to doll's pages dynamically
+- Added Phonfo's work on UI/imagesets/roles stuff
+
+<br>
 
 ## Alpha 3 - Doll dynamic page groundwork
 - Did the groundwork for the doll's dynamic page
