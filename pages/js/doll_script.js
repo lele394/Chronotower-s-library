@@ -1,6 +1,4 @@
-async function fetchData() {
-    const url = '/data/dolls.json';
-
+async function fetchData(url) {
     try {
         const response = await fetch(url);
         if (!response.ok) {
@@ -35,7 +33,7 @@ function updateTextById(id, text) {
 
 // Update page on load
 document.addEventListener('DOMContentLoaded', async () => {
-    const dolls_data = await fetchData();
+    const dolls_data = await fetchData('/data/dolls.json');
 
     // Get doll ID
     const queryString = window.location.search;
@@ -47,6 +45,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     console.log(`Loading page for ID ${dollID}`);
     
     const doll = dolls_data[dollID];
+
+    // Set pfp url
+    document.getElementById("doll_pfp").style.setProperty('--doll-icon-link', `url('${doll.profile_img}')`);
     
     // Update title
     document.title = `${doll.name} - Chronotower's Library`;
@@ -89,6 +90,90 @@ document.addEventListener('DOMContentLoaded', async () => {
     updateTextById('skill3_name', doll.skills.skill3.name);
     updateTextById('skill3_description', doll.skills.skill3.description);
     
+
+    // Art part 
+    let available_data = await fetchData(`/assets/dolls/${dollID}/info.json`);
+
+
+    // GIF stuff with loop
+    if(available_data.gif) { // Makes sure the gif folder is available
+        let data = await fetchData(`/assets/dolls/${dollID}/gif/info.json`);
+    
+    
+        const gifsContainer = document.getElementById('gifs');
+    
+        data.content.forEach(file => {
+            // Create the gif-container div
+            const gifContainer = document.createElement('div');
+            gifContainer.className = 'gif-container';
+    
+            // Create the gif-template div
+            const gifTemplate = document.createElement('div');
+            gifTemplate.className = 'gif-template';
+            gifTemplate.style.setProperty('--gif-url', `url(/assets/dolls/${dollID}/gif/${file})`);
+    
+            // Create the gif-title p element
+            const gifTitle = document.createElement('p');
+            gifTitle.className = 'gif-title';
+            gifTitle.textContent = file.slice(0, -4); // Use file name as the title, or modify as needed
+    
+            // Append gif-template and gif-title to gif-container
+            gifContainer.appendChild(gifTemplate);
+            gifContainer.appendChild(gifTitle);
+    
+            // Append gif-container to the gifs div
+            gifsContainer.appendChild(gifContainer);
+        });
+    }
+
+
+
+    // Variant stuff
+    const variantsContainer = document.getElementById('variants');
+
+    if(available_data.default) { // add v1 variant
+        // Create the new div element
+        const variantDiv = document.createElement('div');
+        variantDiv.className = 'variant';
+        variantDiv.style.setProperty('--img-url', `url(/assets/dolls/${dollID}/default/card.png)`);
+
+        // Append the new div to the gifs container
+        variantsContainer.appendChild(variantDiv);
+    }
+
+    if(available_data.break) { // add v1 variant
+        // Create the new div element
+        const variantDiv = document.createElement('div');
+        variantDiv.className = 'variant';
+        variantDiv.style.setProperty('--img-url', `url(/assets/dolls/${dollID}/break/card.png)`);
+
+        // Append the new div to the gifs container
+        variantsContainer.appendChild(variantDiv);
+    }
+
+    if(available_data.v1) { // add v1 variant
+        // Create the new div element
+        const variantDiv = document.createElement('div');
+        variantDiv.className = 'variant';
+        variantDiv.style.setProperty('--img-url', `url(/assets/dolls/${dollID}/v1/card.png)`);
+
+        // Append the new div to the gifs container
+        variantsContainer.appendChild(variantDiv);
+    }
+
+    if(available_data.v2) { // add v2 variant
+        // Create the new div element
+        const variantDiv = document.createElement('div');
+        variantDiv.className = 'variant';
+        variantDiv.style.setProperty('--img-url', `url(/assets/dolls/${dollID}/v2/card.png)`);
+
+        // Append the new div to the gifs container
+        variantsContainer.appendChild(variantDiv);
+    }
+
+
+
+
 
 
     
