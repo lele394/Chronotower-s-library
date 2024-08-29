@@ -38,11 +38,16 @@
 <br>
 
 # Changelog 
+---
+<br>
+ 
 
 ## Alpha 3 - Doll dynamic page groundwork
 - Did the groundwork for the doll's dynamic page
 - Temporary PFP in doll's page, need to change later
 - Setup data storage structure
+
+<br>
 
 ## Alpha 2 - Doll list working
 - Made a working doll list
