@@ -14,7 +14,7 @@
 - [x] Dolls list page [ALMOST]
 - [ ] Doll template working
     - [ ] Building data JSON file
-        - [x] Getting data from dump
+        - [x] Getting data from dumpreverse proxy cloudflare
         - [ ] Adding art
             - [ ] GIFs integration
             - [ ] Skins display
