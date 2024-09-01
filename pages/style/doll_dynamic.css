@@ -22,6 +22,15 @@
     margin-bottom: .4rem;
 }
 
+.subsection_title {
+    text-indent: 2rem; /* Adjust the value to simulate a tab space */
+
+    width: 100%;
+    margin-top: 1rem;
+    text-decoration: underline;
+    margin-bottom: .7rem;
+}
+
 .basic_infos_container {
     display: flex;
     flex-direction: row;
@@ -35,8 +44,8 @@
 #doll_pfp {
     --pfp-size : 15rem;
 
-    /* background-image: var(--doll-icon-link); */
-    background-image: url('/assets/dolls/103/default/square.png');
+    background-image: var(--doll-icon-link);
+    /* background-image: url('/assets/dolls/103/default/square.png'); */
     background-size: cover;
     
     width: var(--pfp-size);
@@ -101,4 +110,82 @@
 .skill_name {
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+
+
+
+
+/* * {
+    outline: solid lime 1px;
+} */
+
+/* Art stuff */
+#gifs {
+
+    outline: var(--color2) solid 2px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gif-container {
+    display: inline-flex; /* Use inline-flex to allow the container to shrink to fit content */
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem; /* Adjust spacing as needed */
+    padding: 0; /* Ensure no additional padding is applied */
+    width: auto; /* Ensure the width is determined by content */
+    height: auto; /* Ensure the height is determined by content */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.gif-template {
+    --gif-size: 7.5rem;
+
+    background-image: var(--gif-url);
+    background-size: contain; /* Ensure the image fits within the container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    image-rendering: pixelated; /* Preserve the pixelated appearance */
+
+    width: var(--gif-size);
+    height: var(--gif-size);
+}
+
+.gif-title {
+    margin-top: 0.5rem; /* Space between the GIF and the title */
+    text-align: center;
+    font-size: 1rem; /* Adjust as needed */
+}
+
+
+
+
+
+#variants {
+
+    outline: var(--color2) solid 2px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.variant {
+    width: 45%;
+    margin: 2.5%;
+    aspect-ratio: 1/1;
+
+    background-image: var(--img-url);
+    background-size: contain; /* Ensure the image fits within the container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+
 }

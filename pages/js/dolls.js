@@ -19,6 +19,7 @@ async function createButtons() {
 
     const container = document.getElementById('doll_list_container');
     for (const id in data) {
+        if(["5", "7", "20", "21", "26", "40", "44", "46", "50", "54", "58", "60", "62", "117"].includes(id)){continue};
         if (data.hasOwnProperty(id)) {
             const button = document.createElement('button');
             button.className = 'doll_button';
