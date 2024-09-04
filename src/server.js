@@ -19,21 +19,19 @@ function AddFilePathToServer(remote, local) {
 }
 
 
-AddFilePathToServer('/', '../pages/index.html');
-AddFilePathToServer('/dolls', '../pages/dolls.html');
-AddFilePathToServer('/equipment', '../pages/equipment.html');
-AddFilePathToServer('/story', '../pages/story.html');
-AddFilePathToServer('/about', '../pages/about.html');
 
-AddFilePathToServer('/building-it', '../pages/building-it.html');
+// Setup to do once the wiki is done
+// AddFilePathToServer('/', '../pages/index.html');
+// AddFilePathToServer('/dolls', '../pages/dolls.html');
+// AddFilePathToServer('/equipment', '../pages/equipment.html');
+// AddFilePathToServer('/story', '../pages/story.html');
+// AddFilePathToServer('/about', '../pages/about.html');
+
+// AddFilePathToServer('/building-it', '../pages/building-it.html');
 
 
+app.use('/', express.static(path.join(__dirname, '../')));
 
-/*
-// Optionally, serve other static content from a subfolder (e.g., 'public')
-app.use('/other-content', express.static(path.join(__dirname, 'other-content')));
-// ^Modify to serve CSS files and JS later
-*/
 
 // Start the server
 app.listen(PORT, () => {
