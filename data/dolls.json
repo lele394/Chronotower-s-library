@@ -23,13 +23,13 @@
         "name": "Soul Arrow",
         "type": "Magic ATK",
         "range": "Single Enemy",
-        "description": "Deals Magic DMG equal to 300% of ATK to a single target and increases the effect of the next skill by 20% for 5s."
+        "description": "Deals Magic DMG equal to <color=#82C65D>300%</color> of ATK to a single target and increases the effect of the next skill by 20% for 5s."
       },
       "skill2": {
         "name": "Evasion",
         "type": "Magic ATK",
         "range": "All Allies",
-        "description": "Retreats the whole team with the power of Chaos. Within 0.2 seconds, the team retreats to the far end, and returns back after 1s."
+        "description": "Retreats the whole team with the power of Chaos. Within <color=#82C65D>0.2</color> seconds, the team retreats to the far end, and returns back after 1s."
       },
       "skill3": {
         "name": "Phase Shifting",
@@ -70,18 +70,18 @@
         "name": "Soft Glow",
         "type": "Healing",
         "range": "Single Ally",
-        "description": "Heals the Doll with the lowest Health for 300% of Croche's ATK."
+        "description": "Heals the Doll with the lowest Health for <color=#82C65D>300%</color> of Croche's ATK."
       },
       "skill2": {
         "name": "Flash",
         "type": "Enhance",
         "range": "All Allies",
-        "description": "Removes debuffs from all allies. For the next 10 seconds, increases allies' Crit Chance by 2% each time they deal Physical DMG, up to 20%."
+        "description": "Removes debuffs from all allies. For the next 10 seconds, increases allies' Crit Chance by <color=#82C65D>2%</color> each time they deal Physical DMG, up to <color=#82C65D>20%</color>."
       },
       "skill3": {
         "name": "Dark Contract",
         "type": "Passive",
-        "description": "Croche has a 20% chance to fully restore her Health when it drops to 0."
+        "description": "Croche has a <color=#82C65D>20%</color> chance to fully restore her Health when it drops to 0."
       }
     },
     "special_equip": {
@@ -117,18 +117,18 @@
         "name": "Evilsend",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Deals Physical DMG equal to 500% of ATK to a single target."
+        "description": "Deals Physical DMG equal to <color=#82C65D>500%</color> of ATK to a single target."
       },
       "skill2": {
         "name": "Psychics",
         "type": "Enhance",
         "range": "Self",
-        "description": "Strengthens Normal Attacks to deal damage equal to 235% of ATK and increases Evilsend's damage by 40%."
+        "description": "Strengthens Normal Attacks to deal damage equal to <color=#82C65D>235%</color> of ATK and increases Evilsend's damage by <color=#82C65D>40%</color>."
       },
       "skill3": {
         "name": "Bravery in Battle",
         "type": "Passive",
-        "description": "Increases damage dealt by 5% for 10s after casting Evilsend. Can stack up to 25%."
+        "description": "Increases damage dealt by <color=#82C65D>5%</color> for 10s after casting Evilsend. Can stack up to 25%."
       }
     },
     "special_equip": {
@@ -164,18 +164,18 @@
         "name": "Lunia's Blessing",
         "type": "Healing",
         "range": "Single Ally",
-        "description": "Heals the Doll with the lowest Health by 300% of Eulalia's ATK."
+        "description": "Heals the Doll with the lowest Health by <color=#82C65D>300%</color> of Eulalia's ATK."
       },
       "skill2": {
         "name": "Revive",
         "type": "Support",
         "range": "Single Ally",
-        "description": "Places a Blessing on the Doll with the lowest Health for 5s. The effect will be removed if the Doll takes any lethal damage, and heals the Doll for 600% of Eulalia's ATK."
+        "description": "Places a Blessing on the Doll with the lowest Health for 5s. The effect will be removed if the Doll takes any lethal damage, and heals the Doll for <color=#82C65D>600%</color> of Eulalia's ATK."
       },
       "skill3": {
         "name": "Celestial Blessing",
         "type": "Passive",
-        "description": "Increases healing effect by 10%."
+        "description": "Increases healing effect by <color=#82C65D>10%</color>."
       }
     },
     "special_equip": {
@@ -211,7 +211,7 @@
         "name": "Unknown Name",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "JS error while processing skill text"
+        "description": "Unknown Description"
       },
       "skill2": {
         "name": "Unknown Name",
@@ -254,18 +254,18 @@
         "name": "Dance of Charm",
         "type": "Enhance",
         "range": "All Allies",
-        "description": "Increases ATK of all allies by 200% ATK of Vedare for 10s."
+        "description": "Increases ATK of all allies by <color=#82C65D>200%</color> ATK of Vedare for 10s."
       },
       "skill2": {
         "name": "Dance of Vitality",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 300% of ATK to all enemies and increases their Magic DMG taken by 50% for 5s."
+        "description": "Deals Magic DMG equal to <color=#82C65D>300%</color> of ATK to all enemies and increases their Magic DMG taken by 50% for 5s."
       },
       "skill3": {
         "name": "Lithe",
         "type": "Passive",
-        "description": "When taking damage, there is a 10% chance to reduce the damage to 1."
+        "description": "When taking damage, there is a <color=#82C65D>10%</color> chance to reduce the damage to 1."
       }
     },
     "special_equip": {
@@ -312,7 +312,7 @@
       "skill3": {
         "name": "Attack Reinforce",
         "type": "Passive",
-        "description": "Increases base ATK by 5% (10% at Evolve 1)"
+        "description": "Increases base ATK by 5% <color=#82C65D>(10% at Evolve 1)</color>"
       }
     },
     "special_equip": {
@@ -348,18 +348,18 @@
         "name": "Barrier",
         "type": "Support",
         "range": "All Allies",
-        "description": "Generates a Shield that absorbs damage equal to 40% of max Health and redirects all damage dealt to allies to herself within the next 10 seconds instead, during which Physical DEF and Magic DEF are increased by 90%, and for the first 2 seconds, immune to all damages."
+        "description": "Generates a Shield that absorbs damage equal to <color=#82C65D>40%</color> of max Health and redirects all damage dealt to allies to herself within the next 10 seconds instead, during which Physical DEF and Magic DEF are increased by <color=#82C65D>90%</color>, and for the first 2 seconds, immune to all damages."
       },
       "skill2": {
         "name": "Holy Radiance",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 500% of ATK to all enemies, dispels their buffs, and reduces their Magic DEF by 40% of Afallen's Magic DEF for 10s."
+        "description": "Deals Magic DMG equal to <color=#82C65D>500%</color> of ATK to all enemies, dispels their buffs, and reduces their Magic DEF by 40% of Afallen's Magic DEF for 10s."
       },
       "skill3": {
         "name": "Light of the Sanctuary",
         "type": "Passive",
-        "description": "Auto casts Holy Radiance once after taking damage 8 times."
+        "description": "Auto casts Holy Radiance once after taking damage <color=#82C65D>8</color> times."
       }
     },
     "special_equip": {
@@ -395,18 +395,18 @@
         "name": "Aroma",
         "type": "Healing",
         "range": "All Allies",
-        "description": "The aroma of flowers heals all allies for 240% of Primula's ATK."
+        "description": "The aroma of flowers heals all allies for <color=#82C65D>240%</color> of Primula's ATK."
       },
       "skill2": {
         "name": "Aroma Healing",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Heals all allies for 300% of Primula's ATK. All allies deal extra damage equal to 40% of Primula's ATK for 10s when landing physical attacks."
+        "description": "Heals all allies for <color=#82C65D>300%</color> of Primula's ATK. All allies deal extra damage equal to <color=#82C65D>40%</color> of Primula's ATK for 10s when landing physical attacks."
       },
       "skill3": {
         "name": "Flower Dress",
         "type": "Passive",
-        "description": "Increases healing effect by 10%."
+        "description": "Increases healing effect by <color=#82C65D>10%</color>."
       }
     },
     "special_equip": {
@@ -442,18 +442,18 @@
         "name": "Rhythm of the Lake",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Restores all allies' Health equal to 20% of Flora's ATK every 0.5 seconds, for 3 seconds. Also increases allies' Max Health by 200% of Flora's ATK for 10 seconds."
+        "description": "Restores all allies' Health equal to <color=#82C65D>20%</color> of Flora's ATK every 0.5 seconds, for 3 seconds. Also increases allies' Max Health by <color=#82C65D>200%</color> of Flora's ATK for 10 seconds."
       },
       "skill2": {
         "name": "Rhythm Rewind",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Restores all allies' Health equal to 20% of Flora's ATK every 0.5 seconds, for 10 seconds. Also increases allies' ATK, Physical DEF, and Magic DEF by 20% of ATK, Physical DEF, and Magic DEF for 15 seconds, stacking up to 2 times."
+        "description": "Restores all allies' Health equal to <color=#82C65D>20%</color> of Flora's ATK every 0.5 seconds, for 10 seconds. Also increases allies' ATK, Physical DEF, and Magic DEF by <color=#82C65D>20%</color> of ATK, Physical DEF, and Magic DEF for 15 seconds, stacking up to 2 times."
       },
       "skill3": {
         "name": "Cheerful Chord",
         "type": "Passive",
-        "description": "Reduces all allies' damage taken by 30% for 5s."
+        "description": "Reduces all allies' damage taken by <color=#82C65D>30%</color> for 5s."
       }
     },
     "special_equip": {
@@ -489,18 +489,18 @@
         "name": "Plume of Guard",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Heals all allies for 20% of Caledonia's max Health and reduces their damage taken by 50% for 5 seconds."
+        "description": "Heals all allies for <color=#82C65D>20%</color> of Caledonia's max Health and reduces their damage taken by <color=#82C65D>50%</color> for 5 seconds."
       },
       "skill2": {
         "name": "Overwhelming",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Charges forward and knocks off all enemies in the path, then returns to the original position, immune to all damage and debuffs along the way. Each enemy is knocked off for 0.5s and takes Physical DMG equal to 250% of ATK. Within 10 seconds, the enemies' Physical DEF reduces by 5% of Caledonia's Physical DEF every time they take damage. Can stack up to 100%."
+        "description": "Charges forward and knocks off all enemies in the path, then returns to the original position, immune to all damage and debuffs along the way. Each enemy is knocked off for 0.5s and takes Physical DMG equal to <color=#82C65D>250%</color> of ATK. Within 10 seconds, the enemies' Physical DEF reduces by 5% of Caledonia's Physical DEF every time they take damage. Can stack up to 100%."
       },
       "skill3": {
         "name": "Sacred Beast: Strengthen",
         "type": "Passive",
-        "description": "Caledonia is blessed by the Sacred Beast, reducing her damage taken by 6% of her max Health. For every 30% Health lost, removes all debuffs on her."
+        "description": "Caledonia is blessed by the Sacred Beast, reducing her damage taken by <color=#82C65D>6%</color> of her max Health. For every 30% Health lost, removes all debuffs on her."
       }
     },
     "special_equip": {
@@ -536,18 +536,18 @@
         "name": "Great Fire",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 300% of ATK to all enemies and applies a stack of Burning to them for 10s. Can stack up to 10 times."
+        "description": "Deals Magic DMG equal to <color=#82C65D>300%</color> of ATK to all enemies and applies a stack of Burning to them for 10s. Can stack up to 10 times."
       },
       "skill2": {
         "name": "Soul Flame",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 450% of ATK to all enemies, and applies a stack of Burning to the targets for 10s. Each stack of Burning deals extra damage equal to 80% of ATK."
+        "description": "Deals Magic DMG equal to <color=#82C65D>450%</color> of ATK to all enemies, and applies a stack of Burning to the targets for 10s. Each stack of Burning deals extra damage equal to <color=#82C65D>80%</color> of ATK."
       },
       "skill3": {
         "name": "Divine Tsundere",
         "type": "Passive",
-        "description": "Increases ATK by 25% during the first 30 seconds of combat."
+        "description": "Increases ATK by <color=#82C65D>25%</color> during the first 30 seconds of combat."
       }
     },
     "special_equip": {
@@ -583,18 +583,18 @@
         "name": "Arcane: Lustre Slash",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Deals damage to the enemy in the back row 6 times. If the enemy is defeated, switches to the enemy in the new back row. The first attack deals Physical DMG equal to 100% of Akasha's ATK, and each subsequent attack's damage increases by 10% for every slash executed prior to it."
+        "description": "Deals damage to the enemy in the back row 6 times. If the enemy is defeated, switches to the enemy in the new back row. The first attack deals Physical DMG equal to <color=#82C65D>100%</color> of Akasha's ATK, and each subsequent attack's damage increases by 10% for every slash executed prior to it."
       },
       "skill2": {
         "name": "Meteor Slash",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Deals Physical DMG equal to 80% of ATK twice to the enemy in the back row. Increases Crit Chance by 5% and Crit DMG by 10% for 5s. Can stack up to 25% and 50% respectively."
+        "description": "Deals Physical DMG equal to <color=#82C65D>80%</color> of ATK twice to the enemy in the back row. Increases Crit Chance by 5% and Crit DMG by 10% for 5s. Can stack up to 25% and 50% respectively."
       },
       "skill3": {
         "name": "Field of Swords",
         "type": "Passive",
-        "description": "When unleashing Meteor Slash, there's a 20% chance to reduce the energy cost of the next Arcane: Lustre Slash to 1."
+        "description": "When unleashing Meteor Slash, there's a <color=#82C65D>20%</color> chance to reduce the energy cost of the next Arcane: Lustre Slash to 1."
       }
     },
     "special_equip": {
@@ -630,18 +630,18 @@
         "name": "Shadow Attack",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Teleports to the back of the enemy and deals Physical DMG equal to 350% of ATK to a single target. The attack is repeated on a critical hit, up to 3 times."
+        "description": "Teleports to the back of the enemy and deals Physical DMG equal to <color=#82C65D>350%</color> of ATK to a single target. The attack is repeated on a critical hit, up to 3 times."
       },
       "skill2": {
         "name": "Nightblade Marker",
         "type": "Debuff",
         "range": "Single Enemy",
-        "description": "Marks an enemy in the back row for 10 seconds. Increases the unit's Crit Chance by 40% when attacking the marked enemy."
+        "description": "Marks an enemy in the back row for 10 seconds. Increases the unit's Crit Chance by <color=#82C65D>40%</color> when attacking the marked enemy."
       },
       "skill3": {
         "name": "Spot Weakness",
         "type": "Passive",
-        "description": "Increases Crit DMG by 30%."
+        "description": "Increases Crit DMG by <color=#82C65D>30%</color>."
       }
     },
     "special_equip": {
@@ -677,18 +677,18 @@
         "name": "Snowdrift",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Summons a blizzard, dealing Magic DMG equal to 200% of ATK to all enemies and applies a stack of Frostbite for 5s. Can stack up to 5 times."
+        "description": "Summons a blizzard, dealing Magic DMG equal to <color=#82C65D>200%</color> of ATK to all enemies and applies a stack of Frostbite for 5s. Can stack up to 5 times."
       },
       "skill2": {
         "name": "Frozen",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 400% of ATK to all enemies and freezes them for 1s. Each stack of Frostbite inflicts extra Magic DMG equal to 50% of ATK."
+        "description": "Deals Magic DMG equal to <color=#82C65D>400%</color> of ATK to all enemies and freezes them for 1s. Each stack of Frostbite inflicts extra Magic DMG equal to <color=#82C65D>50%</color> of ATK."
       },
       "skill3": {
         "name": "Frozen Body",
         "type": "Passive",
-        "description": "Enemies who attack Pakane have a 20% chance of being frozen for 2s."
+        "description": "Enemies who attack Pakane have a <color=#82C65D>20%</color> chance of being frozen for 2s."
       }
     },
     "special_equip": {
@@ -724,18 +724,18 @@
         "name": "Wind Cutter",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Deals Physical DMG equal to 300% of ATK to all enemies"
+        "description": "Deals Physical DMG equal to <color=#82C65D>300%</color> of ATK to all enemies"
       },
       "skill2": {
         "name": "Mind's Eye",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Deals Physical DMG equal to 300% of ATK to a single target, stuns them for 0.5s and increases the damage of the next active skill by 70%."
+        "description": "Deals Physical DMG equal to <color=#82C65D>300%</color> of ATK to a single target, stuns them for 0.5s and increases the damage of the next active skill by 70%."
       },
       "skill3": {
         "name": "Windrunner",
         "type": "Passive",
-        "description": "When in combat, the firstly-used skill deals 100% more damage."
+        "description": "When in combat, the firstly-used skill deals <color=#82C65D>100%</color> more damage."
       }
     },
     "special_equip": {
@@ -771,18 +771,18 @@
         "name": "Scorching Breath",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Deals Physical DMG equal to 400% of ATK to all enemies, dispels their buffs, reduces their ATK by 20% for 10s. When in Dragon form, also reduces their Physical DEF by 30% of Ella's ATK for 10s."
+        "description": "Deals Physical DMG equal to <color=#82C65D>400%</color> of ATK to all enemies, dispels their buffs, reduces their ATK by 20% for 10s. When in Dragon form, also reduces their Physical DEF by 30% of Ella's ATK for 10s."
       },
       "skill2": {
         "name": "Dragon Blood",
         "type": "Transform",
         "range": "Self",
-        "description": "Normal Attack deals damage to all enemies. Increases Ella's damage dealt by 50% and her max Health by 50%."
+        "description": "Normal Attack deals damage to all enemies. Increases Ella's damage dealt by <color=#82C65D>50%</color> and her max Health by 50%."
       },
       "skill3": {
         "name": "Ancient Inheritance",
         "type": "Passive",
-        "description": "Recovers 5% of max Health per second and reduces damage taken by 20%."
+        "description": "Recovers <color=#82C65D>5%</color> of max Health per second and reduces damage taken by <color=#82C65D>20%</color>."
       }
     },
     "special_equip": {
@@ -818,18 +818,18 @@
         "name": "The Colorless Lands",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Summons a magic barrier to reduce damage taken by all allies by 20% and heals them for 40% of Tama's ATK every second for 10s."
+        "description": "Summons a magic barrier to reduce damage taken by all allies by <color=#82C65D>20%</color> and heals them for <color=#82C65D>40%</color> of Tama's ATK every second for 10s."
       },
       "skill2": {
         "name": "Twilight State",
         "type": "Enhance",
         "range": "Front Row Allies",
-        "description": "Heals the ally in the front row for 300% of Tama's ATK and increases their damage or healing effect of next active skill by 100%."
+        "description": "Heals the ally in the front row for <color=#82C65D>300%</color> of Tama's ATK and increases their damage or healing effect of next active skill by <color=#82C65D>100%</color>."
       },
       "skill3": {
         "name": "Hollow Dream",
         "type": "Passive",
-        "description": "Heals all allies for 50% of ATK when attacking."
+        "description": "Heals <color=#82C65D>all allies</color> for 50% of ATK when attacking."
       }
     },
     "special_equip": {
@@ -865,18 +865,18 @@
         "name": "Oracle",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Generates 1 Order Energy and heals all allies for 450% of ATK."
+        "description": "Generates 1 Order Energy and heals all allies for <color=#82C65D>450%</color> of ATK."
       },
       "skill2": {
         "name": "Crimson Lotus",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 450% of ATK to all enemies and increases their Magic DMG taken by 30% for 10s."
+        "description": "Deals Magic DMG equal to <color=#82C65D>450%</color> of ATK to all enemies and increases their Magic DMG taken by <color=#82C65D>30%</color> for 10s."
       },
       "skill3": {
         "name": "Soulbound",
         "type": "Passive",
-        "description": "When Mikoto takes damage, there is a 40% chance to place a Soul Shield that absorbs damage equal to 25% of Mikoto's max Health on the Doll with the lowest Health for 5s. Can only trigger once every 10s."
+        "description": "When Mikoto takes damage, there is a <color=#82C65D>40%</color> chance to place a Soul Shield that absorbs damage equal to 25% of Mikoto's max Health on the Doll with the lowest Health for 5s. Can only trigger once every 10s."
       }
     },
     "special_equip": {
@@ -923,7 +923,7 @@
       "skill3": {
         "name": "Attack Reinforce",
         "type": "Passive",
-        "description": "Increases base ATK by 5% (10% at Evolve 1)"
+        "description": "Increases base ATK by 5% <color=#82C65D>(10% at Evolve 1)</color>"
       }
     },
     "special_equip": {
@@ -959,18 +959,18 @@
         "name": "Eye for an Eye",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Physical DMG equal to 300% of ATK to a single target. Also, returns all the damage Svalbard has taken in this combat to the target, up to 1000% of Svalbard's ATK. The amount of damage accumulated will be cleared upon using the skill."
+        "description": "Deals Physical DMG equal to <color=#82C65D>300%</color> of ATK to a single target. Also, returns all the damage Svalbard has taken in this combat to the target, up to 1000% of Svalbard's ATK. The amount of damage accumulated will be cleared upon using the skill."
       },
       "skill2": {
         "name": "Oath of Perseverance",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Immune to all Magic DMG and debuffs for 5 seconds after using the skill."
+        "description": "Immune to all Magic DMG and debuffs for <color=#82C65D>5</color> seconds after using the skill."
       },
       "skill3": {
         "name": "Survival Reinforce",
         "type": "Passive",
-        "description": "Increases base Health by 5% (10% at Evolve 2)"
+        "description": "Increases base Health by 5% <color=#82C65D>(10% at Evolve 2)</color>"
       }
     },
     "special_equip": {
@@ -1006,18 +1006,18 @@
         "name": "Ritual",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Generates 2 Chaos Energy, heals all allies for 240% of Goorveig's ATK, and deals Magic DMG equal to 300% of Goorveig's ATK to all enemies."
+        "description": "Generates 2 Chaos Energy, heals all allies for <color=#82C65D>240%</color> of Goorveig's ATK, and deals Magic DMG equal to <color=#82C65D>300%</color> of Goorveig's ATK to all enemies."
       },
       "skill2": {
         "name": "Aura of the Abyss",
         "type": "Transform",
         "range": "Self",
-        "description": "Transforms into a Creature of the Abyss, dealing Magic DMG equal to 200% of ATK to all enemies and increasing their Magic DMG taken by 40% for 10s (Creature of the Abyss inherits 150% of Goorveig's max Health and ATK, and heals all allies for 100% of Goorveig's ATK when casting Energy Sword)."
+        "description": "Transforms into a Creature of the Abyss, dealing Magic DMG equal to <color=#82C65D>200%</color> of ATK to all enemies and increasing their Magic DMG taken by <color=#82C65D>40%</color> for 10s (Creature of the Abyss inherits <color=#82C65D>150%</color> of Goorveig's max Health and ATK, and heals all allies for 100% of Goorveig's ATK when casting Energy Sword)."
       },
       "skill3": {
         "name": "Call of the Abyss",
         "type": "Passive",
-        "description": "Increases the max Health and ATK of Creature of the Abyss by 30% each."
+        "description": "Increases the max Health and ATK of Creature of the Abyss by <color=#82C65D>30%</color> each."
       }
     },
     "special_equip": {
@@ -1053,18 +1053,18 @@
         "name": "Deity Aegis",
         "type": "Support",
         "range": "All Allies",
-        "description": "Grants immunity to the next 5 instances of Physical DMG, and increases Catherine's Physical DEF and Magic DEF by 5% of her Max Health. Redirects all DMG intended for allied dolls to self for the next 10 seconds, and recovers Health equal to 50% of Physical DEF every second."
+        "description": "Grants immunity to the next 5 instances of Physical DMG, and increases Catherine's Physical DEF and Magic DEF by <color=#82C65D>5%</color> of her Max Health. Redirects all DMG intended for allied dolls to self for the next 10 seconds, and recovers Health equal to <color=#82C65D>50%</color> of Physical DEF every second."
       },
       "skill2": {
         "name": "Banner of Glory",
         "type": "Enhance",
         "range": "All Enemies",
-        "description": "Grants all allies a shield that absorbs damage equal to 200% of Catherine's Physical DEF for 10s, and applies Blessing of Glory effect to all allies for 10s.\nBlessing of Glory: Upon dealing DMG 5 times, deals extra Physical DMG equal to 300% of ATK to all enemies, stuns them for 0.5 seconds, and reduces their Physical DEF by 60% of Catherine's Physical DEF."
+        "description": "Grants all allies a shield that absorbs damage equal to <color=#82C65D>200%</color> of Catherine's Physical DEF for 10s, and applies Blessing of Glory effect to all allies for 10s.\nBlessing of Glory: Upon dealing DMG 5 times, deals extra Physical DMG equal to <color=#82C65D>300%</color> of ATK to all enemies, stuns them for 0.5 seconds, and reduces their Physical DEF by 60% of Catherine's Physical DEF."
       },
       "skill3": {
         "name": "Resplendent Majesty",
         "type": "Passive",
-        "description": "On skill use, increases DMG taken by enemies by 30% for 10 seconds."
+        "description": "On skill use, increases DMG taken by enemies by <color=#82C65D>30%</color> for 10 seconds."
       }
     },
     "special_equip": {
@@ -1100,18 +1100,18 @@
         "name": "Artifice",
         "type": "Debuff",
         "range": "All Enemies",
-        "description": "Generates 1 Order Energy, heals all allies for 200% of Czerni's ATK, and increases Magic DMG taken by enemies by 30%."
+        "description": "Generates 1 Order Energy, heals all allies for <color=#82C65D>200%</color> of Czerni's ATK, and increases Magic DMG taken by enemies by <color=#82C65D>30%</color>."
       },
       "skill2": {
         "name": "Fatum",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Draws a card from the deck. A healing card heals all allies for 450% of Czerni's ATK and a damage card deals Magic DMG equal to 450% of ATK to all enemies."
+        "description": "Draws a card from the deck. A healing card heals all allies for <color=#82C65D>450%</color> of Czerni's ATK and a damage card deals Magic DMG equal to <color=#82C65D>450%</color> of ATK to all enemies."
       },
       "skill3": {
         "name": "Wordsmaster",
         "type": "Passive",
-        "description": "Has a 40% chance to restore 1 Chaos Energy."
+        "description": "Has a <color=#82C65D>40%</color> chance to restore 1 Chaos Energy."
       }
     },
     "special_equip": {
@@ -1147,18 +1147,18 @@
         "name": "Execution",
         "type": "Magic ATK",
         "range": "Single Enemy",
-        "description": "Consumes all Order Energy to deal Magic DMG equal to 300% of ATK to a single target. Each 1 extra Order Energy consumed will deal extra Magic DMG equal to 200% of ATK."
+        "description": "Consumes all Order Energy to deal Magic DMG equal to <color=#82C65D>300%</color> of ATK to a single target. Each 1 extra Order Energy consumed will deal extra Magic DMG equal to <color=#82C65D>200%</color> of ATK."
       },
       "skill2": {
         "name": "Equilibrium",
         "type": "Enhance",
         "range": "Self",
-        "description": "Gains a shield that absorbs damage equal to 70% of max Health, and increases Magic DMG dealt by 40% for 10s."
+        "description": "Gains a shield that absorbs damage equal to <color=#82C65D>70%</color> of max Health, and increases Magic DMG dealt by <color=#82C65D>40%</color> for 10s."
       },
       "skill3": {
         "name": "Adamant Justice",
         "type": "Passive",
-        "description": "For every point of Order Energy consumed, Datheios increases his Magic DMG dealt by 4% for 10 seconds, stacking up to 28%."
+        "description": "For every point of Order Energy consumed, Datheios increases his Magic DMG dealt by <color=#82C65D>4%</color> for 10 seconds, stacking up to <color=#82C65D>28%</color>."
       }
     },
     "special_equip": {
@@ -1194,18 +1194,18 @@
         "name": "Illusion: Swift",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Dashes across the battlefield and deals Physical DMG equal to 360% of ATK to all enemies."
+        "description": "Dashes across the battlefield and deals Physical DMG equal to <color=#82C65D>360%</color> of ATK to all enemies."
       },
       "skill2": {
         "name": "Illusion: Soul Engraving",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Physical DMG equal to 200% of ATK to the enemy in the back row and puts it into Soul Split status where the target takes Physical DMG equal to 50% of ATK per second for 4s."
+        "description": "Deals Physical DMG equal to <color=#82C65D>200%</color> of ATK to the enemy in the back row and puts it into Soul Split status where the target takes Physical DMG equal to <color=#82C65D>50%</color> of ATK per second for <color=#82C65D>4</color>s."
       },
       "skill3": {
         "name": "Defense Reinforce",
         "type": "Passive",
-        "description": "Increases base Physical DEF by 5% (10% at Evolve 1)"
+        "description": "Increases base Physical DEF by 5% <color=#82C65D>(10% at Evolve 1)</color>"
       }
     },
     "special_equip": {
@@ -1241,18 +1241,18 @@
         "name": "Sanguine Slash",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Deals Physical DMG equal to 450% of ATK to a single target. Generates a Shield equal to 50% of the damage dealt for 3s."
+        "description": "Deals Physical DMG equal to <color=#82C65D>450%</color> of ATK to a single target. Generates a Shield equal to 50% of the damage dealt for 3s."
       },
       "skill2": {
         "name": "Shield Bash",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Deals Physical DMG equal to 450% of ATK to all enemies and stuns them for 0.5 seconds. Within the next 10 seconds, reduces their Physical DEF by 5% of Cetess' Physical DEF each time they take damage, up to 100%."
+        "description": "Deals Physical DMG equal to <color=#82C65D>450%</color> of ATK to all enemies and stuns them for 0.5 seconds. Within the next 10 seconds, reduces their Physical DEF by 5% of Cetess' Physical DEF each time they take damage, up to 100%."
       },
       "skill3": {
         "name": "Scarlet Dance",
         "type": "Passive",
-        "description": "Increases damage dealt by 10% for every 10% max Health lost."
+        "description": "Increases damage dealt by <color=#82C65D>10%</color> for every 10% max Health lost."
       }
     },
     "special_equip": {
@@ -1288,18 +1288,18 @@
         "name": "Traumatic Light",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "After a short charge, emits a beam of light that attacks all enemies 3 times within 1 second, each time dealing damage equal to 100% of Viola's ATK."
+        "description": "After a short charge, emits a beam of light that attacks all enemies 3 times within 1 second, each time dealing damage equal to <color=#82C65D>100%</color> of Viola's ATK."
       },
       "skill2": {
         "name": "Twisted Souls",
         "type": "Support",
         "range": "All Allies",
-        "description": "For 6 seconds, all damages taken by the team are split equally among the Dolls. Also reduces all damage taken by 30%."
+        "description": "For 6 seconds, all damages taken by the team are split equally among the Dolls. Also reduces all damage taken by <color=#82C65D>30%</color>."
       },
       "skill3": {
         "name": "Rebuild",
         "type": "Passive",
-        "description": "After taking lethal damage, Viola reveals her mechanical core, which takes 50% more damage. If the core is not destroyed within 5s, the Doll will be auto repaired. Can only trigger once per combat."
+        "description": "After taking lethal damage, Viola reveals her mechanical core, which takes <color=#82C65D>50%</color> more damage. If the core is not destroyed within 5s, the Doll will be auto repaired. Can only trigger once per combat."
       }
     },
     "special_equip": {
@@ -1335,18 +1335,18 @@
         "name": "Blast Arrows",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Attacks all enemies 3 times, each time dealing Physical DMG equal to 50% of ATK."
+        "description": "Attacks all enemies 3 times, each time dealing Physical DMG equal to <color=#82C65D>50%</color> of ATK."
       },
       "skill2": {
         "name": "Azure Wind",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Attacks all enemies 5 times, each dealing Physical DMG equal to 100% of ATK. Within 10 seconds, when the allies deal Physical DMG, they inflict extra damage equal to 50% of Celanya's ATK."
+        "description": "Attacks all enemies 5 times, each dealing Physical DMG equal to <color=#82C65D>100%</color> of ATK. Within 10 seconds, when the allies deal Physical DMG, they inflict extra damage equal to <color=#82C65D>50%</color> of Celanya's ATK."
       },
       "skill3": {
         "name": "Dashing Arrows",
         "type": "Passive",
-        "description": "With each attack, deals 2% more damage and ignores the enemies' Physical DEF equal to 2% of self ATK. Can stack up to 20% for both."
+        "description": "With each attack, deals <color=#82C65D>2%</color> more damage and ignores the enemies' Physical DEF equal to <color=#82C65D>2%</color> of self ATK. Can stack up to <color=#82C65D>20%</color> for both."
       }
     },
     "special_equip": {
@@ -1382,18 +1382,18 @@
         "name": "Divination",
         "type": "Enhance",
         "range": "All Allies",
-        "description": "Heals all allies for 300% of ATK and increases energy generation rate for 5s. There's a 50% chance of increasing energy regeneration rate by 40% for 5s and a 50% chance of increasing energy generation rate by 100% for 5s."
+        "description": "Heals all allies for <color=#82C65D>300%</color> of ATK and increases energy generation rate for 5s. There's a <color=#82C65D>50%</color> chance of increasing energy regeneration rate by 40% for 5s and a <color=#82C65D>50%</color> chance of increasing energy generation rate by 100% for 5s."
       },
       "skill2": {
         "name": "Fatum",
         "type": "Enhance",
         "range": "All Allies",
-        "description": "Increases the Magic DMG of the whole team for 5 seconds. There's a 50% chance of increasing Magic DMG by 30%, and a 50% chance of increasing Magic DMG by 100%."
+        "description": "Increases the Magic DMG of the whole team for 5 seconds. There's a <color=#82C65D>50%</color> chance of increasing Magic DMG by 30%, and a <color=#82C65D>50%</color> chance of increasing Magic DMG by 100%."
       },
       "skill3": {
         "name": "Foresight",
         "type": "Passive",
-        "description": "When using Divination, 10% more chance to trigger the better outcomes of her spells."
+        "description": "When using Divination, <color=#82C65D>10%</color> more chance to trigger the better outcomes of her spells."
       }
     },
     "special_equip": {
@@ -1429,18 +1429,18 @@
         "name": "Swoop",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Attacks the enemy in the back row twice, each dealing Physical DMG equal to 80% of ATK. Also increases Crit Chance by 5% for 5s. Can stack up to 25%."
+        "description": "Attacks the enemy in the back row twice, each dealing Physical DMG equal to <color=#82C65D>80%</color> of ATK. Also increases Crit Chance by 5% for 5s. Can stack up to 25%."
       },
       "skill2": {
         "name": "Finality",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Attacks the enemy in the back row 6 times, each dealing Physical DMG equal to 100% of Elis' ATK."
+        "description": "Attacks the enemy in the back row 6 times, each dealing Physical DMG equal to <color=#82C65D>100%</color> of Elis' ATK."
       },
       "skill3": {
         "name": "Hunting Instinct",
         "type": "Passive",
-        "description": "Increases damage dealt by 10% every 30 seconds, up to 50%."
+        "description": "Increases damage dealt by <color=#82C65D>10%</color> every 30 seconds, up to 50%."
       }
     },
     "special_equip": {
@@ -1476,18 +1476,18 @@
         "name": "Emergence Heal",
         "type": "Healing",
         "range": "Single Ally",
-        "description": "Heals the Doll with the lowest Health for 300% of Cynetia's ATK. Healing is increased by 50% when the Doll's Health is below 50%."
+        "description": "Heals the Doll with the lowest Health for <color=#82C65D>300%</color> of Cynetia's ATK. Healing is increased by 50% when the Doll's Health is below 50%."
       },
       "skill2": {
         "name": "Hymn to Bandage",
         "type": "Enhance",
         "range": "All Allies",
-        "description": "Heals all allies with bandages for 10s, restoring Health equal to 50% of Cynetia's ATK per second. Also increases ATK of all allies by 40% of her ATK."
+        "description": "Heals all allies with bandages for 10s, restoring Health equal to <color=#82C65D>50%</color> of Cynetia's ATK per second. Also increases ATK of all allies by <color=#82C65D>40%</color> of her ATK."
       },
       "skill3": {
         "name": "Joy of Agony",
         "type": "Passive",
-        "description": "When Health is below 50%, removes debuffs and restores 50% of max Health. Can only trigger once per combat."
+        "description": "When Health is below 50%, removes debuffs and restores <color=#82C65D>50%</color> of max Health. Can only trigger once per combat."
       }
     },
     "special_equip": {
@@ -1523,18 +1523,18 @@
         "name": "Locked",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Attacks the enemies in the back row twice, each dealing Physical DMG equal to 80% of ATK and increasing Crit Chance by 6% for 5s. Can stack up to 30%."
+        "description": "Attacks the enemies in the back row twice, each dealing Physical DMG equal to <color=#82C65D>80%</color> of ATK and increasing Crit Chance by 6% for 5s. Can stack up to 30%."
       },
       "skill2": {
         "name": "Wipe",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Attacks the enemy with the lowest Health 6 times, each attack dealing Physical DMG equal to 100% of ATK. When the target is below 50% Health, deals 50% more damage."
+        "description": "Attacks the enemy with the lowest Health 6 times, each attack dealing Physical DMG equal to <color=#82C65D>100%</color> of ATK. When the target is below 50% Health, deals 50% more damage."
       },
       "skill3": {
         "name": "Thirst",
         "type": "Passive",
-        "description": "Increases Physical DMG dealt by 5% for each damage taken, up to 50%. Can trigger once every 2 seconds."
+        "description": "Increases Physical DMG dealt by <color=#82C65D>5%</color> for each damage taken, up to 50%. Can trigger once every 2 seconds."
       }
     },
     "special_equip": {
@@ -1570,18 +1570,18 @@
         "name": "Aurora Surge",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Summons an aurora that attacks all enemies 3 times, each time dealing Magic DMG equal to 150% of ATK. Immune to control effects while skill is active."
+        "description": "Summons an aurora that attacks all enemies 3 times, each time dealing Magic DMG equal to <color=#82C65D>150%</color> of ATK. Immune to control effects while skill is active."
       },
       "skill2": {
         "name": "Brilliant Melody",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Unleashes the Aurora's power, placing Aurora's Blessing on all allies for 5 seconds. \nAurora's Blessing: Doll skills deal extra Magic DMG equal to 150% of ATK to all enemies."
+        "description": "Unleashes the Aurora's power, placing Aurora's Blessing on all allies for 5 seconds. \nAurora's Blessing: Doll skills deal extra Magic DMG equal to <color=#82C65D>150%</color> of ATK to all enemies."
       },
       "skill3": {
         "name": "Aurora's Blessing",
         "type": "Passive",
-        "description": "Generates 1 Order Energy every 3 seconds."
+        "description": "Generates 1 Order Energy every <color=#82C65D>3</color> seconds."
       }
     },
     "special_equip": {
@@ -1617,18 +1617,18 @@
         "name": "Great Eye",
         "type": "Magic ATK",
         "range": "Single Enemy",
-        "description": "Attacks a single target 3 times, each time dealing Magic DMG equal to 100% of Cuspidata's ATK."
+        "description": "Attacks a single target 3 times, each time dealing Magic DMG equal to <color=#82C65D>100%</color> of Cuspidata's ATK."
       },
       "skill2": {
         "name": "Redeye",
         "type": "Enhance",
         "range": "Self",
-        "description": "Increases DMG dealt by 50% for 5s."
+        "description": "Increases DMG dealt by <color=#82C65D>50%</color> for 5s."
       },
       "skill3": {
         "name": "Evil Eye",
         "type": "Passive",
-        "description": "Normal attack and skills reduce enemies' damage by 6% for 6s. Can stack up to up to 30%."
+        "description": "Normal attack and skills reduce enemies' damage by <color=#82C65D>6%</color> for 6s. Can stack up to up to 30%."
       }
     },
     "special_equip": {
@@ -1670,12 +1670,12 @@
         "name": "Emotion Surge",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Gains buffs of all emotions for Xseconds. Also gains bonus effect based on the current mask: \nRage: Deals Magic DMG to all enemies and increases ATK for all allies, for Xs. \nJoy: Increases Attack Speed for all allies again and deals extra Magic DMG when the unit is attacking, for Xs. \nSorrow: Reduces DMG taken for all allies again with a chance to restore the unit's Health when damaged, for Xs."
+        "description": "Gains buffs of all emotions for <color=#82C65D>X</color>seconds. Also gains bonus effect based on the current mask: \nRage: Deals Magic DMG to all enemies and increases ATK for all allies, for <color=#82C65D>X</color>s. \nJoy: Increases Attack Speed for all allies again and deals extra Magic DMG when the unit is attacking, for <color=#82C65D>X</color>s. \nSorrow: Reduces DMG taken for all allies again with a chance to restore the unit's Health when damaged, for <color=#82C65D>X</color>s."
       },
       "skill3": {
         "name": "Soul Collection",
         "type": "Passive",
-        "description": "Every 20 seconds, increases self ATK by 40% for 10s."
+        "description": "Every 20 seconds, increases self ATK by <color=#82C65D>40%</color> for 10s."
       }
     },
     "special_equip": {
@@ -1711,18 +1711,18 @@
         "name": "Spear of Oath",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Deals Physical DMG equal to 400% of ATK to all enemies.\nWhen using this skill in the Wolf Spirit state, Raphan has a 50% chance to inflict Rip-off on the targets.\nRip-off: The target takes 20% more damage dealt by Spear of Oath for 10s, stacking up to 3 times."
+        "description": "Deals Physical DMG equal to <color=#82C65D>400%</color> of ATK to all enemies.\nWhen using this skill in the Wolf Spirit state, Raphan has a 50% chance to inflict Rip-off on the targets.\nRip-off: The target takes 20% more damage dealt by Spear of Oath for 10s, stacking up to 3 times."
       },
       "skill2": {
         "name": "Hameln's Bloodline",
         "type": "Enhance",
         "range": "Self",
-        "description": "Awakens the forbidden bloodline and enters the Wolf Spirit state. Increases ATK by 30% and heals self for 15% of damage dealt.\nWhen using this skill in the Wolf Spirit state, Raphan deals Physical DMG equal to 500% of ATK to all enemies and generates a shield for 10s that absorbs damage equal to 300% of ATK."
+        "description": "Awakens the forbidden bloodline and enters the Wolf Spirit state. Increases ATK by 30% and heals self for 15% of damage dealt.\nWhen using this skill in the Wolf Spirit state, Raphan deals Physical DMG equal to <color=#82C65D>500%</color> of ATK to all enemies and generates a shield for 10s that absorbs damage equal to <color=#82C65D>300%</color> of ATK."
       },
       "skill3": {
         "name": "Wolf Spirit's Protection",
         "type": "Passive",
-        "description": "When Raphan takes lethal damage, she is granted with immunity to all damages and heals self for 100% of max Health for 5 seconds. Can be triggered once per combat."
+        "description": "When Raphan takes lethal damage, she is granted with immunity to all damages and heals self for <color=#82C65D>100%</color> of max Health for <color=#82C65D>5</color> seconds. Can be triggered once per combat."
       }
     },
     "special_equip": {
@@ -1791,18 +1791,18 @@
         "name": "Poison Mist",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 200% of ATK to all enemies and applies a stack of Poison for 5s. Can stack up to 10 times. \nPoison: Deals Magic DMG equal to 20% + (10% * poison stacks) of Ushpia's ATK every second."
+        "description": "Deals Magic DMG equal to <color=#82C65D>200%</color> of ATK to all enemies and applies a stack of Poison for 5s. Can stack up to 10 times. \nPoison: Deals Magic DMG equal to <color=#82C65D>20% + (10% * poison stacks)</color> of Ushpia's ATK every second."
       },
       "skill2": {
         "name": "Venom Eruption",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 300% of ATK to all enemies and applies a stack of Poison to them. Each stack deals extra Magic DMG equal to 50% of ATK."
+        "description": "Deals Magic DMG equal to <color=#82C65D>300%</color> of ATK to all enemies and applies a stack of Poison to them. Each stack deals extra Magic DMG equal to <color=#82C65D>50%</color> of ATK."
       },
       "skill3": {
         "name": "Paralyzed",
         "type": "Passive",
-        "description": "Venom Eruption stuns the enemy for 1 second."
+        "description": "Venom Eruption stuns the enemy for <color=#82C65D>1</color> second."
       }
     },
     "special_equip": {
@@ -1838,18 +1838,18 @@
         "name": "Wings of Hell Fire",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 300% of ATK to all enemies and increases their Magic DMG taken by 5% for 10 seconds. Can stack up to 10 times."
+        "description": "Deals Magic DMG equal to <color=#82C65D>300%</color> of ATK to all enemies and increases their Magic DMG taken by <color=#82C65D>5%</color> for 10 seconds. Can stack up to 10 times."
       },
       "skill2": {
         "name": "Praise of Death",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 200% of ATK to all enemies per second for 3s."
+        "description": "Deals Magic DMG equal to <color=#82C65D>200%</color> of ATK to all enemies per second for 3s."
       },
       "skill3": {
         "name": "Aria",
         "type": "Passive",
-        "description": "Increases ATK by 25% after entering the combat for 30s."
+        "description": "Increases ATK by <color=#82C65D>25%</color> after entering the combat for 30s."
       }
     },
     "special_equip": {
@@ -1885,18 +1885,18 @@
         "name": "Soul Cleansing",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Within 5 seconds, attacks all enemies and heals all allies 7 times respectively, each dealing Magic DMG equal to 50% of Norn's ATK and healing allies for 55% of Norn's ATK."
+        "description": "Within 5 seconds, attacks all enemies and heals all allies 7 times respectively, each dealing Magic DMG equal to <color=#82C65D>50%</color> of Norn's ATK and healing allies for <color=#82C65D>55%</color> of Norn's ATK."
       },
       "skill2": {
         "name": "Bardo",
         "type": "Enhance",
         "range": "All Allies",
-        "description": "Reduces damage taken by all allies by 30% for 10s. When the allies deal Physical DMG, they inflict extra damage equal to 40% of Norn's ATK."
+        "description": "Reduces damage taken by all allies by <color=#82C65D>30%</color> for 10s. When the allies deal Physical DMG, they inflict extra damage equal to <color=#82C65D>40%</color> of Norn's ATK."
       },
       "skill3": {
         "name": "Holy Heart",
         "type": "Passive",
-        "description": "Heals all allies for 10% of Norn's ATK every 1 second."
+        "description": "Heals all allies for 10% of Norn's ATK every <color=#82C65D>1</color> second."
       }
     },
     "special_equip": {
@@ -1932,18 +1932,18 @@
         "name": "Red Spike",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 450% of ATK to a single target and gains Energy Conserving effect. (Energy Conserving: Reduces energy consumption of Spike Shower by 1. Can stack up to 2 times.)"
+        "description": "Deals Magic DMG equal to <color=#82C65D>450%</color> of ATK to a single target and gains <color=#82C65D>Energy Conserving</color> effect. (<color=#82C65D>Energy Conserving</color>: Reduces energy consumption of Spike Shower by 1. Can stack up to 2 times.)"
       },
       "skill2": {
         "name": "Spike Shower",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Attacks a single target 5 times, each hit dealing Magic DMG equal to 100% of ATK. Removes Energy Conserving effect."
+        "description": "Attacks a single target 5 times, each hit dealing Magic DMG equal to <color=#82C65D>100%</color> of ATK. Removes <color=#82C65D>Energy Conserving</color> effect."
       },
       "skill3": {
         "name": "Unknown Name",
         "type": "Passive",
-        "description": "Increases Attack Speed by 5% (10% at Evolve 1)"
+        "description": "Increases Attack Speed by 5% <color=#82C65D>(10% at Evolve 1)</color>"
       }
     },
     "special_equip": {
@@ -1979,13 +1979,13 @@
         "name": "Water Orbs",
         "type": "Magic ATK",
         "range": "Single Enemy",
-        "description": "Attacks target enemy in the front row 5 times, each hit dealing Magic DMG equal to 70% of ATK and increasing Magic DMG taken by the target by 8%, stacking up to 40%, for 10s."
+        "description": "Attacks target enemy in the front row 5 times, each hit dealing Magic DMG equal to <color=#82C65D>70%</color> of ATK and increasing Magic DMG taken by the target by 8%, stacking up to 40%, for 10s."
       },
       "skill2": {
         "name": "Calling of the Elf",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Restores all allies' Health equal to 300% of ATK, and reduces all DMG taken by them by 20% for 10s."
+        "description": "Restores all allies' Health equal to <color=#82C65D>300%</color> of ATK, and reduces all DMG taken by them by <color=#82C65D>20%</color> for 10s."
       },
       "skill3": {
         "name": "Memories of the Void",
@@ -2059,18 +2059,18 @@
         "name": "Scarlet Storm",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Attacks all enemies 3 times, each time dealing Physical DMG equal to 60% of ATK."
+        "description": "Attacks all enemies 3 times, each time dealing Physical DMG equal to <color=#82C65D>60%</color> of ATK."
       },
       "skill2": {
         "name": "Aura of Night",
         "type": "Enhance",
         "range": "All Allies",
-        "description": "For the next 10 seconds, when dealing Physical DMG, inflicts extra damage equal to 50% of Nocturna's ATK, and heals herself for 20% of the DMG dealt."
+        "description": "For the next 10 seconds, when dealing Physical DMG, inflicts extra damage equal to <color=#82C65D>50%</color> of Nocturna's ATK, and heals herself for <color=#82C65D>20%</color> of the DMG dealt."
       },
       "skill3": {
         "name": "Eternal Night",
         "type": "Passive",
-        "description": "Deals 2% more damage with each attack. Can stack up to 40%."
+        "description": "Deals <color=#82C65D>2%</color> more damage with each attack. Can stack up to 40%."
       }
     },
     "special_equip": {
@@ -2106,18 +2106,18 @@
         "name": "Dance of Finality",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Deals Physical DMG equal to 400% of ATK to all enemies. Will be auto-cast again if any target is defeated."
+        "description": "Deals Physical DMG equal to <color=#82C65D>400%</color> of ATK to all enemies. Will be auto-cast again if any target is defeated."
       },
       "skill2": {
         "name": "Delivery to the Underworld",
         "type": "Magic ATK",
         "range": "Single Enemy",
-        "description": "Deals Magic DMG equal to 600% of ATK to a single target and enters the Deathbringer status for 8s. When the enemy's Health is below 20%, this skill deals double damage. \nDeathbringer: Dance of Finality deals 30% more damage. Can stack up to 90%."
+        "description": "Deals Magic DMG equal to <color=#82C65D>600%</color> of ATK to a single target and enters the Deathbringer status for 8s. When the enemy's Health is below 20%, this skill deals double damage. \nDeathbringer: Dance of Finality deals 30% more damage. Can stack up to 90%."
       },
       "skill3": {
         "name": "Restless",
         "type": "Passive",
-        "description": "Enemies take 20% more damage for 5 seconds."
+        "description": "Enemies take <color=#82C65D>20%</color> more damage for 5 seconds."
       }
     },
     "special_equip": {
@@ -2153,18 +2153,18 @@
         "name": "Casket Defense",
         "type": "Support",
         "range": "All Allies",
-        "description": "Yurugu places a Shield on allies, absorbing damage equal to 50% of max Health. All damage dealt to allies in the next 10s are redirected to Yurugu."
+        "description": "Yurugu places a Shield on allies, absorbing damage equal to <color=#82C65D>50%</color> of max Health. All damage dealt to allies in the next 10s are redirected to Yurugu."
       },
       "skill2": {
         "name": "Void Surge",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 450% of ATK to all enemies, dispels their buffs, and reduces their Magic DEF by 400 for 8s."
+        "description": "Deals Magic DMG equal to <color=#82C65D>450%</color> of ATK to all enemies, dispels their buffs, and reduces their Magic DEF by 400 for 8s."
       },
       "skill3": {
         "name": "Power of Void",
         "type": "Passive",
-        "description": "Yurugu has a 20% chance to fully restore her Health when it reaches 0."
+        "description": "Yurugu has a <color=#82C65D>20%</color> chance to fully restore her Health when it reaches 0."
       }
     },
     "special_equip": {
@@ -2201,7 +2201,7 @@
       "skill3": {
         "name": "Unknown Name",
         "type": "Passive",
-        "description": "JS error while processing skill text"
+        "description": "Unknown Description"
       }
     },
     "special_equip": {
@@ -2237,18 +2237,18 @@
         "name": "Equal Healing",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Heals all allies for 160% of Tuonel's ATK and grants them a Shield that absorbs the same amount of damage for 5s."
+        "description": "Heals all allies for <color=#82C65D>160%</color> of Tuonel's ATK and grants them a Shield that absorbs the same amount of damage for 5s."
       },
       "skill2": {
         "name": "Forbidden Dark Moon",
         "type": "Enhance",
         "range": "All Allies",
-        "description": "Heals all allies for 50% of Tuonel's ATK per second for 10s, and places Nightwish on them for 10s.\nNightwish: Increases Dolls' ATK by 40% of Tuonel's ATK and damage dealt by 15%."
+        "description": "Heals all allies for <color=#82C65D>50%</color> of Tuonel's ATK per second for 10s, and places Nightwish on them for 10s.\nNightwish: Increases Dolls' ATK by <color=#82C65D>40%</color> of Tuonel's ATK and damage dealt by 15%."
       },
       "skill3": {
         "name": "Child of Taboo",
         "type": "Passive",
-        "description": "Generates 1 Chaos Energy every 2 seconds."
+        "description": "Generates 1 Chaos Energy every <color=#82C65D>2</color> seconds."
       }
     },
     "special_equip": {
@@ -2284,18 +2284,18 @@
         "name": "Calming",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Heals all allies for 200% of Yothaya's ATK and reduces damage taken by all allies by 50% of Yothaya's ATK for 5s."
+        "description": "Heals all allies for <color=#82C65D>200%</color> of Yothaya's ATK and reduces damage taken by all allies by <color=#82C65D>50%</color> of Yothaya's ATK for 5s."
       },
       "skill2": {
         "name": "Point Heal",
         "type": "Enhance",
         "range": "Single Ally",
-        "description": "Heals the front ally for 500% of Yothaya's ATK and increases the ally's ATK by 50% of Yothaya's ATK for 10s."
+        "description": "Heals the front ally for <color=#82C65D>500%</color> of Yothaya's ATK and increases the ally's ATK by <color=#82C65D>50%</color> of Yothaya's ATK for 10s."
       },
       "skill3": {
         "name": "Heart of Healer",
         "type": "Passive",
-        "description": "Heals the Doll with the lowest Health for 100% of Yothaya's ATK every 5 seconds."
+        "description": "Heals the Doll with the lowest Health for <color=#82C65D>100%</color> of Yothaya's ATK every 5 seconds."
       }
     },
     "special_equip": {
@@ -2331,18 +2331,18 @@
         "name": "Healing Wave",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Grants a shield that absorbs damage equal to 300% of ATK to all allies for 10 seconds. While the shield persists, Ardisia restores Health equal to 100% of ATK every second."
+        "description": "Grants a shield that absorbs damage equal to <color=#82C65D>300%</color> of ATK to all allies for 10 seconds. While the shield persists, Ardisia restores Health equal to <color=#82C65D>100%</color> of ATK every second."
       },
       "skill2": {
         "name": "Wishing",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 450% of ATK to all enemies. Also increases all allies' Magic DMG dealt by 10%, with a bonus increase of 10% for every point of Order Energy owned, for 10 seconds."
+        "description": "Deals Magic DMG equal to <color=#82C65D>450%</color> of ATK to all enemies. Also increases all allies' Magic DMG dealt by <color=#82C65D>10%</color>, with a bonus increase of <color=#82C65D>10%</color> for every point of Order Energy owned, for 10 seconds."
       },
       "skill3": {
         "name": "Ebb And Flow",
         "type": "Passive",
-        "description": "Upon taking damage, restores all allies' Health equal to 100% of ATK, with a cooldown of 5 seconds.\nAfter using the skill of Wishing twice, summons tides to deal Magic DMG equal to 100% of ATK to all enemies, and increases the Magic DMG they take by 15% for 10 seconds, stacking up to 2 times."
+        "description": "Upon taking damage, restores all allies' Health equal to 100% of ATK, with a cooldown of <color=#82C65D>5</color> seconds.\nAfter using the skill of Wishing twice, summons tides to deal Magic DMG equal to 100% of ATK to all enemies, and increases the Magic DMG they take by <color=#82C65D>15%</color> for 10 seconds, stacking up to 2 times."
       }
     },
     "special_equip": {
@@ -2378,18 +2378,18 @@
         "name": "Healing Concerto",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "The Song of Healing heals the whole team for 80% of Garditis's ATK and increases Garditis's max Health by 20%. Lasts for 5s."
+        "description": "The Song of Healing heals the whole team for <color=#82C65D>80%</color> of Garditis's ATK and increases Garditis's max Health by <color=#82C65D>20%</color>. Lasts for 5s."
       },
       "skill2": {
         "name": "Notes of Cleansing",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Removes debuffs from all allies, and grants immunity to debuffs for 5 seconds."
+        "description": "Removes debuffs from all allies, and grants immunity to debuffs for <color=#82C65D>5</color> seconds."
       },
       "skill3": {
         "name": "Celestial Music",
         "type": "Passive",
-        "description": "Immune to debuffs after using Healing Concerto, for 2s (4s at Evolve 1)."
+        "description": "Immune to debuffs after using Healing Concerto, for 2s <color=#82C65D>(4s at Evolve 1)</color>."
       }
     },
     "special_equip": {
@@ -2425,18 +2425,18 @@
         "name": "Thorn of Binding",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Attacks the enemy in the back row twice, each time dealing Physical DMG equal to 80% of ATK. If Inn is the executor, deals 20% more Physical DMG; if Lou is the executor, reduces the target's Crit DMG Resistance by 5% for 10s. Can stack up to 50%."
+        "description": "Attacks the enemy in the back row twice, each time dealing Physical DMG equal to <color=#82C65D>80%</color> of ATK. If Inn is the executor, deals 20% more Physical DMG; if Lou is the executor, reduces the target's Crit DMG Resistance by 5% for 10s. Can stack up to 50%."
       },
       "skill2": {
         "name": "Pain",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Attacks the enemy in the back row 6 times, each time dealing Physical DMG equal to 100% of ATK. Also places Pain on the target for 6s. \nPain: Deals Physical DMG equal to 50% of Inn & Lou's ATK per second."
+        "description": "Attacks the enemy in the back row 6 times, each time dealing Physical DMG equal to <color=#82C65D>100%</color> of ATK. Also places Pain on the target for 6s. \nPain: Deals Physical DMG equal to <color=#82C65D>50%</color> of Inn & Lou's ATK per second."
       },
       "skill3": {
         "name": "Precise Execution",
         "type": "Passive",
-        "description": "Increases damage dealt by 10% every 20 seconds. Can stack up to 50%."
+        "description": "Increases damage dealt by <color=#82C65D>10%</color> every 20 seconds. Can stack up to 50%."
       }
     },
     "special_equip": {
@@ -2472,18 +2472,18 @@
         "name": "Radiant Wheel",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Generates 1 Order Energy and heals all allies for 430% of ATK. Also increases all allies' ATK by 15% for 10s."
+        "description": "Generates 1 Order Energy and heals all allies for <color=#82C65D>430%</color> of ATK. Also increases all allies' ATK by 15% for 10s."
       },
       "skill2": {
         "name": "Seigaiha",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 450% of ATK to all enemies and increases their Magic DMG taken by 30% for 10s."
+        "description": "Deals Magic DMG equal to <color=#82C65D>450%</color> of ATK to all enemies and increases their Magic DMG taken by 30% for 10s."
       },
       "skill3": {
         "name": "Kalavin",
         "type": "Passive",
-        "description": "Increases all allies' damage dealt by 20% for 5s. Can stack up to 40%."
+        "description": "Increases all allies' damage dealt by <color=#82C65D>20%</color> for 5s. Can stack up to 40%."
       }
     },
     "special_equip": {
@@ -2519,13 +2519,13 @@
         "name": "Guard",
         "type": "Support",
         "range": "All Allies",
-        "description": "Increases Physical DEF by 50% for 5 seconds, during which all damage taken by allies are redirected to Avil."
+        "description": "Increases Physical DEF by <color=#82C65D>50%</color> for 5 seconds, during which all damage taken by allies are redirected to Avil."
       },
       "skill2": {
         "name": "Unbending Will",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Deals Physical DMG equal to 450% of ATK to all enemies and stuns them for 0.2s, then places Mind Blur on them for 10s. \nMind Blur: Reduces Physical DEF by 5% of Avil's Physical DEF each time the inflicted enemies take damage. Can stack up to 100%."
+        "description": "Deals Physical DMG equal to <color=#82C65D>450%</color> of ATK to all enemies and stuns them for 0.2s, then places Mind Blur on them for 10s. \nMind Blur: Reduces Physical DEF by 5% of Avil's Physical DEF each time the inflicted enemies take damage. Can stack up to 100%."
       },
       "skill3": {
         "name": "Hold Ground",
@@ -2567,7 +2567,7 @@
       "skill3": {
         "name": "Unknown Name",
         "type": "Passive",
-        "description": "JS error while processing skill text"
+        "description": "Unknown Description"
       }
     },
     "special_equip": {
@@ -2603,18 +2603,18 @@
         "name": "Vermilion Feather",
         "type": "Support",
         "range": "All Allies",
-        "description": "For the next 10 seconds, all damage dealt to allies are redirected to Luan, who also gains a Blessing.\nBlessing: Reduces damage taken by 20% and restores 10% of max Health per second."
+        "description": "For the next 10 seconds, all damage dealt to allies are redirected to Luan, who also gains a Blessing.\nBlessing: Reduces damage taken by 20% and restores <color=#82C65D>10%</color> of max Health per second."
       },
       "skill2": {
         "name": "Flaming Phoenix",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 450% of ATK to all enemies and dispels their buffs. Also applies a stack of Soul Burn to the targets for 8s.\nSoul Burn: Reduces Magic DEF by 100. Can stack up to 5 times."
+        "description": "Deals Magic DMG equal to <color=#82C65D>450%</color> of ATK to all enemies and dispels their buffs. Also applies a stack of Soul Burn to the targets for 8s.\nSoul Burn: Reduces Magic DEF by 100. Can stack up to 5 times."
       },
       "skill3": {
         "name": "Rebirth",
         "type": "Passive",
-        "description": "Revives automatically after death. Increases ATK, Physical DEF and Magic DEF by 30% and restores 10% of max Health per second for 10s. Can only trigger once per combat."
+        "description": "Revives automatically after death. Increases ATK, Physical DEF and Magic DEF by <color=#82C65D>30%</color> and restores <color=#82C65D>10%</color> of max Health per second for 10s. Can only trigger once per combat."
       }
     },
     "special_equip": {
@@ -2661,7 +2661,7 @@
       "skill3": {
         "name": "Unknown Name",
         "type": "Passive",
-        "description": "JS error while processing skill text"
+        "description": "Unknown Description"
       }
     },
     "special_equip": {
@@ -2697,18 +2697,18 @@
         "name": "Demonsbane Spear",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Deals Physical DMG equal to 500% of ATK to a single target and dispels all of their buffs."
+        "description": "Deals Physical DMG equal to <color=#82C65D>500%</color> of ATK to a single target and dispels all of their buffs."
       },
       "skill2": {
         "name": "Dance of Legendary Beast",
         "type": "Enhance",
         "range": "Self",
-        "description": "Reduces damage taken by 30% and increases Demonsbane Spear damage by 50%. Yui also enters Soulbreaker status. \nSoulbreaker: Normal Attacks turn into consecutive thrusts, dealing damage equal to 235% of Yui's ATK."
+        "description": "Reduces damage taken by <color=#82C65D>30%</color> and increases Demonsbane Spear damage by 50%. Yui also enters Soulbreaker status. \nSoulbreaker: Normal Attacks turn into consecutive thrusts, dealing damage equal to <color=#82C65D>235%</color> of Yui's ATK."
       },
       "skill3": {
         "name": "Spear Princess",
         "type": "Passive",
-        "description": "Reduces Magic DMG taken by 20%. Also ignores the enemy's Physical DEF equal to 40% of Yui's ATK for 10s after using Demonsbane Spear."
+        "description": "Reduces Magic DMG taken by <color=#82C65D>20%</color>. Also ignores the enemy's Physical DEF equal to <color=#82C65D>40%</color> of Yui's ATK for 10s after using Demonsbane Spear."
       }
     },
     "special_equip": {
@@ -2745,7 +2745,7 @@
       "skill3": {
         "name": "Unknown Name",
         "type": "Passive",
-        "description": "JS error while processing skill text"
+        "description": "Unknown Description"
       }
     },
     "special_equip": {
@@ -2781,18 +2781,18 @@
         "name": "Guard of the Mirror",
         "type": "Support",
         "range": "All Allies",
-        "description": "Reduces damage taken by 20% and gains a Shield equal to 50% of max Health. For 10s, all damages taken by allies will be directed to Nannar."
+        "description": "Reduces damage taken by 20% and gains a Shield equal to <color=#82C65D>50%</color> of max Health. For 10s, all damages taken by allies will be directed to Nannar."
       },
       "skill2": {
         "name": "Curse of the Mirror",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 150% of ATK 5 times to all enemies. Dispels enemies' buffs and reduces their Magic DEF by 12% of Nannar's Magic DEF for 10s. Can stack up to 5 times."
+        "description": "Deals Magic DMG equal to <color=#82C65D>150%</color> of ATK 5 times to all enemies. Dispels enemies' buffs and reduces their Magic DEF by 12% of Nannar's Magic DEF for 10s. Can stack up to 5 times."
       },
       "skill3": {
         "name": "Reflection of the Mirror",
         "type": "Passive",
-        "description": "When taking damage, there is a 20% chance to trigger Curse of the Mirror. The effect can only be triggered once in 2s."
+        "description": "When taking damage, there is a <color=#82C65D>20%</color> chance to trigger Curse of the Mirror. The effect can only be triggered once in 2s."
       }
     },
     "special_equip": {
@@ -2828,18 +2828,18 @@
         "name": "Break Free",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "The hook pierces through the ground and attacks the target in the back row, dealing damage equal to 450% of ATK and dispelling the target's buffs."
+        "description": "The hook pierces through the ground and attacks the target in the back row, dealing damage equal to <color=#82C65D>450%</color> of ATK and dispelling the target's buffs."
       },
       "skill2": {
         "name": "Suffered",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Consumes all the existing Chaos Energy to hit the target in the back row 5 times, each hit dealing damage equal to 260% of ATK. With every one extra point of Chaos Energy consumed, each hit deals bonus damage equal to 200% of ATK."
+        "description": "Consumes all the existing Chaos Energy to hit the target in the back row 5 times, each hit dealing damage equal to <color=#82C65D>260%</color> of ATK. With every one extra point of Chaos Energy consumed, each hit deals bonus damage equal to <color=#82C65D>200%</color> of ATK."
       },
       "skill3": {
         "name": "Ideal Grace",
         "type": "Passive",
-        "description": "Each time Isabel casts Break Free, increases Isabel's Crit Chance by 7.5% for 10s, stacking up to 5 times."
+        "description": "Each time Isabel casts Break Free, increases Isabel's Crit Chance by 7.5% for <color=#82C65D>10s</color>, stacking up to 5 times."
       }
     },
     "special_equip": {
@@ -2875,18 +2875,18 @@
         "name": "Barrier of Gems",
         "type": "Healing",
         "range": "Front Row Allies",
-        "description": "Generates 1 Order Energy, heals the front Doll for 200% of ATK, and applies Pearl Shower to the Doll for 10s.\nPearl Shower: Restores Health equal to 30% of La Crima's ATK per second, and reduces damage taken by 30%."
+        "description": "Generates 1 Order Energy, heals the front Doll for <color=#82C65D>200%</color> of ATK, and applies Pearl Shower to the Doll for 10s.\nPearl Shower: Restores Health equal to <color=#82C65D>30%</color> of La Crima's ATK per second, and reduces damage taken by <color=#82C65D>30%</color>."
       },
       "skill2": {
         "name": "Sparkle",
         "type": "Debuff",
         "range": "All Enemies",
-        "description": "Unleashes the blinding light inside the gem, dealing Magic DMG equal to 450% of ATK to all enemies and stunning them for 1s. Enemies take 30% more Magic DMG for the next 10 seconds."
+        "description": "Unleashes the blinding light inside the gem, dealing Magic DMG equal to <color=#82C65D>450%</color> of ATK to all enemies and stunning them for 1s. Enemies take <color=#82C65D>30%</color> more Magic DMG for the next 10 seconds."
       },
       "skill3": {
         "name": "Tear of Pearl",
         "type": "Passive",
-        "description": "When taking damage, there is a 20% chance to restore 1 Order Energy. Can be triggered again after 1 second."
+        "description": "When taking damage, there is a 20% chance to restore 1 Order Energy. Can be triggered again after <color=#82C65D>1</color> second."
       }
     },
     "special_equip": {
@@ -2922,18 +2922,18 @@
         "name": "Rabbit's blessing",
         "type": "Enhance",
         "range": "Single Ally",
-        "description": "Grants the ally with the lowest HP a 4-second invincibility"
+        "description": "Grants the ally with the lowest HP a <color=#82C65D>4</color>-second invincibility"
       },
       "skill2": {
         "name": "Fairyland",
         "type": "Debuff",
         "range": "All Enemies",
-        "description": "Dispels buffs from all enemy targets, then reduces their Magic DEF by an amount equal to 40% of self's ATK for 10 seconds"
+        "description": "Dispels buffs from all enemy targets, then reduces their Magic DEF by an amount equal to <color=#82C65D>40%</color> of self's ATK for 10 seconds"
       },
       "skill3": {
         "name": "Reversed Vision",
         "type": "Passive",
-        "description": "Rabbit's blessing applies to all allies, boosting their damage by 60% for 10 seconds"
+        "description": "Rabbit's blessing applies to all allies, boosting their damage by <color=#82C65D>60%</color> for 10 seconds"
       }
     },
     "special_equip": {
@@ -2969,18 +2969,18 @@
         "name": "Punishment",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Hits a single enemy with Physical DMG equal to400% of self's ATK while inflicting Honey Trap on the target for 10s.\nHoney Trap: The inflicted gets addicted to Parfait's candy and takes 30% more Physical DMG. Stacks up to 2 times.\nWhen Parfait is in the Satiation status, this skill acts on all enemies instead of a single enemy target; it cleanses allies' debuffs and dispels enemies' buffs."
+        "description": "Hits a single enemy with Physical DMG equal to<color=#82C65D>400%</color> of self's ATK while inflicting Honey Trap on the target for 10s.\nHoney Trap: The inflicted gets addicted to Parfait's candy and takes <color=#82C65D>30%</color> more Physical DMG. Stacks up to 2 times.\nWhen Parfait is in the Satiation status, this skill acts on all enemies instead of a single enemy target; it cleanses allies' debuffs and dispels enemies' buffs."
       },
       "skill2": {
         "name": "Burp",
         "type": "Transform",
         "range": "Self",
-        "description": "Parfait feels very content after gobbling up a load of desserts and applies the Satiation status to herself for 20s. Using the skill repeatedly will reset the status duration.\nSatiation: Normal Attack now targets all enemies and ignores Physical DEF equal to 40% of self's ATK."
+        "description": "Parfait feels very content after gobbling up a load of desserts and applies the Satiation status to herself for 20s. Using the skill repeatedly will reset the status duration.\nSatiation: Normal Attack now targets all enemies and ignores Physical DEF equal to <color=#82C65D>40%</color> of self's ATK."
       },
       "skill3": {
         "name": "Blessing of Holiness",
         "type": "Passive",
-        "description": "Reduces the damage Parfait takes by 30% and allows her to recover HP equal to 40% of her ATK every time she takes damage."
+        "description": "Reduces the damage Parfait takes by <color=#82C65D>30%</color> and allows her to recover HP equal to <color=#82C65D>40%</color> of her ATK every time she takes damage."
       }
     },
     "special_equip": {
@@ -3016,18 +3016,18 @@
         "name": "Mysterious Giftbox",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Dorin throws a giftbox, dealing Physical DMG equal to 300% of ATK to all enemies after the explosion. And all enemy units take 20% more damage for 10s."
+        "description": "Dorin throws a giftbox, dealing Physical DMG equal to <color=#82C65D>300%</color> of ATK to all enemies after the explosion. And all enemy units take 20% more damage for 10s."
       },
       "skill2": {
         "name": "Careful Preparation",
         "type": "Enhance",
         "range": "All Allies",
-        "description": "Makes careful preparations before sending the giftbox, increasing all allies' ATK by 40% and Crit DMG by $parameter1$% for 10s."
+        "description": "Makes careful preparations before sending the giftbox, increasing all allies' ATK by <color=#82C65D>40%</color> and Crit DMG by <color=#82C65D>$parameter1$%</color> for 10s."
       },
       "skill3": {
         "name": "Attack Reinforce",
         "type": "Passive",
-        "description": "Increases base ATK by 5% (10% at Evolve 1)"
+        "description": "Increases base ATK by 5% <color=#82C65D>(10% at Evolve 1)</color>"
       }
     },
     "special_equip": {
@@ -3063,18 +3063,18 @@
         "name": "Storm of Nature",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Summons the Storm of Nature that attacks all enemies 3 times, each time dealing Magic DMG equal to 100% of ATK."
+        "description": "Summons the Storm of Nature that attacks all enemies 3 times, each time dealing Magic DMG equal to <color=#82C65D>100%</color> of ATK."
       },
       "skill2": {
         "name": "Starlight Wrath",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Summons the Power of Stars, dealing Magic DMG equal to 200% ATK 3 times to a random target and applies Soul Disperse to the enemy for 10s.\nSoul Disperse: Reduces Magic DEF by 5% of Mayahuel's ATK, up to 50%."
+        "description": "Summons the Power of Stars, dealing Magic DMG equal to <color=#82C65D>200%</color> ATK 3 times to a random target and applies Soul Disperse to the enemy for 10s.\nSoul Disperse: Reduces Magic DEF by 5% of Mayahuel's ATK, up to 50%."
       },
       "skill3": {
         "name": "Natural Law",
         "type": "Passive",
-        "description": "Heals all allies for 30% of ATK."
+        "description": "Heals all allies for <color=#82C65D>30%</color> of ATK."
       }
     },
     "special_equip": {
@@ -3110,18 +3110,18 @@
         "name": "Overflowing Magic",
         "type": "Magic ATK",
         "range": "Single Enemy",
-        "description": "Consumes all Order Energy to attack a single target repeatedly (based on the energy cost). The first attack deals Magic DMG equal to 150% of Mineer's ATK and each subsequent attack deals 7% more damage."
+        "description": "Consumes all Order Energy to attack a single target repeatedly (based on the energy cost). The first attack deals Magic DMG equal to <color=#82C65D>150%</color> of Mineer's ATK and each subsequent attack deals 7% more damage."
       },
       "skill2": {
         "name": "Moonlight",
         "type": "Magic ATK",
         "range": "Single Enemy",
-        "description": "Deals Magic DMG equal to 300% of ATK to a single target and applies a Magic Spread effect to the target for 5 seconds.\nMagic Spread: When attacked by Mineer, the target takes extra Magic DMG equal to 100% of Mineer's ATK."
+        "description": "Deals Magic DMG equal to <color=#82C65D>300%</color> of ATK to a single target and applies a Magic Spread effect to the target for 5 seconds.\nMagic Spread: When attacked by Mineer, the target takes extra Magic DMG equal to <color=#82C65D>100%</color> of Mineer's ATK."
       },
       "skill3": {
         "name": "Waxing Moon",
         "type": "Passive",
-        "description": "When dealing damage, there is a 15% chance to generate 1 Order Energy and increase damage dealt by 20% for 5s."
+        "description": "When dealing damage, there is a <color=#82C65D>15%</color> chance to generate 1 Order Energy and increase damage dealt by 20% for 5s."
       }
     },
     "special_equip": {
@@ -3157,18 +3157,18 @@
         "name": "Blueshift",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Increases Crit Chance by 5% for 10s, stacking up to 5 times. Dispels all Buffs on the enemy in the back row and deals Physical DMG equal to 200% of ATK to the target."
+        "description": "Increases Crit Chance by 5% for 10s, stacking up to 5 times. Dispels all Buffs on the enemy in the back row and deals Physical DMG equal to <color=#82C65D>200%</color> of ATK to the target."
       },
       "skill2": {
         "name": "Unleash the Void",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Deals Physical DMG equal to 90% of ATK 6 times to the enemy in the back row, with each attack reducing the target's Crit DMG Resistance by 7%. Increases self Crit DMG by the sum of the target's reduced Crit Resistance for 10s. After the 6 attacks, deals extra Physical DMG equal to 120% of ATK to the target."
+        "description": "Deals Physical DMG equal to <color=#82C65D>90%</color> of ATK 6 times to the enemy in the back row, with each attack reducing the target's Crit DMG Resistance by 7%. Increases self Crit DMG by the sum of the target's reduced Crit Resistance for 10s. After the 6 attacks, deals extra Physical DMG equal to <color=#82C65D>120%</color> of ATK to the target."
       },
       "skill3": {
         "name": "Netherswap",
         "type": "Passive",
-        "description": "During combat, ignores 4000 points of each enemy's Physical DEF."
+        "description": "During combat, ignores <color=#82C65D>4000</color> points of each enemy's Physical DEF."
       }
     },
     "special_equip": {
@@ -3204,18 +3204,18 @@
         "name": "Light of Creation",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Restores all allies' Health equal to 300% of ATK, and grants them a shield that blocks 1 instance of DMG, which lasts for 10 seconds."
+        "description": "Restores all allies' Health equal to <color=#82C65D>300%</color> of ATK, and grants them a shield that blocks 1 instance of DMG, which lasts for 10 seconds."
       },
       "skill2": {
         "name": "Spirit Prayer",
         "type": "Enhance",
         "range": "All Allies",
-        "description": "Restores all allies' Health equal to 300% of ATK, increases allied dolls' Crit Chance by 50% of Sher's Crit Chance, and applies the Fate's Blessing effect to all allies, for 10 seconds.\nFate's Blessing: Whenever an allied doll deals DMG, increase their Crit DMG by 3% for 10 seconds, stacking up to 20 times."
+        "description": "Restores all allies' Health equal to <color=#82C65D>300%</color> of ATK, increases allied dolls' Crit Chance by <color=#82C65D>50%</color> of Sher's Crit Chance, and applies the Fate's Blessing effect to all allies, for 10 seconds.\nFate's Blessing: Whenever an allied doll deals DMG, increase their Crit DMG by <color=#82C65D>3%</color> for 10 seconds, stacking up to 20 times."
       },
       "skill3": {
         "name": "Chthonic Incarnation",
         "type": "Passive",
-        "description": "For the next 10 seconds, allied dolls increase their DMG dealt and Health restoration by 2% whenever they crit, stacking up to 40%."
+        "description": "For the next 10 seconds, allied dolls increase their DMG dealt and Health restoration by <color=#82C65D>2%</color> whenever they crit, stacking up to <color=#82C65D>40%</color>."
       }
     },
     "special_equip": {
@@ -3251,18 +3251,18 @@
         "name": "Starsurge",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Heals all allies for 240% of ATK."
+        "description": "Heals all allies for <color=#82C65D>240%</color> of ATK."
       },
       "skill2": {
         "name": "Starfall",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 300% of ATK to all enemies and places Brilliance on all allies for 10s. \nBrilliance: When dealing Physical DMG, inflicts extra Physical DMG equal to 40% of Ruda's ATK."
+        "description": "Deals Magic DMG equal to <color=#82C65D>300%</color> of ATK to all enemies and places Brilliance on all allies for 10s. \nBrilliance: When dealing Physical DMG, inflicts extra Physical DMG equal to <color=#82C65D>40%</color> of Ruda's ATK."
       },
       "skill3": {
         "name": "Collect",
         "type": "Passive",
-        "description": "When using skills, there is a20% chance to generate 1 Chaos Energy."
+        "description": "When using skills, there is a<color=#82C65D>20%</color> chance to generate 1 Chaos Energy."
       }
     },
     "special_equip": {
@@ -3298,18 +3298,18 @@
         "name": "Wind Storm",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Deals Physical DMG equal to 400% of ATK to all enemies"
+        "description": "Deals Physical DMG equal to <color=#82C65D>400%</color> of ATK to all enemies"
       },
       "skill2": {
         "name": "Lion's Agility",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Deals Physical DMG equal to 240% of ATK to all enemies and increases the damage of the next skill by 100%."
+        "description": "Deals Physical DMG equal to <color=#82C65D>240%</color> of ATK to all enemies and increases the damage of the next skill by 100%."
       },
       "skill3": {
         "name": "Royal Glory",
         "type": "Passive",
-        "description": "When used, all enemies take 15% more damage for 5s."
+        "description": "When used, all enemies take <color=#82C65D>15%</color> more damage for 5s."
       }
     },
     "special_equip": {
@@ -3345,18 +3345,18 @@
         "name": "Sweep",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Deals Physical DMG equal to 500% of ATK to a single target."
+        "description": "Deals Physical DMG equal to <color=#82C65D>500%</color> of ATK to a single target."
       },
       "skill2": {
         "name": "Magic Flux",
         "type": "Enhance",
         "range": "Self",
-        "description": "Activates the spell on the spear. Normal Attacks turn into consecutive thrusts, dealing extra damage equal to 90% of ATK."
+        "description": "Activates the spell on the spear. Normal Attacks turn into consecutive thrusts, dealing extra damage equal to <color=#82C65D>90%</color> of ATK."
       },
       "skill3": {
         "name": "Penetrate",
         "type": "Passive",
-        "description": "Deals 10% more damage."
+        "description": "Deals <color=#82C65D>10%</color> more damage."
       }
     },
     "special_equip": {
@@ -3392,18 +3392,18 @@
         "name": "Whisper of Flower",
         "type": "Healing",
         "range": "Single Ally",
-        "description": "Use rose petals to heal the Doll with the lowest Health for 300% of Mortimer's ATK."
+        "description": "Use rose petals to heal the Doll with the lowest Health for <color=#82C65D>300%</color> of Mortimer's ATK."
       },
       "skill2": {
         "name": "A Girl's Prayer",
         "type": "Enhance",
         "range": "Single Ally",
-        "description": "Reduces the damage taken by the Doll in the front row by 30% and increases that Doll's ATK by 50% of Mortimer's ATK. Lasts for 10s."
+        "description": "Reduces the damage taken by the Doll in the front row by <color=#82C65D>30%</color> and increases that Doll's ATK by <color=#82C65D>50%</color> of Mortimer's ATK. Lasts for 10s."
       },
       "skill3": {
         "name": "Delicate Hands",
         "type": "Passive",
-        "description": "Auto uses Whisper of Flower once on allies that are below 30% Health. Can only trigger once every 8 seconds."
+        "description": "Auto uses Whisper of Flower once on allies that are below 30% Health. Can only trigger once every <color=#82C65D>8</color> seconds."
       }
     },
     "special_equip": {
@@ -3439,18 +3439,18 @@
         "name": "Undertow",
         "type": "Enhance",
         "range": "Self",
-        "description": "Grants immunity to one instance of damage, and deals Physical DMG equal to 300% of ATK to a single enemy target. Increases ATK by 30%, and reduces DMG taken by 30% for 10 seconds."
+        "description": "Grants immunity to one instance of damage, and deals Physical DMG equal to <color=#82C65D>300%</color> of ATK to a single enemy target. Increases ATK by <color=#82C65D>30%</color>, and reduces DMG taken by <color=#82C65D>30%</color> for 10 seconds."
       },
       "skill2": {
         "name": "Crestfall",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Deals Physical DMG equal to 450% of ATK to a single enemy target, and inflicts Stun on the target for 2 seconds."
+        "description": "Deals Physical DMG equal to <color=#82C65D>450%</color> of ATK to a single enemy target, and inflicts Stun on the target for 2 seconds."
       },
       "skill3": {
         "name": "Rise and Fall",
         "type": "Passive",
-        "description": "Increase Suigetsu's base ATK by 2% every 3 seconds, stacking up to 20 times."
+        "description": "Increase Suigetsu's base ATK by <color=#82C65D>2%</color> every 3 seconds, stacking up to 20 times."
       }
     },
     "special_equip": {
@@ -3486,18 +3486,18 @@
         "name": "Pelagic Aegis",
         "type": "Shield",
         "range": "All Allies",
-        "description": "Grants a shield that absorbs damage equal to 40% of Symbriette's Max Health to all allies, and increases their Physical DEF and Magic DEF by 5% of her Max Health for 10 seconds."
+        "description": "Grants a shield that absorbs damage equal to <color=#82C65D>40%</color> of Symbriette's Max Health to all allies, and increases their Physical DEF and Magic DEF by 5% of her Max Health for 10 seconds."
       },
       "skill2": {
         "name": "Tidal Clarion",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 50% of Symbriette's Max Health to all enemies, and causes them to take extra Magic DMG equal to 5% of her Max Health whenever they take Magic DMG for 10 seconds."
+        "description": "Deals Magic DMG equal to <color=#82C65D>50%</color> of Symbriette's Max Health to all enemies, and causes them to take extra Magic DMG equal to <color=#82C65D>5%</color> of her Max Health whenever they take Magic DMG for 10 seconds."
       },
       "skill3": {
         "name": "Intrepid Heart",
         "type": "Passive",
-        "description": "Skill effects are increased by 2% upon dealing or receiving DMG, stacking up to 15 times."
+        "description": "Skill effects are increased by <color=#82C65D>2%</color> upon dealing or receiving DMG, stacking up to 15 times."
       }
     },
     "special_equip": {
@@ -3533,18 +3533,18 @@
         "name": "Chronospace Shock",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 300% of Nasha's ATK to all enemies and inflicts 10s of Chronospace Rip on the targets.\nChronospace Rip: When dealing skill damage, Nasha ignores the target's Magic DEF equal to 40% her ATK."
+        "description": "Deals Magic DMG equal to <color=#82C65D>300%</color> of Nasha's ATK to all enemies and inflicts 10s of Chronospace Rip on the targets.\nChronospace Rip: When dealing skill damage, Nasha ignores the target's Magic DEF equal to <color=#82C65D>40%</color> her ATK."
       },
       "skill2": {
         "name": "Dark Revelation",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Hits all enemy targets with 4 magic attacks, each dealing Magic DMG equal to 240% of Nasha's ATK. For the next 10s, Magic DMG taken by the enemy targets increases by 30%."
+        "description": "Hits all enemy targets with 4 magic attacks, each dealing Magic DMG equal to <color=#82C65D>240%</color> of Nasha's ATK. For the next 10s, Magic DMG taken by the enemy targets increases by <color=#82C65D>30%</color>."
       },
       "skill3": {
         "name": "Elite",
         "type": "Passive",
-        "description": "Every use of a skill has a 100% chance of restoring 1 Order Energy."
+        "description": "Every use of a skill has a <color=#82C65D>100%</color> chance of restoring 1 Order Energy."
       }
     },
     "special_equip": {
@@ -3580,18 +3580,18 @@
         "name": "Reveal",
         "type": "Enhance",
         "range": "Single Enemy",
-        "description": "Grants a Shield that absorbs damage equal to 40% of max Health to all allies; deals Physical DMG equal to 60% of max Health to the enemy target in the front row and reduces the target's Physical DEF by 3,000 (Can't stack up)."
+        "description": "Grants a Shield that absorbs damage equal to <color=#82C65D>40%</color> of max Health to all allies; deals Physical DMG equal to <color=#82C65D>60%</color> of max Health to the enemy target in the front row and reduces the target's Physical DEF by 3,000 (Can't stack up)."
       },
       "skill2": {
         "name": "Seclusion",
         "type": "Enhance",
         "range": "All Allies",
-        "description": "Reduces self Health by 10% of max Health 5 times in a row (can be deemed as taking damage 5 times), each time healing other allies for 20% of max Health ; increases all allies' ATK by 20%."
+        "description": "Reduces self Health by <color=#82C65D>10%</color> of max Health 5 times in a row (can be deemed as taking damage 5 times), each time healing other allies for <color=#82C65D>20%</color> of max Health ; increases all allies' ATK by 20%."
       },
       "skill3": {
         "name": "Divine Punishment",
         "type": "Passive",
-        "description": "For every 5 instances of damage taken, Kamui applies Divine Punishment to all enemy targets, dealing Physical DMG equal to 50% of max Health. Can be triggered only once within 5s."
+        "description": "For every 5 instances of damage taken, Kamui applies Divine Punishment to all enemy targets, dealing Physical DMG equal to <color=#82C65D>50%</color> of max Health. Can be triggered only once within 5s."
       }
     },
     "special_equip": {
@@ -3627,18 +3627,18 @@
         "name": "Fiery Onslaught",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Deals Physical DMG equal to 370% of self's ATK to a single enemy target, and increases self's ATK by 15% for 10 seconds"
+        "description": "Deals Physical DMG equal to <color=#82C65D>370%</color> of self's ATK to a single enemy target, and increases self's ATK by 15% for 10 seconds"
       },
       "skill2": {
         "name": "Lava Explosion",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Every 1.5 seconds, deals Physical DMG equal to 160% of self's ATK to all enemy targets for unlimited time. Every additional use of Lava Explosion increases the damage of the skill by 15% for 15 seconds; stacks up to 5 times"
+        "description": "Every 1.5 seconds, deals Physical DMG equal to <color=#82C65D>160%</color> of self's ATK to all enemy targets for unlimited time. Every additional use of Lava Explosion increases the damage of the skill by 15% for 15 seconds; stacks up to 5 times"
       },
       "skill3": {
         "name": "Sworn Vengeance",
         "type": "Passive",
-        "description": "Increases damage dealt by 20% for every 10% Health lost."
+        "description": "Increases damage dealt by <color=#82C65D>20%</color> for every 10% Health lost."
       }
     },
     "special_equip": {
@@ -3674,18 +3674,18 @@
         "name": "Frostbane",
         "type": "Magic ATK",
         "range": "Single Enemy",
-        "description": "Deals Magic DMG equal to 300% of Cersivey's ATK to a single target, and applies Frostbite to the target.\nFrostbite: Reduces the target's Magic DEF equal to 40% of Cersivey's ATK for 10s."
+        "description": "Deals Magic DMG equal to <color=#82C65D>300%</color> of Cersivey's ATK to a single target, and applies Frostbite to the target.\nFrostbite: Reduces the target's Magic DEF equal to <color=#82C65D>40%</color> of Cersivey's ATK for 10s."
       },
       "skill2": {
         "name": "Cryofall",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 160% of ATK to all enemies every 1.5s. Every additional Cryofall cast increases the damage of this skill by 15% for 15s, stacking up to 5 times. "
+        "description": "Deals Magic DMG equal to <color=#82C65D>160%</color> of ATK to all enemies every 1.5s. Every additional Cryofall cast increases the damage of this skill by 15% for 15s, stacking up to 5 times. "
       },
       "skill3": {
         "name": "Divine Judgment",
         "type": "Passive",
-        "description": "Cersivey's enemy is marked and takes 50% more damage."
+        "description": "Cersivey's enemy is marked and takes <color=#82C65D>50%</color> more damage."
       }
     },
     "special_equip": {
@@ -3721,18 +3721,18 @@
         "name": "Meteor Flight",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Strikes the enemy's back row 3 times, each time dealing physical DMG equal to 120% of self's ATK."
+        "description": "Strikes the enemy's back row 3 times, each time dealing physical DMG equal to <color=#82C65D>120%</color> of self's ATK."
       },
       "skill2": {
         "name": "Thorn Surge",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Asherah summons Thorn Surge to strike all enemies 3 times, each time dealing Physical DMG equal to 200% of self's ATK and inflicting them with Parasite for 15s.\nParasite: Reduces the target's Physical DEF equal to 7% of Asherah's ATK; stacks up to 6 times"
+        "description": "Asherah summons Thorn Surge to strike all enemies 3 times, each time dealing Physical DMG equal to <color=#82C65D>200%</color> of self's ATK and inflicting them with Parasite for 15s.\nParasite: Reduces the target's Physical DEF equal to 7% of Asherah's ATK; stacks up to 6 times"
       },
       "skill3": {
         "name": "Premonition",
         "type": "Passive",
-        "description": "Crit DMG increases by 100%. Every 2 successful skill attacks guarantee a Crit Hit."
+        "description": "Crit DMG increases by <color=#82C65D>100%</color>. Every 2 successful skill attacks guarantee a Crit Hit."
       }
     },
     "special_equip": {
@@ -3768,18 +3768,18 @@
         "name": "Healing Powder",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Restores Health equal to 300% of Flare's ATK to all allies, and grants them Regen for 10s\nRegen: Recovers Health equal to 100% of Flare's ATK per second."
+        "description": "Restores Health equal to <color=#82C65D>300%</color> of Flare's ATK to all allies, and grants them Regen for 10s\nRegen: Recovers Health equal to <color=#82C65D>100%</color> of Flare's ATK per second."
       },
       "skill2": {
         "name": "Undercurrent",
         "type": "Transform",
         "range": "Self",
-        "description": "Flare returns to her priestess form, which increases her ATK and max Health both by 30%.\nWhen using this skill in her priestess form, Flare deals Magic DMG equal to 500% of her ATK to all enemies and inflicts them with Dispirit for 5s.\nDispirit: Reduces the target's ATK by 30%."
+        "description": "Flare returns to her priestess form, which increases her ATK and max Health both by 30%.\nWhen using this skill in her priestess form, Flare deals Magic DMG equal to <color=#82C65D>500%</color> of her ATK to all enemies and inflicts them with Dispirit for 5s.\nDispirit: Reduces the target's ATK by 30%."
       },
       "skill3": {
         "name": "Wisdom",
         "type": "Passive",
-        "description": "When in the back row of the formation, increases Physical DMG taken by all enemies by 16% every 7s. Stacks up to 3 times.\nWhen in the middle row, increases Magic DMG taken by all enemies by 16% every 7s. Stacks up to 3 times. The effect disappears upon death."
+        "description": "When in the back row of the formation, increases Physical DMG taken by all enemies by <color=#82C65D>16%</color> every 7s. Stacks up to 3 times.\nWhen in the middle row, increases Magic DMG taken by all enemies by <color=#82C65D>16%</color> every 7s. Stacks up to 3 times. The effect disappears upon death."
       }
     },
     "special_equip": {
@@ -3815,18 +3815,18 @@
         "name": "Sword Gale",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Increases Crit Chance by 20% for 10s, and hits the back-row enemy twice, each dealing Physical DMG equal to 60% of ATK."
+        "description": "Increases Crit Chance by <color=#82C65D>20%</color> for 10s, and hits the back-row enemy twice, each dealing Physical DMG equal to <color=#82C65D>60%</color> of ATK."
       },
       "skill2": {
         "name": "Drunken Motive",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Applies 10s of Drunken to self, then hits the back-row enemy 5 times, each dealing Physical DMG equal to 120% of ATK.\nDrunken: Increases ATK by 30% and Crit DMG by 20%."
+        "description": "Applies 10s of Drunken to self, then hits the back-row enemy 5 times, each dealing Physical DMG equal to <color=#82C65D>120%</color> of ATK.\nDrunken: Increases ATK by <color=#82C65D>30%</color> and Crit DMG by <color=#82C65D>20%</color>."
       },
       "skill3": {
         "name": "Indomitable",
         "type": "Passive",
-        "description": "Phrygia's attacks and skills can't be dodged; and both ignore the target's Physical DEF equal to 30% of self's ATK"
+        "description": "Phrygia's attacks and skills can't be dodged; and both ignore the target's Physical DEF equal to <color=#82C65D>30%</color> of self's ATK"
       }
     },
     "special_equip": {
@@ -3862,18 +3862,18 @@
         "name": "Holy Radiance",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Deals Physical DMG equal to 300% of Camilyne's ATK to a single enemy target in the front row and inflicts the target with 1 stack of Holy Scorch.\nHoly Scorch: Increases the DMG taken from Camilyne by 10%, stacking up to 3 times.\nWhen it stacks to 3 times, the next Strike of Faith deals 3 times DMG to the target and removes all Holy Scorch effects."
+        "description": "Deals Physical DMG equal to <color=#82C65D>300%</color> of Camilyne's ATK to a single enemy target in the front row and inflicts the target with 1 stack of Holy Scorch.\nHoly Scorch: Increases the DMG taken from Camilyne by 10%, stacking up to 3 times.\nWhen it stacks to 3 times, the next Strike of Faith deals 3 times DMG to the target and removes all Holy Scorch effects."
       },
       "skill2": {
         "name": "Strike of Faith",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Deals Physical DMG equal to 500% of Camilyne's ATK to all enemies.\nWhen the Holy Scorch effect of the target stacks up to 3 times, Strike of Faith deals 3 times DMG and removes all stacks of Holy Scorch."
+        "description": "Deals Physical DMG equal to <color=#82C65D>500%</color> of Camilyne's ATK to all enemies.\nWhen the Holy Scorch effect of the target stacks up to 3 times, Strike of Faith deals 3 times DMG and removes all stacks of Holy Scorch."
       },
       "skill3": {
         "name": "Protector's Will",
         "type": "Passive",
-        "description": "Generates a shield every 4 seconds, reducing the next damage Camilyne takes by 80% and dealing an additional Physical DMG equal to 200% of self's ATK to the enemy attacking Camilyne."
+        "description": "Generates a shield every <color=#82C65D>4</color> seconds, reducing the next damage Camilyne takes by 80% and dealing an additional Physical DMG equal to 200% of self's ATK to the enemy attacking Camilyne."
       }
     },
     "special_equip": {
@@ -3909,18 +3909,18 @@
         "name": "Bind of Desire",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Hits the enemy's back row 3 times, each time dealing Physical DMG equal to 105% of ATK. Every hit scored adds 1 stack of Dark Bind, lasting 15s.\nDark Bind: When stacked to 6 times, hits the target once, dealing Physical DMG equal to 180% of ATK. For the next 10s, Anemone's skills deal 30% more damage to the same target."
+        "description": "Hits the enemy's back row 3 times, each time dealing Physical DMG equal to <color=#82C65D>105%</color> of ATK. Every hit scored adds 1 stack of Dark Bind, lasting 15s.\nDark Bind: When stacked to 6 times, hits the target once, dealing Physical DMG equal to <color=#82C65D>180%</color> of ATK. For the next 10s, Anemone's skills deal 30% more damage to the same target."
       },
       "skill2": {
         "name": "Avenge",
         "type": "Enhance",
         "range": "All Enemies",
-        "description": "Deals Physical DMG equal to 180% of ATK to all enemy targets. For the next 10s, increases Crit Chance by 10%, and inflicts Execution on enemy targets.\nExecution: For the next 10s, when the target takes damage, it will take additional Physical DMG equal to 30% of Anemone's ATK. This effect cannot stack."
+        "description": "Deals Physical DMG equal to <color=#82C65D>180%</color> of ATK to all enemy targets. For the next 10s, increases Crit Chance by 10%, and inflicts Execution on enemy targets.\nExecution: For the next 10s, when the target takes damage, it will take additional Physical DMG equal to <color=#82C65D>30%</color> of Anemone's ATK. This effect cannot stack."
       },
       "skill3": {
         "name": "Brutality",
         "type": "Passive",
-        "description": "After combat begins, increases Crit DMG by 10% every 10s, up to50%."
+        "description": "After combat begins, increases Crit DMG by <color=#82C65D>10%</color> every 10s, up to<color=#82C65D>50%</color>."
       }
     },
     "special_equip": {
@@ -3956,18 +3956,18 @@
         "name": "Trick or Treat",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Whips a single target to steal the candy in their pocket, dealing Physical DMG equal to 500% of ATK. Increases DMG Dealt by 12% for 10s."
+        "description": "Whips a single target to steal the candy in their pocket, dealing Physical DMG equal to <color=#82C65D>500%</color> of ATK. Increases DMG Dealt by 12% for 10s."
       },
       "skill2": {
         "name": "Pumpkin Party",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Summons a pumpkin bomb at the front to deal Physical DMG equal to 450% of ATK to all enemy targets. Increases DMG dealt by 12% for 10s, stacking up to 2 times."
+        "description": "Summons a pumpkin bomb at the front to deal Physical DMG equal to <color=#82C65D>450%</color> of ATK to all enemy targets. Increases DMG dealt by 12% for 10s, stacking up to 2 times."
       },
       "skill3": {
         "name": "Wreak Havoc",
         "type": "Passive",
-        "description": "Betsy deals 40% more damage during the first 60s of combat."
+        "description": "Betsy deals <color=#82C65D>40%</color> more damage during the first 60s of combat."
       }
     },
     "special_equip": {
@@ -4003,18 +4003,18 @@
         "name": "Shadow Slash",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Attacks all enemies twice, each time dealing Physical DMG equal to 250% of self's ATK"
+        "description": "Attacks all enemies twice, each time dealing Physical DMG equal to <color=#82C65D>250%</color> of self's ATK"
       },
       "skill2": {
         "name": "Field of Swords",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Attacks all enemies 3 times, each time dealing Physical DMG equal to 100% of self's ATK, while inflicting them with 1 stack of Soul Crush. Then, after a short delay, burst the sword energy, dealing additional Physical DMG equal to 300% of self's ATK to all enemy targets.\nSoul Crush: Decreases the inflicted target's Physical DEF by 10% for 10 seconds; stacks up to 3 times."
+        "description": "Attacks all enemies 3 times, each time dealing Physical DMG equal to <color=#82C65D>100%</color> of self's ATK, while inflicting them with 1 stack of Soul Crush. Then, after a short delay, burst the sword energy, dealing additional Physical DMG equal to <color=#82C65D>300%</color> of self's ATK to all enemy targets.\nSoul Crush: Decreases the inflicted target's Physical DEF by 10% for 10 seconds; stacks up to 3 times."
       },
       "skill3": {
         "name": "Sword Mastery",
         "type": "Passive",
-        "description": "When landing on a target, a normal attack has a 50% chance of unleashing the skill Shadow Slash"
+        "description": "When landing on a target, a normal attack has a <color=#82C65D>50%</color> chance of unleashing the skill Shadow Slash"
       }
     },
     "special_equip": {
@@ -4050,18 +4050,18 @@
         "name": "Sword Wielder",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Gains a brief immunity to all damage and debuffs, then swings the sword to deal Physical DMG equal to 300% of self's ATK to the enemy's front row, acquiring 1 stack of Focus in the process.\nFocus: Increases Gloryfell's damage by 25%; stacks up to 4 times."
+        "description": "Gains a brief immunity to all damage and debuffs, then swings the sword to deal Physical DMG equal to <color=#82C65D>300%</color> of self's ATK to the enemy's front row, acquiring 1 stack of Focus in the process.\nFocus: Increases Gloryfell's damage by 25%; stacks up to 4 times."
       },
       "skill2": {
         "name": "Gloryfell",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Gains a 1-second immunity to all damage and debuffs, then ignores the target's DEF and deals Physical DMG equal to 250% of self's ATK to the enemy's front row, consuming all the effect of Focus in the process."
+        "description": "Gains a 1-second immunity to all damage and debuffs, then ignores the target's DEF and deals Physical DMG equal to <color=#82C65D>250%</color> of self's ATK to the enemy's front row, consuming all the effect of Focus in the process."
       },
       "skill3": {
         "name": "Tender Sword",
         "type": "Passive",
-        "description": "During combat, every two uses of skill increase next skill damage by 75%"
+        "description": "During combat, every two uses of skill increase next skill damage by <color=#82C65D>75%</color>"
       }
     },
     "special_equip": {
@@ -4097,18 +4097,18 @@
         "name": "Consolation",
         "type": "Healing",
         "range": "Single Ally",
-        "description": "Heals the Doll with the lowest Health for 460% of Gracin's ATK"
+        "description": "Heals the Doll with the lowest Health for <color=#82C65D>460%</color> of Gracin's ATK"
       },
       "skill2": {
         "name": "Calamity Eliminator",
         "type": "Enhance",
         "range": "All Allies",
-        "description": "Cleanses all allies of debuffs. For the next 10s, every time an ally deals DMG, Crit Chance increases by 4%, up to 40%"
+        "description": "Cleanses all allies of debuffs. For the next 10s, every time an ally deals DMG, Crit Chance increases by <color=#82C65D>4%</color>, up to <color=#82C65D>40%</color>"
       },
       "skill3": {
         "name": "Calamitous Feedback",
         "type": "Passive",
-        "description": "Heals the Doll with the lowest Health for 100% of Gracin's ATK every 5 seconds."
+        "description": "Heals the Doll with the lowest Health for <color=#82C65D>100%</color> of Gracin's ATK every 5 seconds."
       }
     },
     "special_equip": {
@@ -4144,18 +4144,18 @@
         "name": "Starfall",
         "type": "Magic ATK",
         "range": "Single Enemy",
-        "description": "Performs 5 magic attacks on a single enemy, each attack dealing Magic DMG equal to 80% of ATK and inflicting the target with Frail for 10s.\nFrail: Magic DEF and Magic DMG dealt both decrease by 3% of Goddess Dana's ATK; stacks up to 30%."
+        "description": "Performs 5 magic attacks on a single enemy, each attack dealing Magic DMG equal to <color=#82C65D>80%</color> of ATK and inflicting the target with Frail for 10s.\nFrail: Magic DEF and Magic DMG dealt both decrease by 3% of Goddess Dana's ATK; stacks up to 30%."
       },
       "skill2": {
         "name": "Magic Burst",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Hits all enemies with 3 attacks, each dealing Magic DMG equal to 100% ATK, plus an extra attack that deals Magic DMG equal to 500% of ATK."
+        "description": "Hits all enemies with 3 attacks, each dealing Magic DMG equal to <color=#82C65D>100%</color> ATK, plus an extra attack that deals Magic DMG equal to <color=#82C65D>500%</color> of ATK."
       },
       "skill3": {
         "name": "Evernight",
         "type": "Passive",
-        "description": "Deals 50% more DMG in the Energy Outbreak status"
+        "description": "Deals <color=#82C65D>50%</color> more DMG in the Energy Outbreak status"
       }
     },
     "special_equip": {
@@ -4191,18 +4191,18 @@
         "name": "Limelight",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 100% of ATK to all enemies 4 times, and applies Intoxicated to all the targets.\nIntoxicated: The target takes 30% more damage from Flora for 10s while intoxicated in Flora's performance."
+        "description": "Deals Magic DMG equal to <color=#82C65D>100%</color> of ATK to all enemies 4 times, and applies Intoxicated to all the targets.\nIntoxicated: The target takes 30% more damage from Flora for 10s while intoxicated in Flora's performance."
       },
       "skill2": {
         "name": "Dazzling Stage",
         "type": "Magic ATK",
         "range": "Single Enemy",
-        "description": "Deals Magic DMG equal to 120% of ATK to a single target 4 times. After deducting the Chaos Energy this skill consumed, every 1 Chaos Energy left increases the damage dealt by 20%."
+        "description": "Deals Magic DMG equal to <color=#82C65D>120%</color> of ATK to a single target 4 times. After deducting the Chaos Energy this skill consumed, every 1 Chaos Energy left increases the damage dealt by 20%."
       },
       "skill3": {
         "name": "Rainbow Trail",
         "type": "Passive",
-        "description": "After every 1 Dazzling Stage skill(s) cast, the next Dazzling Stage consumes 3 less Chaos Energy."
+        "description": "After every <color=#82C65D>1</color> Dazzling Stage skill(s) cast, the next Dazzling Stage consumes 3 less Chaos Energy."
       }
     },
     "special_equip": {
@@ -4238,18 +4238,18 @@
         "name": "Aether Flow",
         "type": "Damage Reduction",
         "range": "All Allies",
-        "description": "Reduces DMG taken by all allies by 20% for 5s. After that, restores their Health equal to 50% of the DMG taken.\nCan only be cast once every 5 seconds."
+        "description": "Reduces DMG taken by all allies by <color=#82C65D>20%</color> for 5s. After that, restores their Health equal to <color=#82C65D>50%</color> of the DMG taken.\nCan only be cast once every 5 seconds."
       },
       "skill2": {
         "name": "Time Overclock",
         "type": "Enhance",
         "range": "All Allies",
-        "description": "The next time any ally uses an active skill, its DMG and healing effect increase by 100%, and all enemies take extra Magic DMG equal to 300% of ATK."
+        "description": "The next time any ally uses an active skill, its DMG and healing effect increase by <color=#82C65D>100%</color>, and all enemies take extra Magic DMG equal to <color=#82C65D>300%</color> of ATK."
       },
       "skill3": {
         "name": "Time Prognosis",
         "type": "Passive",
-        "description": "When using Aether Flow, there's a 50% chance to get 1 Chaos Energy; when using Time Overclock, there's a 50% chance to get 1 Order Energy."
+        "description": "When using Aether Flow, there's a <color=#82C65D>50%</color> chance to get 1 Chaos Energy; when using Time Overclock, there's a <color=#82C65D>50%</color> chance to get 1 Order Energy."
       }
     },
     "special_equip": {
@@ -4285,18 +4285,18 @@
         "name": "Magic Sparkle",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Launches 5 magic attacks on a random target, each dealing Magic DMG equal to 60% of ATK and inflicting 10 seconds of Dazzled.\nDazzled: Increases Magic DMG taken by 6% and reduces ATK by an amount equal to 8% of Maja Kany's ATK; stacks up to 5 times."
+        "description": "Launches 5 magic attacks on a random target, each dealing Magic DMG equal to <color=#82C65D>60%</color> of ATK and inflicting 10 seconds of Dazzled.\nDazzled: Increases Magic DMG taken by 6% and reduces ATK by an amount equal to 8% of Maja Kany's ATK; stacks up to 5 times."
       },
       "skill2": {
         "name": "Leaping Scroll",
         "type": "Support",
         "range": "All Enemies",
-        "description": "Gives all allies a 15-second shield equal to 200% of Maja Kany's ATK and regenerates the same amount of Health. When the shield is active, Magic DMG taken decreases by 15%, and a stack of Leap is applied every 3 seconds.\nLeap: Increases Magic DMG dealt by 5%; stacks up to 10 times."
+        "description": "Gives all allies a 15-second shield equal to <color=#82C65D>200%</color> of Maja Kany's ATK and regenerates the same amount of Health. When the shield is active, Magic DMG taken decreases by 15%, and a stack of Leap is applied every 3 seconds.\nLeap: Increases Magic DMG dealt by 5%; stacks up to 10 times."
       },
       "skill3": {
         "name": "High Spirited",
         "type": "Passive",
-        "description": "Recovers 1 Chaos Energy upon taking damage. The effect can only be triggered once in 2 seconds."
+        "description": "Recovers 1 Chaos Energy upon taking damage. The effect can only be triggered once in <color=#82C65D>2</color> seconds."
       }
     },
     "special_equip": {
@@ -4332,18 +4332,18 @@
         "name": "Surreal",
         "type": "Debuff",
         "range": "All Enemies",
-        "description": "Applies 10s of Dreaming to self; hits all enemies, dealing Magic DMG equal to \n400% of self's ATK; increases Magic DMG taken by enemies by 30% for 10s.\nDreaming: Increases Order Energy regeneration rate by 80%."
+        "description": "Applies 10s of Dreaming to self; hits all enemies, dealing Magic DMG equal to \n<color=#82C65D>400%</color> of self's ATK; increases Magic DMG taken by enemies by <color=#82C65D>30%</color> for 10s.\nDreaming: Increases Order Energy regeneration rate by <color=#82C65D>80%</color>."
       },
       "skill2": {
         "name": "Into A Dream",
         "type": "Debuff",
         "range": "All Enemies",
-        "description": "Applies 10s of Slumber to all enemies.\nSlumber: Stuns targets for 3s and reduces their Magic DEF equal to 30% of Eddine's ATK."
+        "description": "Applies 10s of Slumber to all enemies.\nSlumber: Stuns targets for 3s and reduces their Magic DEF equal to <color=#82C65D>30%</color> of Eddine's ATK."
       },
       "skill3": {
         "name": "Enraptured",
         "type": "Passive",
-        "description": "On each skill use, increases all allies' Magic DMG dealt by 15% for 15s, stacking up to 5 times."
+        "description": "On each skill use, increases all allies' Magic DMG dealt by <color=#82C65D>15%</color> for 15s, stacking up to 5 times."
       }
     },
     "special_equip": {
@@ -4379,18 +4379,18 @@
         "name": "Diagnosis",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Heals all allies for 300% of Amorai's ATK and applies the Psyched to them for 15s.\nPsyched: Attacks ignore the enemy's Physical DEF equal to 20% of self's ATK"
+        "description": "Heals all allies for <color=#82C65D>300%</color> of Amorai's ATK and applies the Psyched to them for 15s.\nPsyched: Attacks ignore the enemy's Physical DEF equal to <color=#82C65D>20%</color> of self's ATK"
       },
       "skill2": {
         "name": "Medical Precaution",
         "type": "Shield",
         "range": "All Allies",
-        "description": "Grants all allies a Shield equal to 30% of Amorai's ATK for 15s and increases their ATK, DEF and Crit DMG by 30%, 30%, and 30% respectively for 10s."
+        "description": "Grants all allies a Shield equal to <color=#82C65D>30%</color> of Amorai's ATK for 15s and increases their ATK, DEF and Crit DMG by <color=#82C65D>30%</color>, <color=#82C65D>30%</color>, and <color=#82C65D>30%</color> respectively for 10s."
       },
       "skill3": {
         "name": "Deep Breath",
         "type": "Passive",
-        "description": "Recovers 2 Chaos Energy when using the skill Diagnosis."
+        "description": "Recovers <color=#82C65D>2</color> Chaos Energy when using the skill Diagnosis."
       }
     },
     "special_equip": {
@@ -4426,18 +4426,18 @@
         "name": "Boundless Sea",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Restores Health equal to 300% Bellavita's ATK to all allies, increases their max Health by 10% and reduces DMG they take by an amount equal to 50% of Bellavita's ATK for 10s"
+        "description": "Restores Health equal to <color=#82C65D>300%</color> Bellavita's ATK to all allies, increases their max Health by 10% and reduces DMG they take by an amount equal to <color=#82C65D>50%</color> of Bellavita's ATK for 10s"
       },
       "skill2": {
         "name": "Spiritual Water",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Cleanses all allies of all their debuffs, heals all allies for 500% of Bellavita's ATK, and increases their Magic DMG by 40% for 10s"
+        "description": "Cleanses all allies of all their debuffs, heals all allies for <color=#82C65D>500%</color> of Bellavita's ATK, and increases their Magic DMG by <color=#82C65D>40%</color> for 10s"
       },
       "skill3": {
         "name": "Raging Current",
         "type": "Passive",
-        "description": "When a Doll's Health is below 50%, automatically casts Boundless Sea once. Can be triggered only once every 10s"
+        "description": "When a Doll's Health is below 50%, automatically casts Boundless Sea once. Can be triggered only once every <color=#82C65D>10</color>s"
       }
     },
     "special_equip": {
@@ -4473,18 +4473,18 @@
         "name": "Autumn Ode",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Grants every ally a Shield equal to 160% of Princess Amanami's ATK that lasts 8 seconds.\nWhen the Shield wears off, restores HP equal to 160% of Princess Amanami's ATK for every ally unit.\nIf the Shield breaks before it wears off, inflicts the attacker with Magic DMG equal to 160% of Princess Amanami's ATK"
+        "description": "Grants every ally a Shield equal to <color=#82C65D>160%</color> of Princess Amanami's ATK that lasts 8 seconds.\nWhen the Shield wears off, restores HP equal to <color=#82C65D>160%</color> of Princess Amanami's ATK for every ally unit.\nIf the Shield breaks before it wears off, inflicts the attacker with Magic DMG equal to <color=#82C65D>160%</color> of Princess Amanami's ATK"
       },
       "skill2": {
         "name": "Harmony's Scent",
         "type": "Enhance",
         "range": "All Allies",
-        "description": "Restores HP equal to 200% of Princess Amanami's ATK to all allies and grants them a stack of Stride that lasts 15 seconds.\nStride: Every stack increases the targets' ATK by 15% and allows them to ignore the enemy's Magic DEF equal to 15% of Princess Amanami's ATK when dealing damage. Stacks up to 3 times."
+        "description": "Restores HP equal to <color=#82C65D>200%</color> of Princess Amanami's ATK to all allies and grants them a stack of Stride that lasts 15 seconds.\nStride: Every stack increases the targets' ATK by 15% and allows them to ignore the enemy's Magic DEF equal to 15% of Princess Amanami's ATK when dealing damage. Stacks up to 3 times."
       },
       "skill3": {
         "name": "Whisper of Flower",
         "type": "Passive",
-        "description": "Every use of Harmony's Scent grants 2 Chaos Energy"
+        "description": "Every use of Harmony's Scent grants <color=#82C65D>2</color> Chaos Energy"
       }
     },
     "special_equip": {
@@ -4520,18 +4520,18 @@
         "name": "Peace Melody",
         "type": "Shield",
         "range": "All Allies",
-        "description": "Gives all allies a Shield equal to 300% of self's ATK that lasts 15 seconds. Also, grants them 15 seconds of Forest Blessing.\nForest Blessing: Increases ATK and DEF both by 15%. Stacks up to 3 times."
+        "description": "Gives all allies a Shield equal to <color=#82C65D>300%</color> of self's ATK that lasts 15 seconds. Also, grants them 15 seconds of Forest Blessing.\nForest Blessing: Increases ATK and DEF both by 15%. Stacks up to 3 times."
       },
       "skill2": {
         "name": "Forest Aegis",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Summons vines to deal Magic DMG equal to 450% of self's ATK to all enemy targets and immobilizes them for 1 second. Meanwhile, inflicts them with 5 seconds of Impaired.\nImpaired: Decreases the target's ATK by an amount equal to 80% of Ninsar's ATK. Cannot stack."
+        "description": "Summons vines to deal Magic DMG equal to <color=#82C65D>450%</color> of self's ATK to all enemy targets and immobilizes them for 1 second. Meanwhile, inflicts them with 5 seconds of Impaired.\nImpaired: Decreases the target's ATK by an amount equal to 80% of Ninsar's ATK. Cannot stack."
       },
       "skill3": {
         "name": "Forest Ballad",
         "type": "Passive",
-        "description": "Every stack of Forest Blessing on Ninsar speeds up Order Energy recovery by 10%"
+        "description": "Every stack of Forest Blessing on Ninsar speeds up Order Energy recovery by <color=#82C65D>10%</color>"
       }
     },
     "special_equip": {
@@ -4567,18 +4567,18 @@
         "name": "Spiritual Flash",
         "type": "Magic ATK",
         "range": "Single Enemy",
-        "description": "Deals Magic DMG equal to 400% of self's ATK to the enemy's back row. Ignores the target's Magic DEF equal to 10% of self's ATK for 10s; stacks up to 3 times."
+        "description": "Deals Magic DMG equal to <color=#82C65D>400%</color> of self's ATK to the enemy's back row. Ignores the target's Magic DEF equal to 10% of self's ATK for 10s; stacks up to 3 times."
       },
       "skill2": {
         "name": "Smoke and Mirrors",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Strikes all enemies 4 times, each dealing Magic DMG equal to 300% of ATK."
+        "description": "Strikes all enemies 4 times, each dealing Magic DMG equal to <color=#82C65D>300%</color> of ATK."
       },
       "skill3": {
         "name": "Cloak of Illusion",
         "type": "Passive",
-        "description": "Within 5s after casting Smoke and Mirrors, reduces all DMG taken by 30%, and there is a 30% chance of casting Smoke and Mirrors without consuming Chaos Energy."
+        "description": "Within 5s after casting Smoke and Mirrors, reduces all DMG taken by <color=#82C65D>30%</color>, and there is a <color=#82C65D>30%</color> chance of casting Smoke and Mirrors without consuming Chaos Energy."
       }
     },
     "special_equip": {
@@ -4614,18 +4614,18 @@
         "name": "Thunderstrike",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Claire attacks a random target 5 times, each time dealing Magic DMG equal to 100% of ATK. Meanwhile, Claire's ATK increases by 27% for 15s."
+        "description": "Claire attacks a random target 5 times, each time dealing Magic DMG equal to <color=#82C65D>100%</color> of ATK. Meanwhile, Claire's ATK increases by <color=#82C65D>27%</color> for 15s."
       },
       "skill2": {
         "name": "Bright Starlight",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Attack all enemies 10 times, each time dealing Magic DMG equal to 90% of ATK. \nFor each release of Bright Starlight, the DMG dealt by all skills released thereafter is increased by 2%; stacks up to 50 times."
+        "description": "Attack all enemies 10 times, each time dealing Magic DMG equal to <color=#82C65D>90%</color> of ATK. \nFor each release of Bright Starlight, the DMG dealt by all skills released thereafter is increased by 2%; stacks up to 50 times."
       },
       "skill3": {
         "name": "Dazzling Stage",
         "type": "Passive",
-        "description": "DMG Dealt increases by 30%."
+        "description": "DMG Dealt increases by <color=#82C65D>30%</color>."
       }
     },
     "special_equip": {
@@ -4661,18 +4661,18 @@
         "name": "Clear Sight",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Increases self's Crit Chance by 10% for 15s and deals Physical DMG equal to 300% of ATK to the back-row enemy."
+        "description": "Increases self's Crit Chance by <color=#82C65D>10%</color> for 15s and deals Physical DMG equal to <color=#82C65D>300%</color> of ATK to the back-row enemy."
       },
       "skill2": {
         "name": "Injection Time",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Ignores 20% of the target's Physical DEF and hits the back-row enemy 4 times, each time dealing Physical DMG equal to 180% of ATK."
+        "description": "Ignores <color=#82C65D>20%</color> of the target's Physical DEF and hits the back-row enemy 4 times, each time dealing Physical DMG equal to <color=#82C65D>180%</color> of ATK."
       },
       "skill3": {
         "name": "Practice Makes Perfect",
         "type": "Passive",
-        "description": "When using a skill, self's Crit DMG increases by 5%; stacks up to 5 times"
+        "description": "When using a skill, self's Crit DMG increases by <color=#82C65D>5%</color>; stacks up to <color=#82C65D>5</color> times"
       }
     },
     "special_equip": {
@@ -4708,18 +4708,18 @@
         "name": "Blade Draw",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Naiad cuts down a single target, inflicting Physical DMG equal to 200% of ATK for 3 times. For the next 10s, Naiad's Crit Chance increases by 30%."
+        "description": "Naiad cuts down a single target, inflicting Physical DMG equal to <color=#82C65D>200%</color> of ATK for 3 times. For the next 10s, Naiad's Crit Chance increases by 30%."
       },
       "skill2": {
         "name": "Soul Break",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Naiad draws her blade and makes a frontal slash, then performs an iaido attack that deals Physical DMG equal to 950% of ATK to all enemies."
+        "description": "Naiad draws her blade and makes a frontal slash, then performs an iaido attack that deals Physical DMG equal to <color=#82C65D>950%</color> of ATK to all enemies."
       },
       "skill3": {
         "name": "Mind Blade",
         "type": "Passive",
-        "description": "After entering combat, Crit DMG increases by 10% every 5s, up to a maximum of 50%; self's ATK increases by 6%, up to a maximum of 30%."
+        "description": "After entering combat, Crit DMG increases by <color=#82C65D>10%</color> every 5s, up to a maximum of <color=#82C65D>50%</color>; self's ATK increases by <color=#82C65D>6%</color>, up to a maximum of <color=#82C65D>30%</color>."
       }
     },
     "special_equip": {
@@ -4755,18 +4755,18 @@
         "name": "Devil's Protection",
         "type": "Shield",
         "range": "All Allies",
-        "description": "Grants all allies a Shield equal to 40% of Tuonel's max HP that lasts up to 15s. An allied Doll protected by the Shield gains ATK equal to 5% of Tuonel's max HP. When the Shield breaks, that Doll recovers Health equal to 30% of Tuonel's max HP."
+        "description": "Grants all allies a Shield equal to <color=#82C65D>40%</color> of Tuonel's max HP that lasts up to 15s. An allied Doll protected by the Shield gains ATK equal to <color=#82C65D>5%</color> of Tuonel's max HP. When the Shield breaks, that Doll recovers Health equal to <color=#82C65D>30%</color> of Tuonel's max HP."
       },
       "skill2": {
         "name": "Dark Taboo",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Hits all enemy targets with Magic DMG equal to 50% of Tuonel's max HP while inflicting them with Stun for 1s and Awe for 10s.\nAwe: Reduces Magic DEF by 30% and DMG dealt by 30%."
+        "description": "Hits all enemy targets with Magic DMG equal to <color=#82C65D>50%</color> of Tuonel's max HP while inflicting them with Stun for 1s and Awe for 10s.\nAwe: Reduces Magic DEF by <color=#82C65D>30%</color> and DMG dealt by <color=#82C65D>30%</color>."
       },
       "skill3": {
         "name": "Fearless",
         "type": "Passive",
-        "description": "For allied Dolls, every 10% HP lost reduces DMG taken by 10%, stacking up to 60%."
+        "description": "For allied Dolls, every 10% HP lost reduces DMG taken by <color=#82C65D>10%</color>, stacking up to <color=#82C65D>60%</color>."
       }
     },
     "special_equip": {
@@ -4802,18 +4802,18 @@
         "name": "Night Spring",
         "type": "Support",
         "range": "Self",
-        "description": "For the next 6 seconds, transfers all DMG taken by allies to self. During this time, self takes 60% less DMG and generates a shield equal to 50% of self's max Health."
+        "description": "For the next 6 seconds, transfers all DMG taken by allies to self. During this time, self takes 60% less DMG and generates a shield equal to <color=#82C65D>50%</color> of self's max Health."
       },
       "skill2": {
         "name": "Second Wind",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Attack all enemies 6 times, each time dealing Physical DMG equal to 100% of ATK. Meanwhile, restores Health equal to 20% of self's max Health and cleanses all debuffs."
+        "description": "Attack all enemies 6 times, each time dealing Physical DMG equal to <color=#82C65D>100%</color> of ATK. Meanwhile, restores Health equal to <color=#82C65D>20%</color> of self's max Health and cleanses all debuffs."
       },
       "skill3": {
         "name": "Echo Beyond",
         "type": "Passive",
-        "description": "After casting Night Spring, all allies' attacks ignore enemy DEF equal to 6% of Sanva's ATK, and increases Sanva's max Health by 10%; stacks up to 3 times."
+        "description": "After casting Night Spring, all allies' attacks ignore enemy DEF equal to <color=#82C65D>6%</color> of Sanva's ATK, and increases Sanva's max Health by <color=#82C65D>10%</color>; stacks up to 3 times."
       }
     },
     "special_equip": {
@@ -4849,18 +4849,18 @@
         "name": "Itch for Action",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Applies 10s of Battle Ready to self, then hits the front-row enemy twice with Physical DMG equal to 360% of ATK.\nBattle Ready: Restores Health equal to 12% of ATK per second, increases damage dealt by 30%, and reduces damage taken by 30%"
+        "description": "Applies 10s of Battle Ready to self, then hits the front-row enemy twice with Physical DMG equal to <color=#82C65D>360%</color> of ATK.\nBattle Ready: Restores Health equal to 12% of ATK per second, increases damage dealt by <color=#82C65D>30%</color>, and reduces damage taken by <color=#82C65D>30%</color>"
       },
       "skill2": {
         "name": "Undaunted",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Grants self a Shield equal to 300% of ATK that lasts up to 15s, deals Physical DMG equal to 500% of ATK to the front-row enemy, and reduces all enemy targets' Physical DEF by an amount equal to 30% of Kapla's ATK within 10s."
+        "description": "Grants self a Shield equal to <color=#82C65D>300%</color> of ATK that lasts up to 15s, deals Physical DMG equal to <color=#82C65D>500%</color> of ATK to the front-row enemy, and reduces all enemy targets' Physical DEF by an amount equal to <color=#82C65D>30%</color> of Kapla's ATK within 10s."
       },
       "skill3": {
         "name": "Tit for Tat",
         "type": "Passive",
-        "description": "Every 5 hits taken triggers skill Undaunted once"
+        "description": "Every <color=#82C65D>5</color> hits taken triggers skill Undaunted once"
       }
     },
     "special_equip": {
@@ -4896,18 +4896,18 @@
         "name": "Shark Swipe",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Deals Physical DMG to enemy’s front-row equal to 250% of ATK and inflicts the enemy with Gnawing.\nGnawing: Deals Physical DMG equal to 50% of Angling's ATK per second."
+        "description": "Deals Physical DMG to enemy’s front-row equal to <color=#82C65D>250%</color> of ATK and inflicts the enemy with Gnawing.\nGnawing: Deals Physical DMG equal to <color=#82C65D>50%</color> of Angling's ATK per second."
       },
       "skill2": {
         "name": "Fish Shadow",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Deals Physical DMG to all enemies equal to 600% of ATK. If there is a Gnawing effect on the enemy, the DMG taken of the enemy will be increased by 50%."
+        "description": "Deals Physical DMG to all enemies equal to <color=#82C65D>600%</color> of ATK. If there is a Gnawing effect on the enemy, the DMG taken of the enemy will be increased by 50%."
       },
       "skill3": {
         "name": "Good Omen",
         "type": "Passive",
-        "description": "Takes 30% less Physical DMG, and reduces Physical DEF of the enemies with Gnawing equal to 30% of Angling's ATK."
+        "description": "Takes <color=#82C65D>30%</color> less Physical DMG, and reduces Physical DEF of the enemies with Gnawing equal to <color=#82C65D>30%</color> of Angling's ATK."
       }
     },
     "special_equip": {
@@ -4943,18 +4943,18 @@
         "name": "Roar of Victory",
         "type": "Shield",
         "range": "All Allies",
-        "description": "Grants all allies a Shield equal to 40% of Cassis's max HP that lasts 12 seconds. Also, grants them 12 seconds of Stimulated.\nStimulated: Increases Physical DMG dealt by 25% and converts 20% of Physical DMG dealt to HP."
+        "description": "Grants all allies a Shield equal to <color=#82C65D>40%</color> of Cassis's max HP that lasts 12 seconds. Also, grants them 12 seconds of Stimulated.\nStimulated: Increases Physical DMG dealt by 25% and converts 20% of Physical DMG dealt to HP."
       },
       "skill2": {
         "name": "Burning Wave Attack",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Deals Physical DMG to all enemies equal to 500% of ATK and increases their damage taken by 30% in the next 10 seconds."
+        "description": "Deals Physical DMG to all enemies equal to <color=#82C65D>500%</color> of ATK and increases their damage taken by 30% in the next 10 seconds."
       },
       "skill3": {
         "name": "Acute Foresight",
         "type": "Passive",
-        "description": "When an ally takes lethal damage, blocks the damage and heals the ally for 50% of Cassis's max HP. Can trigger only once per combat."
+        "description": "When an ally takes lethal damage, blocks the damage and heals the ally for <color=#82C65D>50%</color> of Cassis's max HP. Can trigger only once per combat."
       }
     },
     "special_equip": {
@@ -4990,18 +4990,18 @@
         "name": "Quenching Rain",
         "type": "Magic ATK",
         "range": "Single Enemy",
-        "description": "Strikes the enemy's front-row 3 times, each time dealing Magic DMG equal to 120% of self's ATK. For the next 10s, increases 30% of the enemy's DMG taken from Quenching Rain, stacking up to 3 times."
+        "description": "Strikes the enemy's front-row 3 times, each time dealing Magic DMG equal to <color=#82C65D>120%</color> of self's ATK. For the next 10s, increases 30% of the enemy's DMG taken from Quenching Rain, stacking up to 3 times."
       },
       "skill2": {
         "name": "Rolling Rain",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Strikes all enemies 3 times, each time dealing Magic DMG equal to 300% ATK, and inflicting them with Water Erosion for 30s.\nWater Erosion: Reduces Magic DEF by 15% of Shiroi's ATK, stacking up to 3 times."
+        "description": "Strikes all enemies 3 times, each time dealing Magic DMG equal to <color=#82C65D>300%</color> ATK, and inflicting them with Water Erosion for 30s.\nWater Erosion: Reduces Magic DEF by 15% of Shiroi's ATK, stacking up to 3 times."
       },
       "skill3": {
         "name": "Pounding Rain",
         "type": "Passive",
-        "description": "When using Rolling Rain, there is a 40% chance of not consuming Energy, while increasing self's ATK by 30% for 10s."
+        "description": "When using Rolling Rain, there is a <color=#82C65D>40%</color> chance of not consuming Energy, while increasing self's ATK by <color=#82C65D>30%</color> for 10s."
       }
     },
     "special_equip": {
@@ -5037,18 +5037,18 @@
         "name": "Bat Dance",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Attack the enemy's back row 4 times, dealing Physical DMG equal to 60% of ATK. If self has the Waxing Moon buff, skill DMG increases by 50%."
+        "description": "Attack the enemy's back row 4 times, dealing Physical DMG equal to <color=#82C65D>60%</color> of ATK. If self has the Waxing Moon buff, skill DMG increases by 50%."
       },
       "skill2": {
         "name": "Lunar Cycle",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Attacks all enemies 4 times, each time dealing Physical DMG equal to 150% of ATK, then applies 1 stack of Eclipse.\nEclipse: Ignores the enemy's Physical DEF equal to 10% of Evernight Nocturna's ATK; stacks up to 3 times. At 3 stacks, self gains Waxing Moon buff."
+        "description": "Attacks all enemies 4 times, each time dealing Physical DMG equal to <color=#82C65D>150%</color> of ATK, then applies 1 stack of Eclipse.\nEclipse: Ignores the enemy's Physical DEF equal to 10% of Evernight Nocturna's ATK; stacks up to 3 times. At 3 stacks, self gains Waxing Moon buff."
       },
       "skill3": {
         "name": "Scarlet Oath",
         "type": "Passive",
-        "description": "Increases Physical DMG dealt by 16% and converts 10% of it into Health recovery. If self has the Waxing Moon buff, Scarlet Oath doubles its effects."
+        "description": "Increases Physical DMG dealt by <color=#82C65D>16%</color> and converts <color=#82C65D>10%</color> of it into Health recovery. If self has the Waxing Moon buff, Scarlet Oath doubles its effects."
       }
     },
     "special_equip": {
@@ -5084,18 +5084,18 @@
         "name": "Dark Blessing",
         "type": "Shield",
         "range": "Single Ally",
-        "description": "Provides the lowest-Health ally with a 10-second shield equal to 50% of Auris's max Health. When the shield is active, the target gains Magic DEF equal to 10% of Auris's max Health"
+        "description": "Provides the lowest-Health ally with a 10-second shield equal to <color=#82C65D>50%</color> of Auris's max Health. When the shield is active, the target gains Magic DEF equal to 10% of Auris's max Health"
       },
       "skill2": {
         "name": "Roaming Spirit",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deals Magic DMG equal to 50% of Auris's max Health to all enemy targets while inflicting 2 seconds of Stun"
+        "description": "Deals Magic DMG equal to <color=#82C65D>50%</color> of Auris's max Health to all enemy targets while inflicting 2 seconds of Stun"
       },
       "skill3": {
         "name": "Nether Sound",
         "type": "Passive",
-        "description": "Every 10% of max Health lost increases self's Magic DEF by 20%"
+        "description": "Every 10% of max Health lost increases self's Magic DEF by <color=#82C65D>20%</color>"
       }
     },
     "special_equip": {
@@ -5178,18 +5178,18 @@
         "name": "Holy Boundary",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Summons Holy Boundary to deal Magic DMG equal to 200% of ATK to the enemy's middle row while imprisoning the target for 1s, after which Holy Boundary expands to deal Magic DMG equal to 200% ATK to all enemy targets."
+        "description": "Summons Holy Boundary to deal Magic DMG equal to <color=#82C65D>200%</color> of ATK to the enemy's middle row while imprisoning the target for 1s, after which Holy Boundary expands to deal Magic DMG equal to <color=#82C65D>200%</color> ATK to all enemy targets."
       },
       "skill2": {
         "name": "Lost Sins",
         "type": "Magic ATK",
         "range": "All Enemies",
-        "description": "Deal Magic DMG equal to 800% of ATK to all enemy targets while inflicting Divine Wail for 15s.\nDivine Wail: Receives 20% more DMG from Nicolis; stacks up to 2 times."
+        "description": "Deal Magic DMG equal to <color=#82C65D>800%</color> of ATK to all enemy targets while inflicting Divine Wail for 15s.\nDivine Wail: Receives 20% more DMG from Nicolis; stacks up to 2 times."
       },
       "skill3": {
         "name": "Divinity",
         "type": "Passive",
-        "description": "Every use of a skill reduces a random enemy's Magic DEF equal to 8% of Nicolis's ATK; stacks up to 5 times."
+        "description": "Every use of a skill reduces a random enemy's Magic DEF equal to <color=#82C65D>8%</color> of Nicolis's ATK; stacks up to 5 times."
       }
     },
     "special_equip": {
@@ -5225,18 +5225,18 @@
         "name": "Misty Tide",
         "type": "Healing",
         "range": "All Allies",
-        "description": "Heals all allies for 300% of Danelim's ATK and removes all debuffs, increasing their Physical DEF and Magic DEF equal to 30% of Danelim's ATK for 10s."
+        "description": "Heals all allies for <color=#82C65D>300%</color> of Danelim's ATK and removes all debuffs, increasing their Physical DEF and Magic DEF equal to 30% of Danelim's ATK for 10s."
       },
       "skill2": {
         "name": "Healing Flow",
         "type": "Enhance",
         "range": "All Allies",
-        "description": "Heals all allies for 10s, restoring Health equal to 50% of Danelim's ATK per second. Also increases ATK of all allies by 15% and ignores enemy's Physical DEF equal to 10% of Danelim's ATK, stacking up to 3 times."
+        "description": "Heals all allies for 10s, restoring Health equal to <color=#82C65D>50%</color> of Danelim's ATK per second. Also increases ATK of all allies by 15% and ignores enemy's Physical DEF equal to 10% of Danelim's ATK, stacking up to 3 times."
       },
       "skill3": {
         "name": "Peaceful Mind",
         "type": "Passive",
-        "description": "When an ally takes lethal damage, blocks the damage and reduces the DMG taken of the ally by 80% for 4 seconds. Can be triggered only once every 15 seconds."
+        "description": "When an ally takes lethal damage, blocks the damage and reduces the DMG taken of the ally by <color=#82C65D>80%</color> for 4 seconds. Can be triggered only once every 15 seconds."
       }
     },
     "special_equip": {
@@ -5272,18 +5272,18 @@
         "name": "Do Not Bully",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Increases self's Crit Chance by 30% for 10s and attacks the enemies in the back row twice, each time dealing Physical DMG equal to 220% of self's ATK."
+        "description": "Increases self's Crit Chance by 30% for 10s and attacks the enemies in the back row twice, each time dealing Physical DMG equal to <color=#82C65D>220%</color> of self's ATK."
       },
       "skill2": {
         "name": "Flowing Clouds",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Hits all enemy targets with 2 attacks, each dealing Physical DMG equal to 380% of self's ATK. For the next 5s, DMG dealt increases by 20%."
+        "description": "Hits all enemy targets with 2 attacks, each dealing Physical DMG equal to <color=#82C65D>380%</color> of self's ATK. For the next 5s, DMG dealt increases by 20%."
       },
       "skill3": {
         "name": "Amane is MAD",
         "type": "Passive",
-        "description": "Crit DMG increases by50%."
+        "description": "Crit DMG increases by<color=#82C65D>50%</color>."
       }
     },
     "special_equip": {
@@ -5319,18 +5319,18 @@
         "name": "Gorgeous Strike",
         "type": "Physical ATK",
         "range": "Single Enemy",
-        "description": "Strikes the enemy's front row 2 times, each time dealing Physical DMG equal to 300% of self's ATK."
+        "description": "Strikes the enemy's front row 2 times, each time dealing Physical DMG equal to <color=#82C65D>300%</color> of self's ATK."
       },
       "skill2": {
         "name": "Wheel Sword Dance",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Attacks all enemies 3 times, each time dealing Physical DMG equal to 240% of self's ATK and inflicts the enemy targets with 10 seconds of Timid.\nTimid: Decreases the target's Physical and Magic DEF equal to 15% of self's ATK for 10s."
+        "description": "Attacks all enemies 3 times, each time dealing Physical DMG equal to <color=#82C65D>240%</color> of self's ATK and inflicts the enemy targets with 10 seconds of Timid.\nTimid: Decreases the target's Physical and Magic DEF equal to <color=#82C65D>15% </color>of self's ATK for 10s."
       },
       "skill3": {
         "name": "Noble Glory",
         "type": "Passive",
-        "description": "When dealing damage, inflicts extra Physical DMG equal to 30% of self's ATK."
+        "description": "When dealing damage, inflicts extra Physical DMG equal to <color=#82C65D>30%</color> of self's ATK."
       }
     },
     "special_equip": {
@@ -5366,18 +5366,18 @@
         "name": "Magic of Love",
         "type": "Support",
         "range": "All Enemies",
-        "description": "Increases the DMG taken of all enemies by 30% for 10s, and restores 1 Chaos Energy."
+        "description": "Increases the DMG taken of all enemies by <color=#82C65D>30%</color> for 10s, and restores 1 Chaos Energy."
       },
       "skill2": {
         "name": "Blessings of Love",
         "type": "Support",
         "range": "All Allies",
-        "description": "Restores 1 Order Energy, and heals all allies for 520% of self's ATK."
+        "description": "Restores 1 Order Energy, and heals all allies for <color=#82C65D>520%</color> of self's ATK."
       },
       "skill3": {
         "name": "Sweet and Sour Surprise",
         "type": "Passive",
-        "description": "When using skills, there is a 20% chance to restore 1 Chaos Energy."
+        "description": "When using skills, there is a <color=#82C65D>20%</color> chance to restore 1 Chaos Energy."
       }
     },
     "special_equip": {
@@ -5413,18 +5413,18 @@
         "name": "Obsessive Mind",
         "type": "Enhance",
         "range": "Self",
-        "description": "Increases all DMG Dealt by 300% for 5 seconds"
+        "description": "Increases all DMG Dealt by <color=#82C65D>300%</color> for 5 seconds"
       },
       "skill2": {
         "name": "Love Shot",
         "type": "Physical ATK",
         "range": "All Enemies",
-        "description": "Deals Physical DMG equal to 420% of self's ATK to all enemy targets"
+        "description": "Deals Physical DMG equal to <color=#82C65D>420%</color> of self's ATK to all enemy targets"
       },
       "skill3": {
         "name": "Clear Mind",
         "type": "Passive",
-        "description": "After entering combat, Crit Chance increases by 10% every 5 seconds, by up to a maximum of 40%"
+        "description": "After entering combat, Crit Chance increases by <color=#82C65D>10%</color> every 5 seconds, by up to a maximum of <color=#82C65D>40%</color>"
       }
     },
     "special_equip": {

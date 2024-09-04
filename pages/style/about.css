@@ -1,0 +1,108 @@
+.overall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 1rem;
+
+    max-width: 50rem;
+    margin: auto;
+}
+
+
+
+
+.subsection { 
+    margin-top: 1rem;
+}
+
+
+.section_title {
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.subsection_title {
+    text-indent: 1rem; /* Adjust the value to simulate a tab space */
+
+    width: 100%;
+    margin-top: 1.2rem;
+    text-decoration: underline;
+    margin-bottom: .5rem;
+}
+
+
+
+
+
+#text-stuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text-stuff > * {
+    margin: auto
+}
+
+
+
+.color-text {
+
+    font-weight: bold;
+    background: linear-gradient(90deg, #ffadad, #ffb3b3, #ffebaa, #d0f4de, #a2c2e0, #b9a0c1, #f5a6c0, #ffadad);
+    background-size: 300%; /* Size the gradient background larger for smoother scrolling */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Non-prefixed version */
+    animation: gradientScroll 10s linear infinite;
+    margin: 2rem auto;
+
+}
+
+#text-stuff > p {
+    margin: 0 auto 2rem auto;
+}
+
+@keyframes gradientScroll {
+    0% {
+        background-position: 0% 50%; /* Start at the left */
+    }
+    50% {
+        background-position: 100% 0%; /* Move horizontally to the right */
+    }
+    100% {
+        background-position: 0% 50%; /* Start at the left */
+    }
+}
+
+
+
+
+
+
+
+.gif-container {
+    display: inline-flex; /* Use inline-flex to allow the container to shrink to fit content */
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem; /* Adjust spacing as needed */
+    padding: 0; /* Ensure no additional padding is applied */
+    width: auto; /* Ensure the width is determined by content */
+    height: auto; /* Ensure the height is determined by content */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.gif-template {
+    --gif-size: 7.5rem;
+
+    background-image: url(/assets/about-page-sit.gif);
+    background-size: contain; /* Ensure the image fits within the container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    image-rendering: pixelated; /* Preserve the pixelated appearance */
+
+    width: var(--gif-size);
+    height: var(--gif-size);
+}
