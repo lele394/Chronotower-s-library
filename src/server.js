@@ -21,7 +21,7 @@ function AddFilePathToServer(remote, local) {
 
 
 // Setup to do once the wiki is done
-// AddFilePathToServer('/', '../pages/index.html');
+AddFilePathToServer('/', '../pages/index.html');
 // AddFilePathToServer('/dolls', '../pages/dolls.html');
 // AddFilePathToServer('/equipment', '../pages/equipment.html');
 // AddFilePathToServer('/story', '../pages/story.html');
