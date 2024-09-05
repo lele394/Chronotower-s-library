@@ -189,3 +189,20 @@
     background-repeat: no-repeat; /* Prevent the image from repeating */
 
 }
+
+
+
+/* Ensure the container fills the available width */
+#l2d-container {
+    width: 100%;
+    max-height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Ensure the canvas fills the container's width */
+#l2d {
+    display: block; /* Remove extra space below the canvas */
+}
