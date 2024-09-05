@@ -1,0 +1,28 @@
+{
+    "content": [
+        "atk.gif",
+        "fall.gif",
+        "grab.gif",
+        "idle-e.gif",
+        "idle.gif",
+        "m.gif",
+        "mm.gif",
+        "run-e.gif",
+        "run-ee.gif",
+        "run-ne.gif",
+        "run-s.gif",
+        "run-w.gif",
+        "sit.gif",
+        "stand-e.gif",
+        "stand-s.gif",
+        "stand.gif",
+        "tap.gif",
+        "walk-e.gif",
+        "walk-ee.gif",
+        "walk-ne.gif",
+        "walk-s.gif",
+        "walk-w.gif",
+        "walk.gif",
+        "win.gif"
+    ]
+}
