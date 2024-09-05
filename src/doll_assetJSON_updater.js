@@ -5,7 +5,7 @@ const path = require('path');
 const dollsDirectory = './assets/dolls';
 
 // List of subfolders to check
-const subfolders = ['break', 'default', 'gif', 'v1', 'v2'];
+const subfolders = ['break', 'default', 'gif', 'v1', 'v2', 'l2d'];
 
 // Function to check if a folder exists
 function folderExists(folderPath) {
