@@ -73,6 +73,13 @@ Add some indent and drop line to skill desc and special desc.
 
 <br>
   
+## Alpha 6 - GIF batch 1
+- First batch of GIF added
+- Not sure if it's all good, there might be some error and missing GIFs.
+- Send hearts to Phonfo for the huge work he put in the animations.
+
+<br>
+  
 ## Alpha 5 - About
 - Added the About page
 - Added / to point to /pages/index.html due to current server configuration
