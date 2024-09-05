@@ -1,7 +1,7 @@
 {
     "break": true,
     "default": false,
-    "gif": false,
+    "gif": true,
     "v1": false,
     "v2": false
 }
