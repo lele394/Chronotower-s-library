@@ -1,6 +1,6 @@
 # Notes from the gremlin
 
-So this is selfhosted, https doesn't work for some reason sadly, i'll look into that later as i'm taking a look at the whole server architecture atm.
+So this is selfhosted, ~~https doesn't work for some reason sadly, i'll look into that later as i'm taking a look at the whole server architecture atm~~. <= I fixed it.
 
 Might go down, that's to be expected tho, ping @lele394 on the discord in that case. I can put it back up.
 
@@ -23,16 +23,16 @@ Roadmap is available below. Site might not be up to date with it as updates are 
 
 - [ ] Data collection
     - [x] Dolls basic infos
-    - [-] Dolls more advanced infos
-    - [-] Dolls art from the dump
+    - [x] Dolls more advanced infos
+    - [-] Dolls art from the dump [NEED GIF CHECK - VARIANTS NOT ADDED]
     - [ ] Equipment names and descriptions
     - [ ] Dialogues and lines and how to they are linked
     - [ ] Audio : Voice-lines, music, effects 
     - [ ] Other general infos I can gather
-- [ ] About
-    - [ ] Credits, licensing, etc
+- [x] About
+    - [x] Credits, etc
 - [x] Dolls list page 
-- [ ] Doll template working
+- [-] Doll template working
     - [-] Building data JSON file
         - [x] Getting data from dump
         - [-] Adding art
