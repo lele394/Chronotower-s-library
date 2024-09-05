@@ -14,21 +14,26 @@ async function fetchData(url) {
 
 
 
-
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const dollID = urlParams.get('doll');
 
+let available_data = await fetchData(`/assets/dolls/${dollID}/info.json`);
 
 
 
 
 // Create Pixi.js application with transparent background
-const app = new PIXI.Application({
-    view: document.getElementById('l2d'),
-    backgroundColor: 0x101010,
-    transparent: true
-});
+
+let app = null;
+if(available_data.l2d) {
+
+    app = new PIXI.Application({
+        view: document.getElementById('l2d'),
+        backgroundColor: 0x101010,
+        transparent: true
+    });
+}
 
 
 let model = null;
@@ -79,19 +84,21 @@ async function loadModel(modelPath) {
 // Create selector
 const l2dSelector = document.getElementById('l2d-selector');
 
-const l2ds = await fetchData(`/assets/dolls/${dollID}/l2d/info.json`)
-
-// Iterate through the JSON object and create options
-for (const [key, value] of Object.entries(l2ds)) {
-    // Create a new option element
-    const option = document.createElement('option');
+if(available_data.l2d) {
+    const l2ds = await fetchData(`/assets/dolls/${dollID}/l2d/info.json`)
     
-    // Set the text to the key and value to the corresponding value in the JSON
-    option.textContent = key;
-    option.value = value;
-    
-    // Append the option to the select element
-    l2dSelector.appendChild(option);
+    // Iterate through the JSON object and create options
+    for (const [key, value] of Object.entries(l2ds)) {
+        // Create a new option element
+        const option = document.createElement('option');
+        
+        // Set the text to the key and value to the corresponding value in the JSON
+        option.textContent = key;
+        option.value = value;
+        
+        // Append the option to the select element
+        l2dSelector.appendChild(option);
+    }
 }
 
 
@@ -114,5 +121,8 @@ async function OnSelect(event) {
     await loadModel(`../assets/dolls/${dollID}/l2d/${selectedValue}`); 
 }
 
-// Attach the event listener to the select element
-document.getElementById('l2d-selector').addEventListener('change', OnSelect);
+if(available_data.l2d) {
+    
+    // Attach the event listener to the select element
+    document.getElementById('l2d-selector').addEventListener('change', OnSelect);
+}
