@@ -72,7 +72,14 @@ Add some indent and drop line to skill desc and special desc.
 ---
 
 <br>
- 
+  
+## Alpha 5 - About
+- Added the About page
+- Added / to point to /pages/index.html due to current server configuration
+- Cleaned some stuff
+
+<br>
+
 ## Alpha 4 - Got em moves
 - Created a JS script to auto generate info.json files
 - Integrated GIFs to doll's pages dynamically
