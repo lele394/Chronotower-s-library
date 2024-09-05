@@ -221,11 +221,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Get all the elements that contain text where the <color> tag might be used
     const elements = document.querySelectorAll("p");
     
+    console.log("Parsing color tags");
     elements.forEach(element => {
-        console.log("Parsing color tags");
         // Get the innerHTML of the element
         let htmlContent = element.innerHTML;
-        console.log(htmlContent);
 
         // Replace all <color=#XXXXXX>text</color> with <span style="color:#XXXXXX">text</span>
         htmlContent = htmlContent.replace(/&lt;color=#([A-Fa-f0-9]{6})&gt;(.*?)&lt;\/color&gt;/g, (match, colorCode, textContent) => {
