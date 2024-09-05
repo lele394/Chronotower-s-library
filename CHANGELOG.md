@@ -38,7 +38,7 @@ Roadmap is available below. Site might not be up to date with it as updates are 
         - [-] Adding art
             - [x] GIFs integration
             - [x] Skins display
-            - [ ] L2Ds
+            - [-] L2Ds [L2D SUPPORT, NEED DATA]
 - [ ] Equipments list page
 - [ ] Equipment template working
     - [ ] Building data JSON file
@@ -70,6 +70,12 @@ Add some indent and drop line to skill desc and special desc.
 # Changelog 
 
 ---
+
+<br>
+  
+## Alpha 7 - L2D support 
+- Added L2D support, not currently on live build, but on `L2Ds` branch.
+- Planned for next release : Adding L2Ds to other dolls, at least first batch
 
 <br>
   
