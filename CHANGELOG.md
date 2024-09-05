@@ -76,7 +76,11 @@ Add some indent and drop line to skill desc and special desc.
 ## Alpha 6 - GIF batch 1
 - First batch of GIF added
 - Not sure if it's all good, there might be some error and missing GIFs.
-- Send hearts to Phonfo for the huge work he put in the animations.
+- Added an icon to the site 
+- Added parsing for invalid color html tags
+- ~~Left and right arrows navigation~~
+- First GIFs check pass
+- ***Send hearts to Phonfo for the huge work he put in the animations.***
 
 <br>
   
