@@ -1,3 +1,34 @@
+
+// Left right naviagtion using arrows
+document.addEventListener('keydown', function(event) {
+
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const dollID = parseInt(urlParams.get('doll'));
+
+    // Check which key was pressed
+    if (event.key === 'ArrowLeft') {
+        // Load the URL for left arrow key press
+        window.location.href = `/pages/doll_dynamic.html?doll=${(dollID - 1)%125 || 124}`;
+    } else if (event.key === 'ArrowRight') {
+        // Load the URL for right arrow key press
+        window.location.href = `/pages/doll_dynamic.html?doll=${(dollID + 1)%125  || 1}`;
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 async function fetchData(url) {
     try {
         const response = await fetch(url);
