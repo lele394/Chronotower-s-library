@@ -60,8 +60,27 @@ Roadmap is available below. Site might not be up to date with it as updates are 
 <br>
 <br>
 
-# Some dev notes
-Add some indent and drop line to skill desc and special desc.
+# Some dev notes*
+Kimaris dump L2Ds I haven't used yet
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21/08/2024     22:51                boss_w1
+d-----        21/08/2024     22:51                boss_w2_1
+d-----        21/08/2024     22:51                boss_w2_2
+d-----        21/08/2024     22:51                boss_w4
+d-----        21/08/2024     22:51                boss_w4_break
+d-----        21/08/2024     22:51                char001
+d-----        21/08/2024     22:51                char001_v1
+d-----        21/08/2024     22:51                char010
+d-----        21/08/2024     22:51                char013
+d-----        21/08/2024     22:52                char056
+d-----        21/08/2024     22:52                char_cat
+d-----        21/08/2024     22:51                dejase
+d-----        21/08/2024     22:51                dejase-break
+d-----        21/08/2024     22:52                n003
+d-----        21/08/2024     22:52                n006
+d-----        21/08/2024     22:52                n007
+d-----        21/08/2024     22:52                n008
 
 <br>
 
@@ -76,6 +95,8 @@ Add some indent and drop line to skill desc and special desc.
 ## Alpha 7 - L2D support 
 - Added L2D support, not currently on live build, but on `L2Ds` branch.
 - Planned for next release : Adding L2Ds to other dolls, at least first batch
+- Deployed test branch on server, site running experimental
+- Added L2Ds to everyone
 
 <br>
   
