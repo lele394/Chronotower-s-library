@@ -92,6 +92,14 @@ d-----        21/08/2024     22:52                n008
 
 <br>
   
+## Alpha 8 - L2D release
+- Merged L2D branch with main. Should be mostly feature complete
+- Ability to view and select L2Ds when available
+- Known issue where users cannot scroll on the viewport (expected behavior from pixiL2D)
+- Fixed inconsistency in L2D scales.
+
+<br>
+  
 ## Alpha 7 - L2D support 
 - Added L2D support, not currently on live build, but on `L2Ds` branch.
 - Planned for next release : Adding L2Ds to other dolls, at least first batch
