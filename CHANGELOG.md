@@ -37,8 +37,9 @@ Roadmap is available below. Site might not be up to date with it as updates are 
         - [x] Getting data from dump
         - [-] Adding art
             - [x] GIFs integration
-            - [x] Skins display
-            - [-] L2Ds [L2D SUPPORT, NEED DATA]
+            - [-] Skins display
+                - [ ] Still cards [ONGOING]
+                - [X] L2Ds 
 - [ ] Equipments list page
 - [ ] Equipment template working
     - [ ] Building data JSON file
@@ -62,6 +63,7 @@ Roadmap is available below. Site might not be up to date with it as updates are 
 
 # Some dev notes*
 Kimaris dump L2Ds I haven't used yet
+```
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
 d-----        21/08/2024     22:51                boss_w1
@@ -81,6 +83,7 @@ d-----        21/08/2024     22:52                n003
 d-----        21/08/2024     22:52                n006
 d-----        21/08/2024     22:52                n007
 d-----        21/08/2024     22:52                n008
+```
 
 <br>
 
