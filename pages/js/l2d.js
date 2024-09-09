@@ -49,14 +49,26 @@ async function loadModel(modelPath) {
     model = await PIXI.live2d.Live2DModel.from(modelPath);
     app.stage.addChild(model);
 
-    const scaling = 0.1; // Scaling factor for L2D
-    model.scale.set(scaling);
-
-    // Center and scale the model to fit within the canvas
+    // Function to adjust the model size and position
     function adjustModelSize() {
         const canvasWidth = app.screen.width;
         const canvasHeight = app.screen.height;
-        // Center the model
+
+        // Get model dimensions
+        const modelWidth = model.width;
+        const modelHeight = model.height;
+
+        // Calculate scaling factors to fit the model within the canvas
+        const scaleX = canvasWidth / modelWidth;
+        const scaleY = canvasHeight / modelHeight;
+        
+        // Use the smaller scale factor to ensure the model fits
+        const scale = Math.min(scaleX, scaleY);
+
+        // Apply scaling
+        model.scale.set(scale*0.7);
+
+        // Center the model on the canvas
         model.position.set(canvasWidth / 2, canvasHeight / 2);
         model.anchor.set(0.5, 0.5);
     }
@@ -64,12 +76,6 @@ async function loadModel(modelPath) {
     // Initial adjustment
     app.renderer.resize(window.innerWidth, window.innerHeight);
     adjustModelSize();
-
-    // Resize the canvas when the window is resized
-    window.addEventListener('resize', () => {
-        app.renderer.resize(window.innerWidth, window.innerHeight);
-        adjustModelSize();
-    });
 }
 
 // Initially load a model
