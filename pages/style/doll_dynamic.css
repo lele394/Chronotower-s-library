@@ -105,6 +105,8 @@
 
 .skill {
     margin: .75rem;
+    width: 100%;
+    max-width: calc(100vw - 5rem );
 }
 
 .skill_name {
@@ -113,6 +115,9 @@
 }
 
 
+#skill3_description {
+    word-break:break-word;
+}
 
 
 
