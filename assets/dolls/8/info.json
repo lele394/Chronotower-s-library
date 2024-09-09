@@ -3,5 +3,6 @@
     "default": false,
     "gif": true,
     "v1": false,
-    "v2": false
+    "v2": false,
+    "l2d": true
 }

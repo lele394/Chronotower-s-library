@@ -1,0 +1,59 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "char101_break.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png",
+      "textures/texture_02.png",
+      "textures/texture_03.png",
+      "textures/texture_04.png",
+      "textures/texture_05.png",
+      "textures/texture_06.png",
+      "textures/texture_07.png",
+      "textures/texture_08.png",
+      "textures/texture_09.png",
+      "textures/texture_10.png",
+      "textures/texture_11.png",
+      "textures/texture_12.png",
+      "textures/texture_13.png",
+      "textures/texture_14.png"
+    ],
+    "Physics": null,
+    "Motions": {
+      "": [
+        {
+          "File": "motions/angry.motion3.json"
+        },
+        {
+          "File": "motions/talk.motion3.json"
+        },
+        {
+          "File": "motions/normal01.motion3.json"
+        },
+        {
+          "File": "motions/shy.motion3.json"
+        },
+        {
+          "File": "motions/positive.motion3.json"
+        },
+        {
+          "File": "motions/normal02.motion3.json"
+        },
+        {
+          "File": "motions/smile.motion3.json"
+        },
+        {
+          "File": "motions/shock.motion3.json"
+        },
+        {
+          "File": "motions/happy.motion3.json"
+        },
+        {
+          "File": "motions/negative.motion3.json"
+        }
+      ]
+    }
+  },
+  "Groups": []
+}

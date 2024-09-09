@@ -11,14 +11,14 @@
 </head>
 <body>
     
-    <div class="top-banner">
+    <!-- <div class="top-banner">
         <h1>Chronotower's Library</h1>
         <button onCLick="loadPage('/pages/index.html')">Home</button>
         <button onCLick="loadPage('/pages/dollslist.html')">Dolls</button>
         <button onCLick="loadPage('/pages/building-it.html')">Equipment</button> 
         <button onCLick="loadPage('/pages/building-it.html')">Story</button>
         <button onCLick="loadPage('/pages/about.html')">About</button>
-    </div>
+    </div> -->
 
 
     <div class="overall">
@@ -128,8 +128,25 @@
             </div>
             
             
-            
+            <div class="l2d-sec subsection">
+                <h1 class="section-title">Live2D</h1>
+                <p class="l2d-disclaimer">L2Ds can take time to load. Scrolling is disabled on the L2D viewport, please use the side of your screen if you're on mobile.</p>
+
+                <!--Cannot add motions cuz they're not setup in json-->
+                <select id="l2d-selector">
+                    <option value="">-select-</option>
+                </select>
+
+
+
+                <div id="l2d-container">
+                    <canvas id="l2d" style="background-color: rgba(0, 0, 0, 0);"></canvas>
+                </div>
+            </div>
         </div>
+
+
+    <!--Always include before this one-->
     </div>
 
 
@@ -141,6 +158,25 @@
 
 
 
+    
+    
+    <!--Might actually fck things up for some reason-->
+    
+    <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@6.5.2/dist/browser/pixi.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"></script>
+    
+    <script type="module" src="/pages/js/l2d.js"></script>
+    
+    
+    
+    
+    
+
+    
+    
+    
     <script type="module" src="/pages/js/doll_script.js"></script>
     <script>
         // page loader

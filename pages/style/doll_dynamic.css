@@ -105,6 +105,8 @@
 
 .skill {
     margin: .75rem;
+    width: 100%;
+    max-width: calc(100vw - 5rem );
 }
 
 .skill_name {
@@ -113,6 +115,9 @@
 }
 
 
+#skill3_description {
+    word-break:break-word;
+}
 
 
 
@@ -189,3 +194,45 @@
     background-repeat: no-repeat; /* Prevent the image from repeating */
 
 }
+
+
+
+/* Ensure the container fills the available width */
+#l2d-container {
+    width: 100%;
+    max-height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Ensure the canvas fills the container's width */
+#l2d {
+    display: block; /* Remove extra space below the canvas */
+    max-width: calc(100vw - 3rem);
+    height:fit-content;
+}
+
+
+
+select{ 
+    border: 1px solid var(--color3);
+    font-size: 1rem;
+    padding: .5rem 1rem ;
+
+    margin-bottom: .5rem;
+}
+
+/* select:hover {
+    background-color: rgba(255, 255, 255, .05);
+} */
+
+
+.l2d-disclaimer {
+    margin: .7rem 0rem;
+    text-align: center;
+    font-style: italic;
+    padding: 0rem 2rem;   
+}
+
