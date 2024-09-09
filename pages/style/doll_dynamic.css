@@ -205,6 +205,8 @@
 /* Ensure the canvas fills the container's width */
 #l2d {
     display: block; /* Remove extra space below the canvas */
+    max-width: calc(100vw - 3rem);
+    height:fit-content;
 }
 
 
@@ -220,4 +222,12 @@ select{
 /* select:hover {
     background-color: rgba(255, 255, 255, .05);
 } */
+
+
+.l2d-disclaimer {
+    margin: .7rem 0rem;
+    text-align: center;
+    font-style: italic;
+    padding: 0rem 2rem;   
+}
 

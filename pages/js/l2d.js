@@ -76,6 +76,9 @@ async function loadModel(modelPath) {
     // Initial adjustment
     app.renderer.resize(window.innerWidth, window.innerHeight);
     adjustModelSize();
+
+
+    
 }
 
 // Initially load a model
