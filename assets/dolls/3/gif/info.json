@@ -1,5 +1,6 @@
 {
     "content": [
+        "atk.gif",
         "grab.gif",
         "idle.gif",
         "m.gif",
@@ -7,10 +8,10 @@
         "sit.gif",
         "stand.gif",
         "tap.gif",
-        "transform-focus.gif",
         "transform-m.gif",
         "transform-mm.gif",
         "transform-stand.gif",
+        "transform-win.gif",
         "transform.gif",
         "walk.gif"
     ]

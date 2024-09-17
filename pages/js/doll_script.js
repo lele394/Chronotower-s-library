@@ -159,50 +159,80 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 
 
-    // Variant stuff
-    const variantsContainer = document.getElementById('variants');
+// Function to load either .webp or .png depending on availability
+async function loadImage(dollID, variant, callback) {
+    const imageBasePath = `/assets/dolls/${dollID}/${variant}/card`;
+    let imageUrl = '';
 
-    if(available_data.default) { // add v1 variant
-        // Create the new div element
-        const variantDiv = document.createElement('div');
-        variantDiv.className = 'variant';
-        variantDiv.style.setProperty('--img-url', `url(/assets/dolls/${dollID}/default/card.png)`);
-
-        // Append the new div to the gifs container
-        variantsContainer.appendChild(variantDiv);
+    // Try loading .webp first
+    try {
+        const response = await fetch(`${imageBasePath}.webp`);
+        if (response.ok) {
+            imageUrl = `${imageBasePath}.webp`;
+        } else {
+            throw new Error('webp not found');
+        }
+    } catch (error) {
+        // If .webp fails, fall back to .png
+        try {
+            const response = await fetch(`${imageBasePath}.png`);
+            if (response.ok) {
+                imageUrl = `${imageBasePath}.png`;
+            } else {
+                throw new Error('png not found');
+            }
+        } catch (pngError) {
+            console.error('No image available for this variant:', pngError);
+            return;
+        }
     }
 
-    if(available_data.break) { // add v1 variant
-        // Create the new div element
+    // Once an image is found, call the callback with the image URL
+    callback(imageUrl);
+}
+
+// Variant stuff
+const variantsContainer = document.getElementById('variants');
+
+// Default variant
+if (available_data.default) {
+    loadImage(dollID, 'default', (imgUrl) => {
         const variantDiv = document.createElement('div');
         variantDiv.className = 'variant';
-        variantDiv.style.setProperty('--img-url', `url(/assets/dolls/${dollID}/break/card.png)`);
-
-        // Append the new div to the gifs container
+        variantDiv.style.setProperty('--img-url', `url(${imgUrl})`);
         variantsContainer.appendChild(variantDiv);
-    }
+    });
+}
 
-    if(available_data.v1) { // add v1 variant
-        // Create the new div element
+// Break variant
+if (available_data.break) {
+    loadImage(dollID, 'break', (imgUrl) => {
         const variantDiv = document.createElement('div');
         variantDiv.className = 'variant';
-        variantDiv.style.setProperty('--img-url', `url(/assets/dolls/${dollID}/v1/card.png)`);
-
-        // Append the new div to the gifs container
+        variantDiv.style.setProperty('--img-url', `url(${imgUrl})`);
         variantsContainer.appendChild(variantDiv);
-    }
+    });
+}
 
-    if(available_data.v2) { // add v2 variant
-        // Create the new div element
+// v1 variant
+if (available_data.v1) {
+    loadImage(dollID, 'v1', (imgUrl) => {
         const variantDiv = document.createElement('div');
         variantDiv.className = 'variant';
-        variantDiv.style.setProperty('--img-url', `url(/assets/dolls/${dollID}/v2/card.png)`);
-
-        // Append the new div to the gifs container
+        variantDiv.style.setProperty('--img-url', `url(${imgUrl})`);
         variantsContainer.appendChild(variantDiv);
-    }
+    });
+}
 
-
+// v2 variant
+if (available_data.v2) {
+    loadImage(dollID, 'v2', (imgUrl) => {
+        const variantDiv = document.createElement('div');
+        variantDiv.className = 'variant';
+        variantDiv.style.setProperty('--img-url', `url(${imgUrl})`);
+        variantsContainer.appendChild(variantDiv);
+    });
+}
 
 
 
