@@ -14,14 +14,33 @@
 </head>
 <body>
 
-    <div class="top-banner">
+    <!-- <div class="top-banner">
         <h1>Chronotower's Library</h1>
         <button onCLick="loadPage('/pages/index.html')">Home</button>
         <button onCLick="loadPage('/pages/dollslist.html')">Dolls</button>
         <button onCLick="loadPage('/pages/building-it.html')">Equipment</button> 
         <button onCLick="loadPage('/pages/building-it.html')">Story</button>
         <button onCLick="loadPage('/pages/about.html')">About</button>
-    </div>
+    </div> -->
+
+    <nav>
+        <h1>Chronotower's Library</h1>
+        <!-- https://www.youtube.com/watch?v=8eFeIFKAKHw -->
+        <input type="checkbox" name="" id="sidebar-active">
+        <label for="sidebar-active" class="open-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </label>
+        <div class="links-container">
+            <label for="sidebar-active" class="close-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </label>
+            <a href="/pages/index.html">Home</a>
+            <a href="/pages/dollslist.html">Dolls</a>
+            <a href="/pages/building-it.html">Equipment</a> 
+            <a href="/pages/building-it.html">Story</a>
+            <a href="/pages/about.html">About</a>
+        </div>
+    </nav>
     
     <div id="text-stuff">
         <h1>Welcome</h1>

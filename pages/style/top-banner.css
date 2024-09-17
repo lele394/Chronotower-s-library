@@ -1,4 +1,4 @@
-
+/* 
 
 .top-banner {
     display: flex;
@@ -16,7 +16,6 @@
     border: none;
     background: none;
     margin: 1rem 3rem;
-    /* margin-top: 1rem; */
     font-size: 2rem;
     color: var(--color3);
 }
@@ -27,4 +26,128 @@
 
 .top-banner > button:hover {
     text-decoration: underline;
+}
+
+ */
+
+
+
+
+nav > h1 {
+    padding-left: 2rem;
+}
+
+nav {
+  height: 5rem;
+  background-color: var(--color1);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top: 0;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+
+  background: var(--color1);
+  background: linear-gradient(180deg, var(--color1) 90%, var(--color2) 98%);
+}
+
+
+.links-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background: transparent;
+}
+
+
+label {
+  background: transparent;
+
+}
+
+
+nav a{
+  /* height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  color: var(--text-color); */
+  
+  text-decoration: none;
+  cursor: pointer;
+
+
+  border: none;
+  background: none;
+  margin: 1rem 1rem;
+  /* margin-top: 1rem; */
+  font-size: 1.3rem;
+  color: var(--color3);
+
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav svg{
+  fill: var(--color3);
+  width: 40px;
+  height: 40px;
+
+  cursor: pointer;
+}
+#sidebar-active{
+  display: none;
+}
+.open-sidebar-button, .close-sidebar-button{
+  display: none;
+}
+@media(max-width: 50rem){
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+  .links-container{
+    flex-direction: column;
+    align-items: flex-start;
+
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 10;
+    width: 300px;
+
+    background-color: var(--color1);
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+    transition: 0.35s ease-in;
+  }
+  nav a{
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    padding: 20px 30px;
+    justify-content: flex-start;
+  }
+  .open-sidebar-button, .close-sidebar-button{
+    padding: 20px;
+    display: block;
+  }
+  #sidebar-active:checked ~ .links-container{
+    right: 0;
+  }
+  #sidebar-active:checked ~ #overlay{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
 }
