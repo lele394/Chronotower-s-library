@@ -15,7 +15,7 @@ Roadmap is available below. Site might not be up to date with it as updates are 
 
 ```
 - [ ] Miscs
-    - [ ] Top banner and buttons
+    - [-] Top banner and buttons
     - [ ] Cool themes
     - [ ] Make a cool theme for the roadmap
 - [-] Index
@@ -95,6 +95,12 @@ d-----        21/08/2024     22:52                n008
 
 <br>
   
+## Alpha 9 - Art update
+- Merged Phonfo's work
+- Reworked the top bar to work with mobile, now is collapsable
+
+<br>  
+
 ## Alpha 8 - L2D release
 - Merged L2D branch with main. Should be mostly feature complete
 - Ability to view and select L2Ds when available
