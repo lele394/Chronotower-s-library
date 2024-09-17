@@ -97,6 +97,7 @@ d-----        21/08/2024     22:52                n008
   
 ## Alpha 9 - Art update
 - Merged Phonfo's work
+- Reworked the top bar to work with mobile, now is collapsable
 
 <br>  
 
