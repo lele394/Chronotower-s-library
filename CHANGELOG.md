@@ -37,8 +37,9 @@ Roadmap is available below. Site might not be up to date with it as updates are 
         - [x] Getting data from dump
         - [-] Adding art
             - [x] GIFs integration
-            - [x] Skins display
-            - [ ] L2Ds
+            - [-] Skins display
+                - [ ] Still cards [ONGOING]
+                - [X] L2Ds 
 - [ ] Equipments list page
 - [ ] Equipment template working
     - [ ] Building data JSON file
@@ -60,8 +61,29 @@ Roadmap is available below. Site might not be up to date with it as updates are 
 <br>
 <br>
 
-# Some dev notes
-Add some indent and drop line to skill desc and special desc.
+# Some dev notes*
+Kimaris dump L2Ds I haven't used yet
+```
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21/08/2024     22:51                boss_w1
+d-----        21/08/2024     22:51                boss_w2_1
+d-----        21/08/2024     22:51                boss_w2_2
+d-----        21/08/2024     22:51                boss_w4
+d-----        21/08/2024     22:51                boss_w4_break
+d-----        21/08/2024     22:51                char001
+d-----        21/08/2024     22:51                char001_v1
+d-----        21/08/2024     22:51                char010
+d-----        21/08/2024     22:51                char013
+d-----        21/08/2024     22:52                char056
+d-----        21/08/2024     22:52                char_cat
+d-----        21/08/2024     22:51                dejase
+d-----        21/08/2024     22:51                dejase-break
+d-----        21/08/2024     22:52                n003
+d-----        21/08/2024     22:52                n006
+d-----        21/08/2024     22:52                n007
+d-----        21/08/2024     22:52                n008
+```
 
 <br>
 
@@ -70,6 +92,22 @@ Add some indent and drop line to skill desc and special desc.
 # Changelog 
 
 ---
+
+<br>
+  
+## Alpha 8 - L2D release
+- Merged L2D branch with main. Should be mostly feature complete
+- Ability to view and select L2Ds when available
+- Known issue where users cannot scroll on the viewport (expected behavior from pixiL2D)
+- Fixed inconsistency in L2D scales.
+
+<br>
+  
+## Alpha 7 - L2D support 
+- Added L2D support, not currently on live build, but on `L2Ds` branch.
+- Planned for next release : Adding L2Ds to other dolls, at least first batch
+- Deployed test branch on server, site running experimental
+- Added L2Ds to everyone
 
 <br>
   
