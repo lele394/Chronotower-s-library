@@ -2,6 +2,6 @@
     "break": true,
     "default": true,
     "gif": true,
-    "v1": false,
+    "v1": true,
     "v2": true
 }
