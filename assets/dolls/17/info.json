@@ -2,7 +2,7 @@
     "break": true,
     "default": true,
     "gif": true,
-    "v1": false,
-    "v2": true,
+    "v1": true,
     "l2d": true
+
 }

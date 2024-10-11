@@ -1,9 +1,12 @@
 {
     "content": [
         "atk.gif",
-        "hug.gif",
+        "dash.gif",
+        "grab.gif",
+        "hit.gif",
         "sit.gif",
         "sleep.gif",
+        "tap.gif",
         "wake.gif",
         "walk-n.gif",
         "walk-s.gif",

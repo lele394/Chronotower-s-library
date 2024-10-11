@@ -1,10 +1,13 @@
 {
     "content": [
-        "atk.gif",
+        "dash.gif",
         "grab.gif",
         "idle.gif",
         "m.gif",
         "mm.gif",
-        "sit.gif"
+        "sit.gif",
+        "stand.gif",
+        "tap.gif",
+        "win.gif"
     ]
 }
