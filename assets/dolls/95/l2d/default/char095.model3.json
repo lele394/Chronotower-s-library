@@ -1,0 +1,26 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "char095.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png",
+      "textures/texture_02.png",
+      "textures/texture_03.png",
+      "textures/texture_04.png",
+      "textures/texture_05.png",
+      "textures/texture_06.png",
+      "textures/texture_07.png",
+      "textures/texture_08.png",
+      "textures/texture_09.png",
+      "textures/texture_10.png",
+      "textures/texture_11.png",
+      "textures/texture_12.png"
+    ],
+    "Physics": null,
+    "Motions": {
+      "": []
+    }
+  },
+  "Groups": []
+}
