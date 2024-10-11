@@ -1,6 +1,6 @@
 {
-    "break": true,
-    "default": true,
+    "break": false,
+    "default": false,
     "gif": false,
 <<<<<<< HEAD
     "v1": false,

@@ -2,11 +2,7 @@
     "break": true,
     "default": true,
     "gif": true,
-<<<<<<< HEAD
     "v1": true,
-    "v2": true
-=======
-    "v1": false,
+    "l2d": true
 
->>>>>>> 53774b0f65026dc44c664ab7e82bc6a2e198d4d0
 }
