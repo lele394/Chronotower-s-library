@@ -1,4 +1,4 @@
 {
-    "break": "break\\char098_break.model3.json",
-    "default": "default\\char098.model3.json"
+    "break": "break/char098_break.model3.json",
+    "default": "default/char098.model3.json"
 }

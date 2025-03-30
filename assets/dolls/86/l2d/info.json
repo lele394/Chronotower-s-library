@@ -1,5 +1,5 @@
 {
-    "break": "break\\char011.model3.json",
-    "break 2 - idk": "break 2 - idk\\char086_break.model3.json",
-    "default": "default\\char086.model3.json"
+    "break": "break/char011.model3.json",
+    "break 2 - idk": "break 2 - idk/char086_break.model3.json",
+    "default": "default/char086.model3.json"
 }

@@ -1,5 +1,5 @@
 {
-    "break": "break\\char104_break.model3.json",
-    "default": "default\\char104.model3.json",
-    "skin1": "skin1\\char104_v1.model3.json"
+    "break": "break/char104_break.model3.json",
+    "default": "default/char104.model3.json",
+    "skin1": "skin1/char104_v1.model3.json"
 }

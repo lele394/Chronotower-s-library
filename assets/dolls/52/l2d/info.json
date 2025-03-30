@@ -1,5 +1,5 @@
 {
-    "default": "default\\char053.model3.json",
-    "skin1": "skin1\\char053_v1.model3.json",
-    "skin1-no back": "skin1-no back\\char053_v1_noback.model3.json"
+    "default": "default/char053.model3.json",
+    "skin1": "skin1/char053_v1.model3.json",
+    "skin1-no back": "skin1-no back/char053_v1_noback.model3.json"
 }

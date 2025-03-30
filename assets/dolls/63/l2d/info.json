@@ -1,6 +1,6 @@
 {
-    "break": "break\\char063_break.model3.json",
-    "default": "default\\char063.model3.json",
-    "skin1": "skin1\\char063_v1.model3.json",
-    "skin2": "skin2\\char063_v2.model3.json"
+    "break": "break/char063_break.model3.json",
+    "default": "default/char063.model3.json",
+    "skin1": "skin1/char063_v1.model3.json",
+    "skin2": "skin2/char063_v2.model3.json"
 }
