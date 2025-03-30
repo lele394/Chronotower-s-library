@@ -137,22 +137,59 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Create the gif-container div
             const gifContainer = document.createElement('div');
             gifContainer.className = 'gif-container';
-    
+        
             // Create the gif-template div
             const gifTemplate = document.createElement('div');
             gifTemplate.className = 'gif-template';
-            gifTemplate.style.setProperty('--gif-url', `url(/assets/dolls/${dollID}/gif/${file})`);
-    
+            const relativeGifPath = `/assets/dolls/${dollID}/gif/${file}`; // Store the path
+            gifTemplate.style.setProperty('--gif-url', `url(${relativeGifPath})`);
+            gifTemplate.style.cursor = 'pointer'; // Add a visual cue that it's clickable
+        
             // Create the gif-title p element
             const gifTitle = document.createElement('p');
             gifTitle.className = 'gif-title';
-            gifTitle.textContent = file.slice(0, -4); // Use file name as the title, or modify as needed
-    
+            const originalTitleText = file.slice(0, -4); // Store original title for later
+            gifTitle.textContent = originalTitleText;
+        
+            // --- NEW: Add click event listener to the gif-template ---
+            gifTemplate.addEventListener('click', () => {
+                // Construct the full URL (assuming the site root is the base)
+                // Use window.location.origin to get the base URL (e.g., "https://www.example.com")
+                const fullGifUrl = `${window.location.origin}${relativeGifPath}`;
+        
+                // Use the Clipboard API to copy the text
+                navigator.clipboard.writeText(fullGifUrl)
+                    .then(() => {
+                        // Success feedback: Temporarily change the title
+                        console.log(`Copied to clipboard: ${fullGifUrl}`);
+                        gifTitle.textContent = 'Copied!';
+                        // Optionally, reset the title after a short delay
+                        setTimeout(() => {
+                            gifTitle.textContent = originalTitleText;
+                        }, 1500); // Reset after 1.5 seconds
+                    })
+                    .catch(err => {
+                        // Error feedback
+                        console.error('Failed to copy URL: ', err);
+                        gifTitle.textContent = 'Copy Failed!';
+                         // Optionally, reset the title after a short delay
+                         setTimeout(() => {
+                            gifTitle.textContent = originalTitleText;
+                        }, 2000); // Reset after 2 seconds
+                        // You might want to alert the user or provide more prominent feedback
+                        // alert('Could not copy URL to clipboard.');
+                    });
+            });
+            
+            // Consider adding role="button" and tabindex="0" for accessibility if needed
+            // gifTemplate.setAttribute('role', 'button');
+            // gifTemplate.setAttribute('tabindex', '0');
+        
             // Append gif-template and gif-title to gif-container
             gifContainer.appendChild(gifTemplate);
             gifContainer.appendChild(gifTitle);
-    
-            // Append gif-container to the gifs div
+        
+            // Append gif-container to the gifs div (assuming gifsContainer is defined elsewhere)
             gifsContainer.appendChild(gifContainer);
         });
     }

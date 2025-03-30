@@ -146,6 +146,11 @@
     width: auto; /* Ensure the width is determined by content */
     height: auto; /* Ensure the height is determined by content */
     box-sizing: border-box; /* Include padding and border in element's total width and height */
+    transition: opacity 200ms;
+}
+
+.gif-container:hover {
+    opacity: 50%;
 }
 
 .gif-template {
